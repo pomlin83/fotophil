@@ -1,6 +1,6 @@
 #img format: tall: ratio=0.48 / normal: ratio=1.8 / wide: ratio=3
 images:
-  - url: assets/img/carousel/animals.jpg
+  - url: /assets/img/carousel/animals.jpg
     title: Animals
     caption: Animals
   - url: /assets/img/carousel/architecture.jpg 
