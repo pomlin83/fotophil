@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body onload="myFunction()" onresize="myFunction()">
+    {% include nav_list.html %}
+    {% include carousel.html name="myCarousel" %}
+    {{ content }}
+    {% include footer_home.html %}
+  </body>
+</html>

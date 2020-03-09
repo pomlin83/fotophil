@@ -1,2 +1,2 @@
 # fotophil
-Fotophil Photography Website
+Fotophil Photography Website Project

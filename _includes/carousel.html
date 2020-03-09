@@ -1,0 +1,41 @@
+<div id="{{ include.name }}" class="carousel slide" data-ride="carousel">
+ 
+   <ol class="carousel-indicators">
+   {% for picture in site.data.carousel.images %}
+   {% if forloop.first == true %}
+     <li data-target=”#{{ include.name }}” data-slide-to=”0" class=”active”></li>
+   {% else %}
+     <li data-target=”#{{ include.name }}” data-slide-to=”{{ forloop.index0 }}”></li>
+   {% endif %}
+   {% endfor %}
+   </ol>
+
+   <div id="carousel_test" class="carousel-inner">
+    {% for picture in site.data.carousel.images %}
+     {% if forloop.first == true %}
+	<div class="carousel-item active">
+	 <div class="fill" style="background-image:url('{{ picture.url }}'"></div>
+	 <div class="carousel-caption">
+	  {{ picture.caption }}
+         </div>
+        </div>
+     {% else %}
+        <div class="carousel-item">
+         <div class="fill" style="background-image:url('{{ picture.url }}'"></div>
+         <div class="carousel-caption">
+          {{ picture.caption }}
+         </div>
+        </div>
+     {% endif %}
+    {% endfor %}
+   </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#{{ include.name }}" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#{{ include.name }}" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
