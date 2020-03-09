@@ -3,15 +3,15 @@ menu:
     url: /index.html
     caption: Home
   - name: About
-    url: /about/index.html
+    url: /about.html
     caption: About
   - name: Galery
-    url: /galery/index.html
+    url: /galery.html
     caption: Galery
   - name: Archive
-    url: /archive/index.html
+    url: /archive.html
     caption: Archive
   - name: Blog
-    url: /blog/index.html
+    url: /blog.html
     caption: Blog
 
