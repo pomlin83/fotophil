@@ -1,6 +1,6 @@
 menu:
   - name: Home
-    url: /index.html
+    url: index.html
     caption: Home
   - name: About
     url: /about.html
