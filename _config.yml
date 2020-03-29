@@ -3,10 +3,9 @@ title: Photofil
 email: philip.omlin@gmail.com
 author: Philip Omlin
 description: blabla
-url: fotophil.ch
 
 # Build settings
-permalink: :title/
+#permalink: :title/
 sass:
   sass_dir: assets/css
 
@@ -17,4 +16,3 @@ twitter_username: someTwitterUser
 
 # Github
 url: pomlin83
-baseurl: fotophil
