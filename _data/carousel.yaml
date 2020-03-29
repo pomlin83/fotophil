@@ -1,30 +1,30 @@
 #img format: tall: ratio=0.48 / normal: ratio=1.8 / wide: ratio=3
 images:
-  - url: /assets/img/carousel/animals.jpg
+  - url: ./assets/img/carousel/animals.jpg
     title: Animals
     caption: Animals
-  - url: /assets/img/carousel/architecture.jpg 
+  - url: ./assets/img/carousel/architecture.jpg 
     title: Architecture
     caption: Architecture
-  - url: /assets/img/carousel/blumen.jpg
+  - url: ./assets/img/carousel/blumen.jpg
     title: Flowers
     caption: Flowers
-  - url: /assets/img/carousel/Cityscape.jpg
+  - url: ./assets/img/carousel/Cityscape.jpg
     title: Cityscape
     caption: Cityscape
-  - url: /assets/img/carousel/fasnacht.jpg
+  - url: ./assets/img/carousel/fasnacht.jpg
     title: Fasnacht Luzern
     caption: Fasnacht Luzern
-  - url: /assets/img/carousel/landscape.jpg
+  - url: ./assets/img/carousel/landscape.jpg
     title: Landscape
     caption: Landscape
-  - url: /assets/img/carousel/makro.jpg
+  - url: ./assets/img/carousel/makro.jpg
     title: Macro Photography
     caption: Macro Photography
-  - url: /assets/img/carousel/reisen.jpg
+  - url: ./assets/img/carousel/reisen.jpg
     title: Travel Photography
     caption: Travel Photography
-  - url: /assets/img/carousel/tropfen.jpg
+  - url: ./assets/img/carousel/tropfen.jpg
     title: Drop Photography
     caption: Drop Photography
 
