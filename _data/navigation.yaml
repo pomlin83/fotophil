@@ -1,17 +1,17 @@
 menu:
-  - name: /Home
-    url: index.html
+  - name: Home
+    url: ./index.html
     caption: Home
   - name: About
-    url: /about.html
+    url: ./about.html
     caption: About
   - name: Galery
-    url: /galery.html
+    url: ./galery.html
     caption: Galery
   - name: Archive
-    url: /archive.html
+    url: ./archive.html
     caption: Archive
   - name: Blog
-    url: /blog.html
+    url: ./blog.html
     caption: Blog
 
