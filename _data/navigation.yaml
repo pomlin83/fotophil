@@ -8,10 +8,7 @@ menu:
   - name: Galery
     url: ./galery.html
     caption: Galery
-  - name: Archive
-    url: ./archive.html
+  - name: Inspiration
+    url: ./inspiration.html
     caption: Archive
-  - name: Blog
-    url: ./blog.html
-    caption: Blog
 
