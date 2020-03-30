@@ -2,9 +2,10 @@
   a {
     text-decoration: none;
     padding-right: 10px;
+    color: $Color_Social;
 
     &:hover {
-      color: $info;
+      color: $ColorHover_Social;
       cursor: pointer;
     }
   }
