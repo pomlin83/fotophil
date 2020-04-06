@@ -6496,56 +6496,77 @@ a.text-dark:hover, a.text-dark:focus {
   width: 60%;
   border: 3px solid #73AD21; }
 
-.container {
-  opacity: 1;
-  width: 0;
+.nav-menu a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  margin-right: 8px;
+  padding: 4px;
+  vertical-align: middle; }
+
+.nav-menu a:hover {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  background-color: white; }
+
+.nav-container {
   background-color: black;
+  display: flex;
+  padding: 16px;
   color: white; }
 
-.pb-4, .py-4 {
-  padding-bottom: 0.5rem; }
+.nav-bar {
+  display: flex; }
 
-.pt-4, .py-4 {
-  padding-top: 0.5rem; }
+.nav-items {
+  display: flex;
+  font-size: 28px; }
 
-.navbar {
-  opacity: 1;
-  background-color: black; }
-  .navbar .nav-item {
-    font-size: 2rem;
-    padding-right: 3rem; }
+.nav-title {
+  padding-right: 8px;
+  font-size: 40px; }
 
-.navbar-light .navbar-nav .nav-link {
-  background-color: black;
-  color: white; }
+.nav-right {
+  margin-left: auto; }
 
-.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-  color: #cccccc;
-  background-color: black; }
+.nav-toggle {
+  display: none;
+  font-size: 28px; }
 
-.navbar-collapse {
-  flex-grow: 0; }
+@media only screen and (max-width: 768px) {
+  .nav-bar,
+  .nav-items,
+  .nav-container {
+    flex-direction: column; }
 
-.navbar > .container, .navbar > .container-fluid {
-  justify-content: center; }
+  .nav-items {
+    display: none; }
 
-.navbar-brand {
-  font-weight: bold; }
+  .nav-right {
+    margin-left: 0; }
 
-.navbar-light .navbar-toggler {
-  background-color: white;
-  margin-right: 10px;
-  padding: 2px;
-  color: rgba(0, 0, 0, 0.5);
-  border-color: rgba(0, 0, 0, 0.1); }
+  .nav-items {
+    background-color: white;
+    color: black;
+    padding: 0px 8px 0px 8px; }
 
-.pl-3 {
-  font-size: 2.5rem;
-  margin-right: 4rem; }
+  .nav-menu a {
+    color: black; }
 
-.pl-3, .px-3 {
-  padding-left: 0rem; }
+  .nav-menu a:hover {
+    color: white;
+    background-color: grey;
+    margin-right: 0; }
 
+  .nav-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer; }
+
+  .nav-show {
+    display: flex; } }
 .carousel img {
   width: 100%; }
 

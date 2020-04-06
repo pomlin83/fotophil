@@ -16,4 +16,11 @@ function myFunction() {
  }	
 }
 
+function myToggle() {
+ const navs=document.querySelectorAll('.nav-items')
+ navs.forEach(nav => nav.classList.toggle('nav-show'));
+}
+
+document.querySelector('.nav-toggle')
+ .addEventListener('click', myToggle);
 

@@ -1,0 +1,12 @@
+$FontSize_NavWebName: 2.5rem;
+$FontSize_NavMenu: 2rem;
+$MarginRight_NavWebName: 4rem;
+$MarginRight_NavMenu: 3rem;
+$MarginTop_NavWebName: 0.5rem;
+$MarginBottom_NavWebName: 0.5rem;
+$MarginLeft_NavWebName: 1rem;
+
+$Color_Social: #000000;
+$ColorHover_Social: #cccccc;
+
+$Margin_NormalMain: 0px;
