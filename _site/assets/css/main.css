@@ -6534,7 +6534,8 @@ a.text-dark:hover, a.text-dark:focus {
 .nav-toggle {
   display: none;
   font-size: 28px;
-  margin: 10px 16px 0px 0px; }
+  margin: 10px 0px 0px 0px;
+  padding-right: 16px; }
 
 @media only screen and (max-width: 768px) {
   .nav-bar,
@@ -6561,7 +6562,7 @@ a.text-dark:hover, a.text-dark:focus {
   .nav-menu a:hover {
     color: white;
     background-color: grey;
-    margin-right: 0; }
+    margin-right: 16px; }
 
   .nav-toggle {
     align-self: flex-end;
