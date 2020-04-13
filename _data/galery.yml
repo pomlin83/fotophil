@@ -1,0 +1,28 @@
+# Generation Date: 13.Apr-2020-21:56
+# Author: Philip Omlin
+# Image source:  ./assets/img/galery/
+images:
+ - normal: ./assets/img/galery/main_normal_l-1.jpg
+   sm: ./assets/img/galery/sm_p-1.jpg
+   tp: ./assets/img/galery/tp_p-1.jpg
+   wl: ./assets/img/galery/wide_l-1.jpg
+   title: Landscape
+   caption: Landscape
+ - normal: ./assets/img/galery/main_normal_l-2.jpg
+   sm: ./assets/img/galery/sm_p-2.jpg
+   tp: ./assets/img/galery/tp_p-2.jpg
+   wl: ./assets/img/galery/wide_l-2.jpg
+   title: Nature
+   caption: Nature
+ - normal: ./assets/img/galery/main_normal_l-3.jpg
+   sm: ./assets/img/galery/sm_p-3.jpg
+   tp: ./assets/img/galery/tp_p-3.jpg
+   wl: ./assets/img/galery/wide_l-3.jpg
+   title: Cityscape
+   caption: Cityscape
+ - normal: ./assets/img/galery/main_normal_l-4.jpg
+   sm: ./assets/img/galery/sm_p-4.jpg
+   tp: ./assets/img/galery/tp_p-4.jpg
+   wl: ./assets/img/galery/wide_l-4.jpg
+   title: Cultural
+   caption: Cultural

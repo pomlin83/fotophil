@@ -1,11 +1,12 @@
+
 .social-links {
   a {
     text-decoration: none;
     padding-right: 10px;
-    color: $Color_Social;
+    color: white;
 
     &:hover {
-      color: $ColorHover_Social;
+      color: grey;
       cursor: pointer;
     }
   }

@@ -1,0 +1,43 @@
+.main_container_galery {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-top: 16px;
+}
+
+.main_container_galery img {
+  width: 100%;
+  margin: 0px 0px 16px 0px;
+}
+
+@media only screen and (max-width: 1200px) {
+ .main_container_galery {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+ }
+}
+
+@media only screen and (max-width: 992px) {
+ .main_container_galery {
+  margin-left: auto;  
+  margin-right: auto;
+  width: 90%;
+ }
+}
+
+@media only screen and (max-width: 768px) {
+ .main_container_galery {
+   width: auto;
+   margin: 16px 16px 16px 16px;
+   border: 3px solid #73AD21;
+ }
+}
+
+@media only screen and (max-width: 576px) {
+ .main_container_galery {
+   width: auto;
+   margin: 16px 16px 16px 16px;
+ }
+}
+
