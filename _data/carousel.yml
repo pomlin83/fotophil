@@ -1,124 +1,172 @@
-# Generation Date: 13.Apr-2020-11:24
+# Generation Date: 13.Apr-2020-19:03
 # Author: Philip Omlin
 # Image source:  ./assets/img/carousel/
 images:
- - url: ./assets/img/carousel//normal_l-01.jpg
-   title: Modern Architecture I
-   caption: Modern Architecture I
-   subcaption: (Chicago, USA)
- - url: ./assets/img/carousel//normal_l-02.jpg
-   title: Autumnal Forest I
-   caption: Autumnal Forest
-   subcaption: (Lake Sils, Oberengadin, Switzerland)
- - url: ./assets/img/carousel//normal_l-03.jpg
-   title: Strunk in a River
-   caption: Strunk in a River
-   subcaption: (Ova di Bernina, Oberengadin, Switzerland)
- - url: ./assets/img/carousel//normal_l-04.jpg
-   title: City Night Light
-   caption: City Night Light
-   subcaption: (Kapellbrücke, Lucerne, Switzerland)
- - url: ./assets/img/carousel//normal_l-05.jpg
-   title: Autumnal Forest II
-   caption: Autumnal Forest II
-   subcaption: (Val Mustair, Graubünden, Switzerland)
- - url: ./assets/img/carousel//normal_l-06.jpg
-   title: Glacier
-   caption: Glacier
-   subcaption: (Aletschgletscher, Wallis, Switzerland)
- - url: ./assets/img/carousel//normal_l-07.jpg
-   title: Skyline from Above
-   caption: Skyline from Above
-   subcaption: (John Hancock Tower, Chicago, USA)
- - url: ./assets/img/carousel//normal_l-08.jpg
-   title: Modern Architecture II
-   caption: Modern Architecture II
-   subcaption: (Libary of Law University of Zurich)
- - url: ./assets/img/carousel//normal_l-09.jpg
-   title: Glacier Arc
-   caption: Glacier Arc
-   subcaption: (Moderatsch Glacier, Oberengadin, Switzerland)
- - url: ./assets/img/carousel//normal_l-10.jpg
-   title: Mountain Lake
-   caption: Mountain Lake
-   subcaption: (Seealpsee, Alpstein, Switzerland)
- - url: ./assets/img/carousel//normal_l-11.jpg
-   title: Drop Photography
-   caption: Drop Photography
-   subcaption: (Workshop Drop Photography)
- - url: ./assets/img/carousel//normal_l-12.jpg
-   title: Macro Photography
-   caption: Macro Photography
-   subcaption: (Object with 1:1 macro lens and about 20 focus stacks combined)
- - url: ./assets/img/carousel//normal_l-13.jpg
-   title: Rush Hour
-   caption: Rush Hour
-   subcaption: (Manhattan Bridge, New York, USA)
- - url: ./assets/img/carousel//normal_l-14.jpg
-   title: Arctic Light
-   caption: Arctic Light
-   subcaption: (Winter in the Lofoten, Norway)
- - url: ./assets/img/carousel//normal_l-15.jpg
-   title: Last Sun Light
-   caption: Last Sun Light
-   subcaption: (Murgals Muragl, Graubünden, Switzerland)
- - url: ./assets/img/carousel//normal_l-16.jpg
-   title: Tamil Temple
-   caption: Tamil Temple
-   subcaption: (Mylapore, Chennai, India)
- - url: ./assets/img/carousel//normal_l-17.jpg
-   title: Cathedrale
-   caption: Cathedrale
-   subcaption: (Cathedrale of Siena, Tuscany, Italy)
- - url: ./assets/img/carousel//normal_l-18.jpg
-   title: Flower I
-   caption: Flower I
-   subcaption: (Botanic Garden Greenhouse, Zurich, Switzerland)
- - url: ./assets/img/carousel//normal_l-19.jpg
-   title: Winter Landscape 
-   caption: Winter Landscape
-   subcaption: (Glattigrad, Nidwalden, Switzerland)
- - url: ./assets/img/carousel//normal_l-20.jpg
-   title: Flower II
-   caption: Flower II
-   subcaption: (Niederhorn, Berne, Switzerland)
- - url: ./assets/img/carousel//normal_l-21.jpg
-   title: The White Castle
-   caption: The White Castle
-   subcaption: (Samurai Castle, Himeji, Japan)
- - url: ./assets/img/carousel//normal_l-22.jpg
-   title: Moon Landscape
-   caption: Moon Landscape
-   subcaption: (Munt la Schera, Nationalpark of Switzerland)
- - url: ./assets/img/carousel//normal_l-23.jpg
-   title: Greedy Fox
-   caption: Greedy Fox
-   subcaption: (Gumen, Glarus, Switzerland)
- - url: ./assets/img/carousel//normal_l-24.jpg
-   title: Carneval Lucerne
-   caption: Carneval Lucerne
-   subcaption: (Unter der Egg, Lucerne, Switzerland)
- - url: ./assets/img/carousel//normal_l-25.jpg
-   title: Sheep Peer Group
-   caption: Sheep Peer Group
-   subcaption: (Sheeps, Schrattenflue, Switzerland)
- - url: ./assets/img/carousel//normal_l-26.jpg
-   title: Village
-   caption: Village
-   subcaption: (Village, Marokko)
- - url: ./assets/img/carousel//normal_l-27.jpg
-   title: Buddha
-   caption: Buddha
-   subcaption: (Todai-ji Temple, Nara, Japan)
- - url: ./assets/img/carousel//normal_l-28.jpg
-   title: Monastry
-   caption: Monastry
-   subcaption: (Monastry Saint John, Val Mustair, Switzerland)
- - url: ./assets/img/carousel//normal_l-29.jpg
-   title: Mountain Landscape
-   caption: Mountain Landscape
-   subcaption: (Graina Ebene, Graubünden, Switzerland)
- - url: ./assets/img/carousel//normal_l-30.jpg
-   title: Grossmünster
-   caption: Grossmünster
-   subcaption: (Grossmünster, Zurich, Switzerland)
+ - normal: ./assets/img/carousel//normal_l-01.jpg
+   sm: ./assets/img/carousel//sm_p-01.jpg
+   tp: ./assets/img/carousel//tp_p-01.jpg
+   wl: ./assets/img/carousel//wide_l-01.jpg
+   title: Architecture
+   caption: Architecture
+ - normal: ./assets/img/carousel//normal_l-02.jpg
+   sm: ./assets/img/carousel//sm_p-02.jpg
+   tp: ./assets/img/carousel//tp_p-02.jpg
+   wl: ./assets/img/carousel//wide_l-02.jpg
+   title: Architecture
+   caption: Architecture
+ - normal: ./assets/img/carousel//normal_l-03.jpg
+   sm: ./assets/img/carousel//sm_p-03.jpg
+   tp: ./assets/img/carousel//tp_p-03.jpg
+   wl: ./assets/img/carousel//wide_l-03.jpg
+   title: Architecture
+   caption: Architecture
+ - normal: ./assets/img/carousel//normal_l-04.jpg
+   sm: ./assets/img/carousel//sm_p-04.jpg
+   tp: ./assets/img/carousel//tp_p-04.jpg
+   wl: ./assets/img/carousel//wide_l-04.jpg
+   title: Architecture
+   caption: Architecture
+ - normal: ./assets/img/carousel//normal_l-05.jpg
+   sm: ./assets/img/carousel//sm_p-05.jpg
+   tp: ./assets/img/carousel//tp_p-05.jpg
+   wl: ./assets/img/carousel//wide_l-05.jpg
+   title: Architecture
+   caption: Architecture
+ - normal: ./assets/img/carousel//normal_l-06.jpg
+   sm: ./assets/img/carousel//sm_p-06.jpg
+   tp: ./assets/img/carousel//tp_p-06.jpg
+   wl: ./assets/img/carousel//wide_l-06.jpg
+   title: Architecture
+   caption: Architecture
+ - normal: ./assets/img/carousel//normal_l-07.jpg
+   sm: ./assets/img/carousel//sm_p-07.jpg
+   tp: ./assets/img/carousel//tp_p-07.jpg
+   wl: ./assets/img/carousel//wide_l-07.jpg
+   title: Architecture
+   caption: Architecture
+ - normal: ./assets/img/carousel//normal_l-08.jpg
+   sm: ./assets/img/carousel//sm_p-08.jpg
+   tp: ./assets/img/carousel//tp_p-08.jpg
+   wl: ./assets/img/carousel//wide_l-08.jpg
+   title: Architecture
+   caption: Architecture
+ - normal: ./assets/img/carousel//normal_l-09.jpg
+   sm: ./assets/img/carousel//sm_p-09.jpg
+   tp: ./assets/img/carousel//tp_p-09.jpg
+   wl: ./assets/img/carousel//wide_l-09.jpg
+   title: Architecture
+   caption: Architecture
+ - normal: ./assets/img/carousel//normal_l-10.jpg
+   sm: ./assets/img/carousel//sm_p-10.jpg
+   tp: ./assets/img/carousel//tp_p-10.jpg
+   wl: ./assets/img/carousel//wide_l-10.jpg
+   title: Architecture
+   caption: Architecture
+ - normal: ./assets/img/carousel//normal_l-11.jpg
+   sm: ./assets/img/carousel//sm_p-11.jpg
+   tp: ./assets/img/carousel//tp_p-11.jpg
+   wl: ./assets/img/carousel//wide_l-11.jpg
+   title: Architecture
+   caption: Architecture
+ - normal: ./assets/img/carousel//normal_l-12.jpg
+   sm: ./assets/img/carousel//sm_p-12.jpg
+   tp: ./assets/img/carousel//tp_p-12.jpg
+   wl: ./assets/img/carousel//wide_l-12.jpg
+   title: Architecture
+   caption: Architecture
+ - normal: ./assets/img/carousel//normal_l-13.jpg
+   sm: ./assets/img/carousel//sm_p-13.jpg
+   tp: ./assets/img/carousel//tp_p-13.jpg
+   wl: ./assets/img/carousel//wide_l-13.jpg
+   title: Architecture
+   caption: Architecture
+ - normal: ./assets/img/carousel//normal_l-14.jpg
+   sm: ./assets/img/carousel//sm_p-14.jpg
+   tp: ./assets/img/carousel//tp_p-14.jpg
+   wl: ./assets/img/carousel//wide_l-14.jpg
+   title: Architecture
+   caption: Architecture
+ - normal: ./assets/img/carousel//normal_l-16.jpg
+   sm: ./assets/img/carousel//sm_p-15.jpg
+   tp: ./assets/img/carousel//tp_p-15.jpg
+   wl: ./assets/img/carousel//wide_l-15.jpg
+   title: Architecture
+   caption: Architecture
+ - normal: ./assets/img/carousel//normal_l-17.jpg
+   sm: ./assets/img/carousel//sm_p-16.jpg
+   tp: ./assets/img/carousel//tp_p-16.jpg
+   wl: ./assets/img/carousel//wide_l-16.jpg
+   title: Architecture
+   caption: Architecture
+ - normal: ./assets/img/carousel//normal_l-18.jpg
+   sm: ./assets/img/carousel//sm_p-17.jpg
+   tp: ./assets/img/carousel//tp_p-17.jpg
+   wl: ./assets/img/carousel//wide_l-17.jpg
+   title: Architecture
+   caption: Architecture
+ - normal: ./assets/img/carousel//normal_l-19.jpg
+   sm: ./assets/img/carousel//sm_p-18.jpg
+   tp: ./assets/img/carousel//tp_p-18.jpg
+   wl: ./assets/img/carousel//wide_l-18.jpg
+   title: Architecture
+   caption: Architecture
+ - normal: ./assets/img/carousel//normal_l-20.jpg
+   sm: ./assets/img/carousel//sm_p-19.jpg
+   tp: ./assets/img/carousel//tp_p-19.jpg
+   wl: ./assets/img/carousel//wide_l-19.jpg
+   title: Architecture
+   caption: Architecture
+ - normal: ./assets/img/carousel//normal_l-21.jpg
+   sm: ./assets/img/carousel//sm_p-20.jpg
+   tp: ./assets/img/carousel//tp_p-20.jpg
+   wl: ./assets/img/carousel//wide_l-20.jpg
+   title: Architecture
+   caption: Architecture
+ - normal: ./assets/img/carousel//normal_l-22.jpg
+   sm: ./assets/img/carousel//sm_p-21.jpg
+   tp: ./assets/img/carousel//tp_p-21.jpg
+   wl: ./assets/img/carousel//wide_l-21.jpg
+   title: Architecture
+   caption: Architecture
+ - normal: ./assets/img/carousel//normal_l-23.jpg
+   sm: ./assets/img/carousel//sm_p-22.jpg
+   tp: ./assets/img/carousel//tp_p-22.jpg
+   wl: ./assets/img/carousel//wide_l-22.jpg
+   title: Architecture
+   caption: Architecture
+ - normal: ./assets/img/carousel//normal_l-24.jpg
+   sm: ./assets/img/carousel//sm_p-23.jpg
+   tp: ./assets/img/carousel//tp_p-23.jpg
+   wl: ./assets/img/carousel//wide_l-23.jpg
+   title: Architecture
+   caption: Architecture
+ - normal: ./assets/img/carousel//normal_l-25.jpg
+   sm: ./assets/img/carousel//sm_p-24.jpg
+   tp: ./assets/img/carousel//tp_p-24.jpg
+   wl: ./assets/img/carousel//wide_l-24.jpg
+   title: Architecture
+   caption: Architecture
+ - normal: ./assets/img/carousel//normal_l-27.jpg
+   sm: ./assets/img/carousel//sm_p-25.jpg
+   tp: ./assets/img/carousel//tp_p-25.jpg
+   wl: ./assets/img/carousel//wide_l-25.jpg
+   title: Architecture
+   caption: Architecture
+ - normal: ./assets/img/carousel//normal_l-28.jpg
+   sm: ./assets/img/carousel//sm_p-26.jpg
+   tp: ./assets/img/carousel//tp_p-26.jpg
+   wl: ./assets/img/carousel//wide_l-26.jpg
+   title: Architecture
+   caption: Architecture
+ - normal: ./assets/img/carousel//normal_l-29.jpg
+   sm: ./assets/img/carousel//sm_p-27.jpg
+   tp: ./assets/img/carousel//tp_p-27.jpg
+   wl: ./assets/img/carousel//wide_l-27.jpg
+   title: Architecture
+   caption: Architecture
+ - normal: ./assets/img/carousel//normal_l-30.jpg
+   sm: ./assets/img/carousel//sm_p-28.jpg
+   tp: ./assets/img/carousel//tp_p-28.jpg
+   wl: ./assets/img/carousel//wide_l-28.jpg
+   title: Architecture
+   caption: Architecture

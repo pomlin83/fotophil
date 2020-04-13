@@ -14,14 +14,14 @@
     {% for picture in site.data.carousel.images %}
      {% if forloop.first == true %}
 	<div class="carousel-item active">
-	 <div class="fill" style="background-image:url('{{ picture.url }}'"></div>
+	 <div class="fill" style="background-image:url('{{ picture.normal }}'"></div>
 	 <div class="carousel-caption">
 	  {{ picture.caption }}
          </div>
         </div>
      {% else %}
         <div class="carousel-item">
-         <div class="fill" style="background-image:url('{{ picture.url }}'"></div>
+         <div class="fill" style="background-image:url('{{ picture.normal }}'"></div>
          <div class="carousel-caption">
           {{ picture.caption }}
          </div>

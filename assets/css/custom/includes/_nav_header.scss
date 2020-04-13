@@ -2,8 +2,8 @@
  display: flex;
  text-decoration: none;
  color: white;
- margin-right: 8px;
- padding:4px;
+ margin-right: 16px;
+ margin:20px 16px 0px 0px;
  vertical-align:middle;
 }
 
@@ -18,8 +18,9 @@
 .nav-container {
  background-color: black;
  display: flex;
- padding: 16px;
+ padding: 16px 0px 16px 16px;
  color: white;
+ line-height: 1.0; 
 }
 
 .nav-bar {
@@ -33,7 +34,7 @@
 
 .nav-title {
  padding-right: 8px;
- font-size:40px;
+ font-size:48px;
 }
 
 .nav-right {
@@ -43,6 +44,7 @@
 .nav-toggle {
  display: none;
  font-size:28px;
+ margin: 10px 16px 0px 0px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -61,11 +63,13 @@
  .nav-items {
    background-color: white;
    color:black;
-   padding:0px 8px 0px 8px;
+   padding:8px 8px 0px 8px;
+   margin: 16px 16px 0px 0px;
  }
 
  .nav-menu a {
    color: black;
+   margin: 0px 8px 8px 0px;
  }
  
  .nav-menu a:hover {
