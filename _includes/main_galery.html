@@ -1,6 +1,11 @@
 <div class="main_container_galery">
   {% for img in site.data.galery.images %}
-   <img src="{{ img.normal }}" alt="{{ img.title }}">
+   <div class="chapter">
+    <a href="#">
+     <div class="caption">{{ img.caption }}</div>
+     <img class="pic" src="{{ img.normal }}" alt="{{ img.title }}">
+    </a>
+   </div>
   {% endfor %}  
 </div>
 

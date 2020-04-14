@@ -3,9 +3,9 @@
  text-decoration: none;
  color: white;
  margin-right: 16px;
- margin:20px 16px 0px 0px;
+ margin:12px 16px 0px 0px;
  vertical-align:middle;
-}
+} 
 
 .nav-menu a:hover {
  display: flex;
@@ -29,7 +29,7 @@
 
 .nav-items {
  display: flex;
- font-size:28px;
+ font-size:36px;
 }
 
 .nav-title {
@@ -84,9 +84,22 @@
    align-self: flex-end;
    display: initial;
    position: absolute;
-   cursor: pointer
+   cursor: pointer;
+   margin: 8px 0px 0px 0px;
  }
  .nav-show {
    display:flex;
+ }
+}
+
+@media only screen and (max-width: 1200px) {
+ .nav-menu a {
+   margin:8px 16px 0px 0px
+ }
+ .nav-title {
+   font-size: 36px;
+ }
+ .nav-items {
+   font-size: 28px;
  }
 }

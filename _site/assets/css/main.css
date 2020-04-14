@@ -6507,6 +6507,17 @@ a.text-dark:hover, a.text-dark:focus {
   width: 60%;
   margin-top: 16px; }
 
+.caption {
+  position: absolute;
+  font-size: 36px;
+  padding: 16px 16px 16px 16px;
+  line-height: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 60%;
+  margin-right: 0px;
+  vertical-align: middle; }
+
 .main_container_galery img {
   width: 100%;
   margin: 0px 0px 16px 0px; }
@@ -6515,26 +6526,40 @@ a.text-dark:hover, a.text-dark:focus {
   .main_container_galery {
     margin-left: auto;
     margin-right: auto;
-    width: 80%; } }
+    width: 80%; }
+
+  .caption {
+    width: 80%;
+    font-size: 28px; } }
 @media only screen and (max-width: 992px) {
   .main_container_galery {
     margin-left: auto;
     margin-right: auto;
-    width: 90%; } }
+    width: 90%; }
+
+  .caption {
+    width: 90%;
+    margin-top: 0px; } }
 @media only screen and (max-width: 768px) {
   .main_container_galery {
     width: auto;
-    margin: 16px 16px 16px 16px; } }
+    margin: 16px 16px 16px 16px; }
+
+  .caption {
+    width: 40%; } }
 @media only screen and (max-width: 576px) {
   .main_container_galery {
     width: auto;
-    margin: 16px 16px 16px 16px; } }
+    margin: 16px 16px 16px 16px; }
+
+  .caption {
+    width: 40%; } }
 .nav-menu a {
   display: flex;
   text-decoration: none;
   color: white;
   margin-right: 16px;
-  margin: 20px 16px 0px 0px;
+  margin: 12px 16px 0px 0px;
   vertical-align: middle; }
 
 .nav-menu a:hover {
@@ -6555,7 +6580,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .nav-items {
   display: flex;
-  font-size: 28px; }
+  font-size: 36px; }
 
 .nav-title {
   padding-right: 8px;
@@ -6601,10 +6626,20 @@ a.text-dark:hover, a.text-dark:focus {
     align-self: flex-end;
     display: initial;
     position: absolute;
-    cursor: pointer; }
+    cursor: pointer;
+    margin: 8px 0px 0px 0px; }
 
   .nav-show {
     display: flex; } }
+@media only screen and (max-width: 1200px) {
+  .nav-menu a {
+    margin: 8px 16px 0px 0px; }
+
+  .nav-title {
+    font-size: 36px; }
+
+  .nav-items {
+    font-size: 28px; } }
 .carousel img {
   width: 100%; }
 
@@ -6635,6 +6670,10 @@ a.text-dark:hover, a.text-dark:focus {
   color: white;
   padding: 16px 0px 16px 0px;
   margin: 0px 0px 0px 0px; }
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px; }
 
 .col {
   marign-top: 8px;
