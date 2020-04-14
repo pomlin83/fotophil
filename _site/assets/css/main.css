@@ -6546,14 +6546,14 @@ a.text-dark:hover, a.text-dark:focus {
     margin: 16px 16px 16px 16px; }
 
   .caption {
-    width: 40%; } }
+    width: 50%; } }
 @media only screen and (max-width: 576px) {
   .main_container_galery {
     width: auto;
     margin: 16px 16px 16px 16px; }
 
   .caption {
-    width: 40%; } }
+    width: 50%; } }
 .nav-menu a {
   display: flex;
   text-decoration: none;
