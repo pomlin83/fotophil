@@ -1,0 +1,26 @@
+# Generation Date: 21.Apr-2020-20:28
+# Author: Philip Omlin
+# Image source:  ./assets/img/galery/architectur
+images:
+ - url: ./assets/img/galery/architecture_aarhus.JPG
+   title: Museum of Modern Art Aarhus (ARoS) Danemark
+   caption: Museum of Modern Art Aarhus (ARoS) Danemark
+ - url: ./assets/img/galery/architecture_forum.jpg
+   title: Tokyo International Forum
+   caption: Tokyo International Forum
+ - url: ./assets/img/galery/architecture_kyotostation.jpg
+   title: Kyoto Train Station
+   caption: Kyoto Train Station
+ - url: ./assets/img/galery/architecture_rechtsbiblio.jpg
+   title: Libary of Law University of Zurich
+   caption: Libary of Law University of Zurich
+ - url: ./assets/img/galery/architecture_Siena_Cathedrale.jpg
+   title: Cathedrale of Siena Italy
+   caption: Cathedrale of Siena Italy
+ - url: ./assets/img/galery/architecture_stadelhofen.jpg
+   title: Train Station Stadelhofen Zurich
+   caption: Train Station Stadelhofen Zurich
+ - url: ./assets/img/galery/architecture_sulzer.jpg
+   title: Hall 53 Sulzer Areal Winterthur
+   caption: Hall 53 Sulzer Areal Winterthur
+

@@ -1,22 +1,24 @@
-# Generation Date: 14.Apr-2020-20:41
+# Generation Date: 21.Apr-2020-20:32
 # Author: Philip Omlin
 # Image source:  ./assets/img/galery/
 images:
  - normal: ./assets/img/galery/main_normal_l-1.jpg
-   title: Landscape
+   title: Landscpae
    caption: Landscape
+   url: ./landscape_galery.html
  - normal: ./assets/img/galery/main_normal_l-2.jpg
    title: Nature
    caption: Nature
+   url: ./nature_galery.html
  - normal: ./assets/img/galery/main_normal_l-3.jpg
    title: Cityscape
    caption: Cityscape
+   url: ./cityscape_galery.html
  - normal: ./assets/img/galery/main_normal_l-4.jpg
    title: Travel
    caption: Travel
+   url: ./travel_galery.html
  - normal: ./assets/img/galery/main_normal_l-5.jpg
    title: Architecture
    caption: Architecture
- - normal: ./assets/img/galery/main_normal_l-6.jpg
-   title: Others
-   caption: Others
+   url: ./architecture_galery.html

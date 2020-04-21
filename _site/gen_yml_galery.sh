@@ -11,5 +11,6 @@ for img in $1main_normal_l-*.jpg; do
  echo " - normal:" $img >> _data/galery.yml
  echo "   title: Architecture"  >> _data/galery.yml
  echo "   caption: Architecture" >> _data/galery.yml
+ echo "   url: ./architecture_galery.html" >> _data/galery.yml
  ((i=i+1))
 done

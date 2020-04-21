@@ -1,20 +1,14 @@
 <!-- NAV -->
-<nav class="navbar navbar-expand-md navbar-light py-4 navi_custom">
-  <div class="container">
-     <a class="navbar-brand">
-      <h3 class="d-inline align-middle pl-3">{{ site.title }}</h3>
-     </a>
-    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-      {% for item in site.data.navigation.menu %}
-        <li class="nav-item">
-	  <a href="{{ item.url }}" class="nav-link">{{ item.name }}</a>
-        </li>
-      {% endfor %}
-      </ul>
-    </div>
+<div class="nav-container">
+  <div class="nav-title nav-menu">
+   {{ site.title }}
   </div>
-</nav>
+  <div class="nav-menu nav-toggle">
+   <i class="fas fa-bars"></i>
+  </div>
+ <nav class="nav-items nav-right">
+     {% for item in site.data.navigation.menu %}
+   <div class="nav-menu"> <a href="{{ item.url }}">{{ item.name }}</a></div>
+  {% endfor %}
+ </nav> 
+</div>
