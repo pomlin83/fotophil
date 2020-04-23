@@ -1,0 +1,40 @@
+---
+layout: galery_element
+---
+<div class="sub_navi"><a href="./galery.html">Galery</a><span class="icon">></span><a href="./landscape_galery.html">Landscape</a><span class="icon">></span><a href="./switzerland_galery.html">Switzerland</a><span class="icon">></span><a href="./alpstein_galery.html">Alpstein</a></div>
+<!-- Images used to open the lightbox -->
+ <div class="rowl">
+  {% capture _ %}{% increment i %}{% endcapture %}
+  {% for img in site.data.alpstein_galery.images %}
+   <div class="column">
+     <div class="test">hallo</div>
+     <img src="{{ img.url }}" alt="{{ img.title }}" onclick="openModal();currentSlide({% increment i %})" class="hover-shadow">
+   </div>
+  {% endfor %}
+  {% capture _ %}{% decrement i %}{% endcapture %}
+  {% assign tot_pic = i%}
+ </div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+ <span class="close cursor" onclick="closeModal()">&times;</span>
+ <div class="modal-content">
+  {% capture _ %}{% increment j %}{% endcapture %}
+  {% for img in site.data.alpstein_galery.images %}
+   <div class="mySlides">
+    <div class="numbertext">{% increment j %} / {{ tot_pic }}</div>
+    <img src="{{ img.url }}" style="width:100%">
+   </div>
+  {% endfor %}
+ 
+  <!-- Next/previous controls -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Caption text -->
+  <div class="caption-container">
+   <p id="caption"></p>
+  </div>
+ </div>
+</div>
+

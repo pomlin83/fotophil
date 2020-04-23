@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>fotophil.ch</title>
+
+  <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+  <body onload="myFunction()" onresize="myFunction()">
+    <!-- NAV -->
+<div class="nav-container">
+  <div class="nav-title nav-menu">
+   fotophil.ch
+  </div>
+  <div class="nav-menu nav-toggle">
+   <i class="fas fa-bars"></i>
+  </div>
+ <nav class="nav-items nav-right">
+     
+   <div class="nav-menu"> <a href="./index.html">Home</a></div>
+  
+   <div class="nav-menu"> <a href="./about.html">About</a></div>
+  
+   <div class="nav-menu"> <a href="./galery.html">Galery</a></div>
+  
+   <div class="nav-menu"> <a href="./inspiration.html">Inspiration</a></div>
+  
+ </nav> 
+</div>
+
+   <div class="main_container_galery">
+    <div class="sub_navi"><a href="./galery.html">Galery</a><span class="icon">></span><a href="./landscape_galery.html">Landscape</a><span class="icon">></span><a href="./switzerland_galery.html">Switzerland</a><span class="icon">></span><a href="./alpstein_galery.html">Alpstein</a></div>
+<!-- Images used to open the lightbox -->
+ <div class="rowl">
+  
+  
+   <div class="column">
+     <div class="test">hallo</div>
+     <img src="./assets/img/galery/landscape/alpstein//Alpstein-01.jpg" alt="Alpstein" onclick="openModal();currentSlide(1)" class="hover-shadow">
+   </div>
+  
+   <div class="column">
+     <div class="test">hallo</div>
+     <img src="./assets/img/galery/landscape/alpstein//Alpstein-02.jpg" alt="Alpstein" onclick="openModal();currentSlide(2)" class="hover-shadow">
+   </div>
+  
+   <div class="column">
+     <div class="test">hallo</div>
+     <img src="./assets/img/galery/landscape/alpstein//Alpstein-03.jpg" alt="Alpstein" onclick="openModal();currentSlide(3)" class="hover-shadow">
+   </div>
+  
+   <div class="column">
+     <div class="test">hallo</div>
+     <img src="./assets/img/galery/landscape/alpstein//Alpstein-04.jpg" alt="Alpstein" onclick="openModal();currentSlide(4)" class="hover-shadow">
+   </div>
+  
+   <div class="column">
+     <div class="test">hallo</div>
+     <img src="./assets/img/galery/landscape/alpstein//Alpstein-05.jpg" alt="Alpstein" onclick="openModal();currentSlide(5)" class="hover-shadow">
+   </div>
+  
+   <div class="column">
+     <div class="test">hallo</div>
+     <img src="./assets/img/galery/landscape/alpstein//Alpstein-06.jpg" alt="Alpstein" onclick="openModal();currentSlide(6)" class="hover-shadow">
+   </div>
+  
+   <div class="column">
+     <div class="test">hallo</div>
+     <img src="./assets/img/galery/landscape/alpstein//Alpstein-07.jpg" alt="Alpstein" onclick="openModal();currentSlide(7)" class="hover-shadow">
+   </div>
+  
+   <div class="column">
+     <div class="test">hallo</div>
+     <img src="./assets/img/galery/landscape/alpstein//Alpstein-08.jpg" alt="Alpstein" onclick="openModal();currentSlide(8)" class="hover-shadow">
+   </div>
+  
+   <div class="column">
+     <div class="test">hallo</div>
+     <img src="./assets/img/galery/landscape/alpstein//Alpstein-09.jpg" alt="Alpstein" onclick="openModal();currentSlide(9)" class="hover-shadow">
+   </div>
+  
+   <div class="column">
+     <div class="test">hallo</div>
+     <img src="./assets/img/galery/landscape/alpstein//Alpstein-10.jpg" alt="Alpstein" onclick="openModal();currentSlide(10)" class="hover-shadow">
+   </div>
+  
+   <div class="column">
+     <div class="test">hallo</div>
+     <img src="./assets/img/galery/landscape/alpstein//Alpstein-11.jpg" alt="Alpstein" onclick="openModal();currentSlide(11)" class="hover-shadow">
+   </div>
+  
+   <div class="column">
+     <div class="test">hallo</div>
+     <img src="./assets/img/galery/landscape/alpstein//Alpstein-12.jpg" alt="Alpstein" onclick="openModal();currentSlide(12)" class="hover-shadow">
+   </div>
+  
+   <div class="column">
+     <div class="test">hallo</div>
+     <img src="./assets/img/galery/landscape/alpstein//Alpstein-13.jpg" alt="Alpstein" onclick="openModal();currentSlide(13)" class="hover-shadow">
+   </div>
+  
+   <div class="column">
+     <div class="test">hallo</div>
+     <img src="./assets/img/galery/landscape/alpstein//Alpstein-14.jpg" alt="Alpstein" onclick="openModal();currentSlide(14)" class="hover-shadow">
+   </div>
+  
+   <div class="column">
+     <div class="test">hallo</div>
+     <img src="./assets/img/galery/landscape/alpstein//Alpstein-15.jpg" alt="Alpstein" onclick="openModal();currentSlide(15)" class="hover-shadow">
+   </div>
+  
+  
+  
+ </div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+ <span class="close cursor" onclick="closeModal()">&times;</span>
+ <div class="modal-content">
+  
+  
+   <div class="mySlides">
+    <div class="numbertext">1 / 15</div>
+    <img src="./assets/img/galery/landscape/alpstein//Alpstein-01.jpg" style="width:100%">
+   </div>
+  
+   <div class="mySlides">
+    <div class="numbertext">2 / 15</div>
+    <img src="./assets/img/galery/landscape/alpstein//Alpstein-02.jpg" style="width:100%">
+   </div>
+  
+   <div class="mySlides">
+    <div class="numbertext">3 / 15</div>
+    <img src="./assets/img/galery/landscape/alpstein//Alpstein-03.jpg" style="width:100%">
+   </div>
+  
+   <div class="mySlides">
+    <div class="numbertext">4 / 15</div>
+    <img src="./assets/img/galery/landscape/alpstein//Alpstein-04.jpg" style="width:100%">
+   </div>
+  
+   <div class="mySlides">
+    <div class="numbertext">5 / 15</div>
+    <img src="./assets/img/galery/landscape/alpstein//Alpstein-05.jpg" style="width:100%">
+   </div>
+  
+   <div class="mySlides">
+    <div class="numbertext">6 / 15</div>
+    <img src="./assets/img/galery/landscape/alpstein//Alpstein-06.jpg" style="width:100%">
+   </div>
+  
+   <div class="mySlides">
+    <div class="numbertext">7 / 15</div>
+    <img src="./assets/img/galery/landscape/alpstein//Alpstein-07.jpg" style="width:100%">
+   </div>
+  
+   <div class="mySlides">
+    <div class="numbertext">8 / 15</div>
+    <img src="./assets/img/galery/landscape/alpstein//Alpstein-08.jpg" style="width:100%">
+   </div>
+  
+   <div class="mySlides">
+    <div class="numbertext">9 / 15</div>
+    <img src="./assets/img/galery/landscape/alpstein//Alpstein-09.jpg" style="width:100%">
+   </div>
+  
+   <div class="mySlides">
+    <div class="numbertext">10 / 15</div>
+    <img src="./assets/img/galery/landscape/alpstein//Alpstein-10.jpg" style="width:100%">
+   </div>
+  
+   <div class="mySlides">
+    <div class="numbertext">11 / 15</div>
+    <img src="./assets/img/galery/landscape/alpstein//Alpstein-11.jpg" style="width:100%">
+   </div>
+  
+   <div class="mySlides">
+    <div class="numbertext">12 / 15</div>
+    <img src="./assets/img/galery/landscape/alpstein//Alpstein-12.jpg" style="width:100%">
+   </div>
+  
+   <div class="mySlides">
+    <div class="numbertext">13 / 15</div>
+    <img src="./assets/img/galery/landscape/alpstein//Alpstein-13.jpg" style="width:100%">
+   </div>
+  
+   <div class="mySlides">
+    <div class="numbertext">14 / 15</div>
+    <img src="./assets/img/galery/landscape/alpstein//Alpstein-14.jpg" style="width:100%">
+   </div>
+  
+   <div class="mySlides">
+    <div class="numbertext">15 / 15</div>
+    <img src="./assets/img/galery/landscape/alpstein//Alpstein-15.jpg" style="width:100%">
+   </div>
+  
+ 
+  <!-- Next/previous controls -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Caption text -->
+  <div class="caption-container">
+   <p id="caption"></p>
+  </div>
+ </div>
+</div>
+
+
+   </div>
+    <footer class="footer">
+  <div class="container-footer text-center text-info">
+    <div class="row">
+      <div class="col">
+        
+          <div class="social-links">
+  <a target="_blank" href="https://github.com/someGithubUser">
+    <i class="fab fa-github fa-2x"></i>
+  </a>
+  <a href="mailto:philip.omlin@gmail.com">
+    <i class="fa fa-envelope fa-2x" ></i>
+  </a>
+  <a target="_blank" href="https://twitter.com/someTwitterUser">
+    <i class="fab fa-twitter fa-2x"></i>
+  </a>
+</div>
+
+        
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        All content copyright Philip Omlin  &copy; 2020.
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        All rights reserved.
+      </div>
+    </div>
+  </div>
+</footer>
+	
+<!-- JS -->
+<script src="./assets/js/myScript.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </body>
+</html>
