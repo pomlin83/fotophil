@@ -3,10 +3,11 @@ layout: galery_element
 ---
 <div class="sub_navi"><a href="./galery.html">Galery</a><span class="icon">></span><a href="./landscape_galery.html">Landscape</a><span class="icon">></span><a href="./switzerland_galery.html">Switzerland</a><span class="icon">></span><a href="./alpstein_galery.html">Alpstein</a></div>
 <!-- Images used to open the lightbox -->
- <div class="rowl">
+<div class="container-fluid">
+ <div class="row">
   {% capture _ %}{% increment i %}{% endcapture %}
   {% for img in site.data.alpstein_galery.images %}
-   <div class="column">
+   <div class="col-sm-6 col-md-4 col-lg-4 col-xl-3">
      <div class="test">hallo</div>
      <img src="{{ img.url }}" alt="{{ img.title }}" onclick="openModal();currentSlide({% increment i %})" class="hover-shadow">
    </div>
@@ -36,5 +37,6 @@ layout: galery_element
    <p id="caption"></p>
   </div>
  </div>
+</div>
 </div>
 

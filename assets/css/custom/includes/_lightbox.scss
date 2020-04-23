@@ -1,31 +1,22 @@
 .rowl > .column {
-  padding: 0% 0.5% 0% 0.5%;
 }
 
 .rowl:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 /* Create four equal columns that floats next to eachother */
 .column {
-  float: left;
-  width: 25%;
 }
 
 .test {
   background-color:rgba(0,0,0,0);
   position: absolute;
-  width: 14.4%;
+  width:100%;
   display: block;
 }
 
 .test:hover {    
   background-color:rgba(0,0,0,0.5);
-  position: absolute;
-  width: 14.4%;
-  display: block;
 }
 
 
