@@ -1,5 +1,5 @@
 ---
-layout: galery_element
+layout: lightbox
 ---
 <div class="sub_navi"><a href="./galery.html">Galery</a><span class="icon">></span><a href="./landscape_galery.html">Landscape</a><span class="icon">></span><a href="./switzerland_galery.html">Switzerland</a><span class="icon">></span><a href="./alpstein_galery.html">Alpstein</a></div>
 <!-- Images used to open the lightbox -->
@@ -7,9 +7,9 @@ layout: galery_element
  <div class="row">
   {% capture _ %}{% increment i %}{% endcapture %}
   {% for img in site.data.alpstein_galery.images %}
-   <div class="col-sm-6 col-md-4 col-lg-4 col-xl-3">
-     <div class="test">hallo</div>
-     <img src="{{ img.url }}" alt="{{ img.title }}" onclick="openModal();currentSlide({% increment i %})" class="hover-shadow">
+   <div class="col-sm-6 col-md-4 col-lg-4 col-xl-3 element">
+     <div class="test" onclick="openModal();currentSlide({% increment i %})"><i class='fas fa-camera' style='font-size:36px'></i></div>
+     <img src="{{ img.url }}" alt="{{ img.title }}">
    </div>
   {% endfor %}
   {% capture _ %}{% decrement i %}{% endcapture %}
@@ -23,14 +23,18 @@ layout: galery_element
   {% capture _ %}{% increment j %}{% endcapture %}
   {% for img in site.data.alpstein_galery.images %}
    <div class="mySlides">
-    <div class="numbertext">{% increment j %} / {{ tot_pic }}</div>
-    <img src="{{ img.url }}" style="width:100%">
+    <div class="numbertext"></div>
+    <img class="lightboxImg" src="{{ img.url }}">
+   </div>
+   <div class="container-fluid captionLightBox">
+    <div class="row">
+     <div class="col-2 prev" style="text-align:left"><a onclick="plusSlides(-1)">&#10094;</a></div>
+     <div class="col-4" style="text-align:left">{{ img.caption }}</div>
+     <div class="col-4" style="text-align:right">{% increment j %} / {{ tot_pic }}</div>
+     <div class="col-2 next" style="text-align:right"><a onclick="plusSlides(1)">&#10095;</a></div>
+    </div>
    </div>
   {% endfor %}
- 
-  <!-- Next/previous controls -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
   <!-- Caption text -->
   <div class="caption-container">

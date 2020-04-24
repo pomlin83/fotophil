@@ -16,6 +16,17 @@ function myFunction() {
  }	
 }
 
+function sizeLightbox() {
+ var ActImgHeight = window.innerHeight;
+ var ActImgWidth = window.innerWidth;
+ ActImgHeight = ActImgHeight - 2*100;
+ y=document.getElementsByClassName("lightboxImg");
+ var ratioImg = y[1].width / y[1].height;
+ var ActMaxImgWidth = ratioImg * ActImgHeight;
+ x=document.getElementsByClassName("modal-content");
+ x[0].style.maxWidth = ActMaxImgWidth+"px";
+}
+
 function myToggle() {
  const navs=document.querySelectorAll('.nav-items')
  navs.forEach(nav => nav.classList.toggle('nav-show'));
@@ -50,17 +61,13 @@ function currentSlide(n) {
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
+  var caption = document.getElementsByClassName("captionLightBox");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
+    caption[i].style.display = "none";
   }
   slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
+  caption[slideIndex-1].style.display = "block";
 }

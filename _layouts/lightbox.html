@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   {% include head.html %}
-  <body onload="myFunction()" onresize="myFunction()">
+  <body onload="sizeLightbox()" onresize="sizeLightbox()">
     {% include nav_list.html %}
+  <div class="container_lightbox">
     {{ content }}
+  </div>
     {% include footer.html %}
   </body>
 </html>
