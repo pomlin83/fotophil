@@ -19,7 +19,10 @@ function myFunction() {
 function sizeLightbox() {
  var ActImgHeight = window.innerHeight;
  var ActImgWidth = window.innerWidth;
- ActImgHeight = ActImgHeight - 2*100;
+ var topPadding = ActImgHeight * 0.1;
+ z=document.getElementsByClassName("modal");
+ z[0].style.paddingTop = topPadding+"px";
+ ActImgHeight = ActImgHeight - 2 * topPadding;
  y=document.getElementsByClassName("lightboxImg");
  var ratioImg = y[1].width / y[1].height;
  var ActMaxImgWidth = ratioImg * ActImgHeight;
