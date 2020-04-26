@@ -6734,9 +6734,14 @@ img.hover-shadow {
   display: flex;
   text-decoration: none;
   color: white;
-  margin-right: 16px;
+  margin-right: 8px;
+  padding: 8px;
   margin: 12px 16px 0px 0px;
   vertical-align: middle; }
+
+.nav-title a {
+  text-decoration: none;
+  color: white; }
 
 .nav-menu a:hover {
   display: flex;
