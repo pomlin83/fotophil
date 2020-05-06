@@ -16,7 +16,7 @@
   <div class="nav-title">
    <a href="./index.html">fotophil.ch</a>
   </div>
-  <div class="nav-menu nav-toggle">
+  <div class="nav-menu nav-toggle" onclick="openMenuModal()">
    <i class="fas fa-bars"></i>
   </div>
  <nav class="nav-items nav-right">
@@ -30,6 +30,57 @@
    <div class="nav-menu"> <a href="./impressum.html">Impressum</a></div>
   
  </nav> 
+</div>
+
+<!-- Modal Window Nav for small screens -->
+<div id="modalMenuSmall" class="modalMenuSmall">
+ <div class="closeModal" onclick="closeMenuModal()">x</div>
+ <div class="noGalery">
+  <div class="nav-smmenu"><a href="./about.html">About</a></div>
+  <div class="nav-smmenu"><a href="./impressum.html">Impressum</a></div>
+  <div class="nav-smmenu"><a href="./inspiration.html">Inspiration</a></div>
+  <div class="nav-smmenu"><a href="./galery.html">Galery</a></div>
+ </div>
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-6 col-md-6 menuGalery menuDark">
+    <div class="title"><a href="./landscape_galery.html">Landscape</a></div>
+    <div>Europe</div>
+    <div>Switzerland</div>
+    <div>World</div>
+   </div>
+   <div class="col-6 col-md-6 menuGalery menuDark">
+    <div class="title"><a href="./nature_galery.html">Nature</a></div>
+    <div></div>
+    <div>Animals</div>
+    <div>Flowers</div>
+    <div>Macro</div>
+    <div>Water Drop</div> 
+   </div> 
+   <div class="col-6 col-md-6 menuGalery menuDark">
+    <div class="title"><a href="./cityscape_galery.html">Cityscape</a></div>
+    <div>Cities</div>
+    <div>Fish Market</div>
+    <div>Traffic</div> 
+   </div> 
+   <div class="col-6 col-md-6 menuGalery menuLight">
+    <div class="title"><a href="./travel_galery.html">Travel</a></div>
+    <div>Switzerland</div>
+    <div>Europe</div>
+    <div>World</div>
+   </div>
+   <div class="col-6 col-md-6 menuGalery menuLight">
+    <div class="title"><a href="./architecture_galery.html">Architecure</a></div>
+    <div>Aarhus</div>
+    <div>Internation Forum Tokyo</div>
+    <div>Train Station Kyoto</div>
+    <div>Law Libary Zurich</div>
+    <div>Cathedrale of Siena</div>
+    <div>Train Station Stadelhofen</div>
+    <div>Sulzer Areal</div>
+   </div>
+  </div>
+ </div>
 </div>
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">

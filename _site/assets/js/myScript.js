@@ -30,13 +30,14 @@ function sizeLightbox() {
  x[0].style.maxWidth = ActMaxImgWidth+"px";
 }
 
-function myToggle() {
- const navs=document.querySelectorAll('.nav-items')
- navs.forEach(nav => nav.classList.toggle('nav-show'));
+// Open Small Screen Modal
+function openMenuModal() {
+  document.getElementById("modalMenuSmall").style.display = "block";
 }
-
-document.querySelector('.nav-toggle')
- .addEventListener('click', myToggle);
+// Close Small Screen Modal
+function closeMenuModal() {
+  document.getElementById("modalMenuSmall").style.display = "none";
+}
 
 // Open the Modal
 function openModal() {
