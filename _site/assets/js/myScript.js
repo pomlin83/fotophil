@@ -33,6 +33,7 @@ function sizeLightbox() {
 // Open Small Screen Modal
 function openMenuModal() {
   document.getElementById("modalMenuSmall").style.display = "block";
+  document.getElementsByClassName("menuGalery")[0].style.display = "none";
 }
 // Close Small Screen Modal
 function closeMenuModal() {
@@ -75,3 +76,11 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   caption[slideIndex-1].style.display = "block";
 }
+
+//open galery sub
+function openGalerySub() {
+  var subMenu = document.getElementsByClassName("menuGalery");
+  var subMenuToggler = document.getElementsByClassName("openSub");
+  if (subMenu[0].style.display === "none" ) { subMenu[0].style.display = "block"; subMenuToggler[0].innerHTML="-"; subMenuToggler[0].style.backgroundColor="rgba(127,127,127,0.8)"; } else { subMenu[0].style.display = "none"; subMenuToggler[0].innerHTML="+"; subMenuToggler[0].style.backgroundColor="inherit"; } 
+  
+}  

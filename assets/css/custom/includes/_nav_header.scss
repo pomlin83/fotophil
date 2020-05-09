@@ -4,7 +4,6 @@
  color: white;
  margin-right: 8px;
  padding: 8px;
- margin:12px 16px 0px 0px;
  vertical-align:middle;
 }
 
@@ -112,7 +111,7 @@
 
 .modalMenuSmall {
    display: none;
-   background-color: rgba(0,0,0,0.9);
+   background-color: rgba(0,0,0,0.8);
    color: white;
    z-index: 1;
    left: 0;
@@ -121,7 +120,7 @@
    height: 100%;
    position: fixed;
    overflow: auto;
-   text-align: center;
+   text-align: left;
    font-size: 28px;
 }
 
@@ -143,28 +142,62 @@
 }
 
 .menuGalery {
-   text-align: center;
-   font-size: 20px;
- }
-
-.menuGalery div {
-   text-align: center;
-   font-size: 20px;
- }
-
-
-.menuLight {
-   color: white;
+   text-align: left;
+   font-size:20px;
+   display:none;
+   margin-left: 16px;
+   margin-right: 16px;
+   margin-top: 8px;
+   padding-left: 16px;
+   background-color:rgba(127,127,127,0.8);
 }
 
-.menuDark {
-   color: white;
-}
-
-.title {
-   text-decoration: underline;
+.menuGaleryTitle {
+   display:flex;
+   justify-content:space-between;
 }
 
 .nav-smmenu {
-   border-bottom: 1px solid white;
+   margin-left: 16px;
+   margin-right: 16px;
 }
+
+.openSub {
+   align-items:flex-end;
+   margin-right: 0px;
+   cursor: pointer;
+   padding-left: 16px;
+   padding-right: 16px;
+}
+
+.subMenuGaleryTitle {
+   display:flex;  
+   justify-content:space-between;
+}  
+
+.openSubSub {
+   align-items:flex-end;
+   margin-right: 0px;
+   cursor: pointer;  
+   padding-left: 16px;
+   padding-right: 16px;
+}
+
+.subsubMenuGalery {
+   margin-left: 16px;
+   background-color:rgba(200,200,200,0.7);
+}
+
+.subsubMenuGaleryTitle {
+   display:flex;
+   justify-content:space-between;
+}    
+
+.openSubSubSub {
+   align-items:flex-end;
+   margin-right: 0px;
+   cursor: pointer;
+   padding-left: 16px;
+   padding-right: 16px;
+}
+
