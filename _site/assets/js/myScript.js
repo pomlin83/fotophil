@@ -33,7 +33,22 @@ function sizeLightbox() {
 // Open Small Screen Modal
 function openMenuModal() {
   document.getElementById("modalMenuSmall").style.display = "block";
+
+  // initialize display value for sub menus since there are coming with "" and not "none"
   document.getElementsByClassName("menuGalery")[0].style.display = "none";
+
+  document.getElementsByClassName("subsubMenuGalery")[0].style.display = "none";
+  document.getElementsByClassName("subsubMenuGalery")[1].style.display = "none";
+  document.getElementsByClassName("subsubMenuGalery")[2].style.display = "none";
+  document.getElementsByClassName("subsubMenuGalery")[3].style.display = "none";
+  document.getElementsByClassName("subsubMenuGalery")[4].style.display = "none";
+
+  document.getElementsByClassName("subsubsubMenuGalery")[0].style.display = "none";
+  document.getElementsByClassName("subsubsubMenuGalery")[1].style.display = "none";
+  document.getElementsByClassName("subsubsubMenuGalery")[2].style.display = "none";
+  document.getElementsByClassName("subsubsubMenuGalery")[3].style.display = "none";
+  document.getElementsByClassName("subsubsubMenuGalery")[4].style.display = "none";
+
 }
 // Close Small Screen Modal
 function closeMenuModal() {
@@ -84,3 +99,20 @@ function openGalerySub() {
   if (subMenu[0].style.display === "none" ) { subMenu[0].style.display = "block"; subMenuToggler[0].innerHTML="-"; subMenuToggler[0].style.backgroundColor="rgba(127,127,127,0.8)"; } else { subMenu[0].style.display = "none"; subMenuToggler[0].innerHTML="+"; subMenuToggler[0].style.backgroundColor="inherit"; } 
   
 }  
+
+//open galery subsubsub
+function openGalerySubSubSub(n) {
+  var subsubsubMenu = document.getElementsByClassName("subsubsubMenuGalery");
+  var subsubsubMenuToggler = document.getElementsByClassName("openSubSubSub");
+  if (subsubsubMenu[n].style.display === "none" ) { subsubsubMenu[n].style.display = "block"; subsubsubMenuToggler[n].innerHTML="-"; subsubsubMenuToggler[n].style.backgroundColor="rgba(127,127,127,0.8)"; } else { subsubsubMenu[n].style.display = "none"; subsubsubMenuToggler[n].innerHTML="+"; subsubsubMenuToggler[n].style.backgroundColor="inherit"; } 
+  
+}  
+
+//open galery subsub
+function openGalerySubSub(n) {
+  var subsubMenu = document.getElementsByClassName("subsubMenuGalery");
+  var subsubMenuToggler = document.getElementsByClassName("openSubSub");
+  if (subsubMenu[n].style.display === "none" ) { subsubMenu[n].style.display = "block"; subsubMenuToggler[n].innerHTML="-"; subsubMenuToggler[n].style.backgroundColor="rgba(127,127,127,0.8)"; } else { subsubMenu[n].style.display = "none"; subsubMenuToggler[n].innerHTML="+"; subsubMenuToggler[n].style.backgroundColor="inherit"; } 
+  
+}  
+

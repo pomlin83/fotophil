@@ -6853,9 +6853,8 @@ img.hover-shadow {
   display: none;
   margin-left: 16px;
   margin-right: 16px;
-  margin-top: 8px;
   padding-left: 16px;
-  background-color: rgba(127, 127, 127, 0.8); }
+  background-color: inherited; }
 
 .menuGaleryTitle {
   display: flex;
@@ -6863,7 +6862,8 @@ img.hover-shadow {
 
 .nav-smmenu {
   margin-left: 16px;
-  margin-right: 16px; }
+  margin-right: 16px;
+  border-bottom: 1px solid grey; }
 
 .openSub {
   align-items: flex-end;
@@ -6874,7 +6874,8 @@ img.hover-shadow {
 
 .subMenuGaleryTitle {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  border-bottom: 1px solid grey; }
 
 .openSubSub {
   align-items: flex-end;
@@ -6885,13 +6886,33 @@ img.hover-shadow {
 
 .subsubMenuGalery {
   margin-left: 16px;
-  background-color: rgba(200, 200, 200, 0.7); }
+  background-color: inherited;
+  font-size: 18px; }
 
 .subsubMenuGaleryTitle {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  border-bottom: 1px solid grey; }
 
 .openSubSubSub {
+  align-items: flex-end;
+  margin-right: 0px;
+  cursor: pointer;
+  padding-left: 16px;
+  padding-right: 16px; }
+
+.subsubsubMenuGalery {
+  margin-left: 16px;
+  display: none;
+  font-size: 16px;
+  background-color: inherited; }
+
+.subsubsubMenuGaleryTitle {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid grey; }
+
+.openSubSubSubSub {
   align-items: flex-end;
   margin-right: 0px;
   cursor: pointer;
