@@ -1,0 +1,28 @@
+# Generation Date: 21.Mai-2020-17:55
+# Author: Philip Omlin
+# Image source:  ./assets/img/galery/Landscape/Switzerland/Foothills_of_the_Alps/
+images:
+ - url: ./assets/img/galery/Landscape/Switzerland/Foothills_of_the_Alps/alpstein.jpg
+   title: Alpstein
+   caption: Alpstein
+   link: ./alpstein_galery.html
+ - url: ./assets/img/galery/Landscape/Switzerland/Foothills_of_the_Alps/gumen.jpg
+   title: Gumen
+   caption: Gumen
+   link: #
+ - url: ./assets/img/galery/Landscape/Switzerland/Foothills_of_the_Alps/huhnerkopf.jpg
+   title: Hühnerkopf
+   caption: Hühnerkopf
+   link: #
+ - url: ./assets/img/galery/Landscape/Switzerland/Foothills_of_the_Alps/legernhutte.jpg
+   title: Legerenhütte
+   caption: Legerenhütte
+   link: #
+ - url: ./assets/img/galery/Landscape/Switzerland/Foothills_of_the_Alps/pizol.jpg
+   title: Pizol
+   caption: Pizol
+   link: #
+ - url: ./assets/img/galery/Landscape/Switzerland/Foothills_of_the_Alps/toggenburg.jpg
+   title: Toggenburg
+   caption: Toggenburg
+   link: #

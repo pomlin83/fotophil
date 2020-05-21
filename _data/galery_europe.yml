@@ -1,0 +1,25 @@
+# Generation Date: 21.Mai-2020-17:10
+# Author: Philip Omlin
+# Image source:  ./assets/img/galery/Landscape/Europe/
+images:
+ - url: ./assets/img/galery/Landscape/Europe/danemark.jpg
+   title: Danemark
+   caption: Danemark
+ - url: ./assets/img/galery/Landscape/Europe/irland.jpg
+   title: Irland
+   caption: Irland
+ - url: ./assets/img/galery/Landscape/Europe/italien.jpg
+   title: Italy
+   caption: Italy
+ - url: ./assets/img/galery/Landscape/Europe/norwegen.jpg
+   title: Norway
+   caption: Norway
+ - url: ./assets/img/galery/Landscape/Europe/portugal.jpg
+   title: Portugal
+   caption: Portugal
+ - url: ./assets/img/galery/Landscape/Europe/slowakei.jpg
+   title: Slovakia
+   caption: Slovakia
+ - url: ./assets/img/galery/Landscape/Europe/tschechien.jpg
+   title: Czech Republic
+   caption: Czech Republic

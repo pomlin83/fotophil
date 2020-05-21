@@ -2,15 +2,72 @@
   margin-left: auto;
   margin-right: auto;
   width: 60%;
-  border: 3px solid #73AD21;
+  margin-top: 16px;
 }
 
+.main_container a {
+  color: black;
+  font-weight: bold;
+}
+
+.main_container a:hover {
+  color: grey;
+}
+
+.container-top img, .container-bottom img {
+  width: 100%;
+}
+
+.col-sm-12, .col-md-12, .col-lg-6, .col-xl-6, .cont {
+  padding: 0px 8px 0px 0px;
+}
+
+.row div:last-child {
+  padding: 0px 0px 0px 8px;
+}
 
 @media only screen and (max-width: 768px) {
  .main_container {
    width: auto;
    margin: 16px 16px 16px 16px;
-   border: 3px solid #73AD21;
+ }
+
+ .col-sm-12, .col-md-12, .col-lg-6, .col-xl-6, .cont {
+  padding: 0px 0px 0px 0px;
+ }
+
+ .row div:last-child {  
+  padding: 0px 0px 0px 0px;
+ }
+}
+
+@media only screen and (max-width: 768px) {
+ .main_container {
+   width: auto;
+   margin: 16px 16px 16px 16px;
+ }
+ 
+ .col-sm-12, .col-md-12, .col-lg-6, .col-xl-6, .cont {
+  padding: 0px 0px 0px 0px;
+ }
+
+ .row div:last-child {
+  padding: 0px 0px 0px 0px;
+ }
+}
+
+@media only screen and (max-width: 992px) {
+ .main_container {
+   width: auto;
+   margin: 16px 16px 16px 16px;
+ }
+ 
+ .col-sm-12, .col-md-12, .col-lg-6, .col-xl-6, .cont {
+  padding: 0px 0px 0px 0px;
+ }
+
+ .row div:last-child {
+  padding: 0px 0px 0px 0px;
  }
 }
 

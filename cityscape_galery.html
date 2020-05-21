@@ -4,7 +4,7 @@ layout: galery_element
 <div class="sub_navi"><a href="./galery.html">Galery</a><span class="icon">></span><a href="./cityscape_galery.html">Cityscape</a></div>
 {% for img in site.data.galery_cityscape.images %}
  <div class="chapter">
-  <a href="#">
+  <a href="{{ img.link }}">
    <div class="caption">{{ img.caption }}</div>
    <img class="pic" src="{{ img.url }}" alt="{{ img.title }}">
   </a>

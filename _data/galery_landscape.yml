@@ -1,16 +1,16 @@
-# Generation Date: 21.Apr-2020-21:32
+# Generation Date: 21.Mai-2020-17:21
 # Author: Philip Omlin
-# Image source:  ./assets/img/galery/landscape
+# Image source:  ./assets/img/galery/Landscape/
 images:
- - url: ./assets/img/galery/landscape_europa.jpg
+ - url: ./assets/img/galery/Landscape/landscape_europa.jpg
    title: Europe
    caption: Europe
-   link: ./switzerland_galery.html
- - url: ./assets/img/galery/landscape_switzerland.jpg
+   link: ./europe_galery.html
+ - url: ./assets/img/galery/Landscape/landscape_switzerland.jpg
    title: Switzerland
    caption: Switzerland
    link: ./switzerland_galery.html
- - url: ./assets/img/galery/landscape_world.jpg
+ - url: ./assets/img/galery/Landscape/landscape_world.jpg
    title: World
    caption: World
-   link: ./switzerland_galery.html
+   link: ./world_galery.html

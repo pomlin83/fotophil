@@ -1,0 +1,52 @@
+# Generation Date: 21.Mai-2020-17:55
+# Author: Philip Omlin
+# Image source:  ./assets/img/galery/Landscape/Switzerland/Central_Switzerland/
+images:
+ - url: ./assets/img/galery/Landscape/Switzerland/Central_Switzerland/brisen.jpg
+   title: Brisen
+   caption: Brisen
+ - url: ./assets/img/galery/Landscape/Switzerland/Central_Switzerland/etzel.jpg
+   title: Etzel
+   caption: Etzel
+ - url: ./assets/img/galery/Landscape/Switzerland/Central_Switzerland/glattigrad.jpg
+   title: Glattigrad
+   caption: Glattigrad
+ - url: ./assets/img/galery/Landscape/Switzerland/Central_Switzerland/hochFulen.jpg
+   title: Hoch Fulen
+   caption: Hoch Fulen
+ - url: ./assets/img/galery/Landscape/Switzerland/Central_Switzerland/lakeOf4Canton.jpg
+   title: LakeOf4Canton
+   caption: Lake of 4 Cantons
+ - url: ./assets/img/galery/Landscape/Switzerland/Central_Switzerland/melchseefrutt.jpg
+   title: Melchseefrutt
+   caption: Melchseefrutt
+ - url: ./assets/img/galery/Landscape/Switzerland/Central_Switzerland/pilatus.jpg
+   title: Pilatus
+   caption: Pilatus
+ - url: ./assets/img/galery/Landscape/Switzerland/Central_Switzerland/realp.jpg
+   title: Realp
+   caption: Realp
+ - url: ./assets/img/galery/Landscape/Switzerland/Central_Switzerland/rigi.jpg
+   title: Rigi
+   caption: Rigi
+ - url: ./assets/img/galery/Landscape/Switzerland/Central_Switzerland/rothenturm.jpg
+   title: Rothenturm
+   caption: Rothenturm
+ - url: ./assets/img/galery/Landscape/Switzerland/Central_Switzerland/rotondo.jpg
+   title: Rotondo
+   caption: Rotondo
+ - url: ./assets/img/galery/Landscape/Switzerland/Central_Switzerland/schrattenfluh.jpg
+   title: Schrattenfluh
+   caption: Schrattenfluh
+ - url: ./assets/img/galery/Landscape/Switzerland/Central_Switzerland/spannort.jpg
+   title: Spannort
+   caption: Spannort
+ - url: ./assets/img/galery/Landscape/Switzerland/Central_Switzerland/stoss.jpg
+   title: Stoss
+   caption: Stoss
+ - url: ./assets/img/galery/Landscape/Switzerland/Central_Switzerland/sursee.jpg
+   title: Sursee
+   caption: Sursee
+ - url: ./assets/img/galery/Landscape/Switzerland/Central_Switzerland/turen.jpg
+   title: Turen
+   caption: Turen

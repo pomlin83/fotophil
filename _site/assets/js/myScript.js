@@ -15,6 +15,24 @@ function myFunction() {
   }
  }	
 }
+ 
+
+function makeActive() {
+ var url = document.URL.split("/")[3];
+ var navLinks = navLinks = document.getElementsByClassName("nav-items nav-right")[0].getElementsByClassName("a-nav");
+ var i = 0;
+ var currentPage = url;
+ for(i;i<navLinks.length;i++){
+  var lb = navLinks[i].href.split("/")[3];
+  if(lb == currentPage) {
+   navLinks[i].className = "active-nav$";
+  }
+ }
+}
+
+window.onload = makeActive();
+
+
 
 function sizeLightbox() {
  var ActImgHeight = window.innerHeight;

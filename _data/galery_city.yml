@@ -1,0 +1,73 @@
+# Generation Date: 21.Mai-2020-16:40
+# Author: Philip Omlin
+# Image source:  ./assets/img/galery/Cityscape/Cities/
+images:
+ - url: ./assets/img/galery/Cityscape/Cities/basel.jpg
+   title: Basel
+   caption: Basel / Switzerland
+ - url: ./assets/img/galery/Cityscape/Cities/Berlin.jpg
+   title: Berlin
+   caption: Berlin / Germany
+ - url: ./assets/img/galery/Cityscape/Cities/Bern.jpg
+   title: Bern
+   caption: Bern / Switzerland
+ - url: ./assets/img/galery/Cityscape/Cities/Boston.jpg
+   title: Boston
+   caption: Boston / USA
+ - url: ./assets/img/galery/Cityscape/Cities/Bristol.jpg
+   title: Bristol
+   caption: Bristol / UK
+ - url: ./assets/img/galery/Cityscape/Cities/chicago.jpg
+   title: Chicago
+   caption: Chicago / USA
+ - url: ./assets/img/galery/Cityscape/Cities/Florenz.jpg
+   title: Florence
+   caption: Florence / Italy
+ - url: ./assets/img/galery/Cityscape/Cities/lisabon.jpg
+   title: Lisabon
+   caption: Lisabon / Portugal
+ - url: ./assets/img/galery/Cityscape/Cities/Luzern.jpg
+   title: Lucerne
+   caption: Lucerne / Switzerland
+ - url: ./assets/img/galery/Cityscape/Cities/Memphis.jpg
+   title: Memphis
+   caption: Memphis / USA
+ - url: ./assets/img/galery/Cityscape/Cities/Milano.JPG
+   title: Milano
+   caption: Milano / Italy
+ - url: ./assets/img/galery/Cityscape/Cities/Montepulciano.jpg
+   title: Montepulciano
+   caption: Montepulciano / Italy
+ - url: ./assets/img/galery/Cityscape/Cities/Mumbai.jpg
+   title: Mumbai
+   caption: Mumbai / India
+ - url: ./assets/img/galery/Cityscape/Cities/NewOrleans.JPG
+   title: New Orleans
+   caption: New Orleans / USA
+ - url: ./assets/img/galery/Cityscape/Cities/NewYork.jpg
+   title: New York
+   caption: New York / USA
+ - url: ./assets/img/galery/Cityscape/Cities/Porto.jpg
+   title: Porto
+   caption: Porto / Portugal
+ - url: ./assets/img/galery/Cityscape/Cities/SanGimignano.jpg
+   title: San Gimignano
+   caption: San Gimignano / Italy
+ - url: ./assets/img/galery/Cityscape/Cities/Siena.jpg
+   title: Siena
+   caption: Siena / Italy
+ - url: ./assets/img/galery/Cityscape/Cities/Strassburg.jpg
+   title: Strassbourg
+   caption: Strassbourg / France
+ - url: ./assets/img/galery/Cityscape/Cities/tokio.jpg
+   title: Tokyo
+   caption: Tokyo / Japan
+ - url: ./assets/img/galery/Cityscape/Cities/Venedig.jpg
+   title: Venice
+   caption: Venice / Italy
+ - url: ./assets/img/galery/Cityscape/Cities/WashingtonDC.jpg
+   title: Washington
+   caption: Washington DC / USA
+ - url: ./assets/img/galery/Cityscape/Cities/zurich.jpg
+   title: Zurich
+   caption: Zurich / Switzerland

@@ -1,0 +1,16 @@
+# Generation Date: 21.Mai-2020-17:55
+# Author: Philip Omlin
+# Image source:  ./assets/img/galery/Landscape/Switzerland/Grison/
+images:
+ - url: ./assets/img/galery/Landscape/Switzerland/Grison/graina.jpg
+   title: Graina
+   caption: Graina
+ - url: ./assets/img/galery/Landscape/Switzerland/Grison/nationalpark.jpg
+   title: Swiss Nationalpark
+   caption: Swiss Nationalpark
+ - url: ./assets/img/galery/Landscape/Switzerland/Grison/oberengadin.jpg
+   title: Oberengadin
+   caption: Oberengadin
+ - url: ./assets/img/galery/Landscape/Switzerland/Grison/schlappintal.jpg
+   title: Schlappintal
+   caption: Schlappintal

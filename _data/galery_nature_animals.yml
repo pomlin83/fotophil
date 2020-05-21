@@ -1,0 +1,34 @@
+# Generation Date: 21.Mai-2020-19:06
+# Author: Philip Omlin
+# Image source:  ./assets/img/galery/Nature/Animals/
+images:
+ - url: ./assets/img/galery/Nature/Animals/apix.jpg
+   title: Ibex
+   caption: Ibex
+ - url: ./assets/img/galery/Nature/Animals/bird.jpg
+   title: Birds
+   caption: Birds
+ - url: ./assets/img/galery/Nature/Animals/camel.jpg
+   title: Camel
+   caption: Camel
+ - url: ./assets/img/galery/Nature/Animals/chamelon.jpg
+   title: Chameleon
+   caption: Chameleon
+ - url: ./assets/img/galery/Nature/Animals/crocodile.jpg
+   title: Crocodile
+   caption: Crocodile
+ - url: ./assets/img/galery/Nature/Animals/fox.jpg
+   title: Fox
+   caption: Fox
+ - url: ./assets/img/galery/Nature/Animals/monkey.jpg
+   title: Monkey
+   caption: Monkey
+ - url: ./assets/img/galery/Nature/Animals/others.jpg
+   title: Others
+   caption: Others
+ - url: ./assets/img/galery/Nature/Animals/sheep.jpg
+   title: Sheep
+   caption: Sheep
+ - url: ./assets/img/galery/Nature/Animals/squirell.jpg
+   title: Squirrel
+   caption: Squirrel

@@ -1,0 +1,28 @@
+# Generation Date: 21.Mai-2020-18:18
+# Author: Philip Omlin
+# Image source:  ./assets/img/galery/Landscape/Switzerland/Swiss_Plateau/
+images:
+ - url: ./assets/img/galery/Landscape/Switzerland/Swiss_Plateau/bodensee.JPG
+   title: Bodensee
+   caption: Bodensee
+ - url: ./assets/img/galery/Landscape/Switzerland/Swiss_Plateau/greifensee.jpg
+   title: Greifensee
+   caption: Greifensee
+ - url: ./assets/img/galery/Landscape/Switzerland/Swiss_Plateau/hornli.jpg
+   title: Hörnli
+   caption: Hörnli
+ - url: ./assets/img/galery/Landscape/Switzerland/Swiss_Plateau/niederholz.jpg
+   title: Niederholz
+   caption: Niederholz
+ - url: ./assets/img/galery/Landscape/Switzerland/Swiss_Plateau/pfaffikerSee.jpg
+   title: Pfaff
+   caption: Pfäffikersee
+ - url: ./assets/img/galery/Landscape/Switzerland/Swiss_Plateau/rheinfall.jpg
+   title: Rhine
+   caption: Rhine Falls
+ - url: ./assets/img/galery/Landscape/Switzerland/Swiss_Plateau/wassertor.jpg
+   title: Wassertor
+   caption: Wassertor
+ - url: ./assets/img/galery/Landscape/Switzerland/Swiss_Plateau/zürichsee.jpg
+   title: LakeZurich
+   caption: Lake of Zurich

@@ -1,0 +1,25 @@
+# Generation Date: 21.Mai-2020-19:00
+# Author: Philip Omlin
+# Image source:  ./assets/img/galery/Nature/
+images:
+ - url: ./assets/img/galery/Nature/4Season
+   title: Architecture
+   caption: Architecture
+ - url: ./assets/img/galery/Nature/Animals
+   title: Architecture
+   caption: Architecture
+ - url: ./assets/img/galery/Nature/nature_4season.jpg
+   title: Architecture
+   caption: Architecture
+ - url: ./assets/img/galery/Nature/nature_animals.jpg
+   title: Architecture
+   caption: Architecture
+ - url: ./assets/img/galery/Nature/nature_flower.jpg
+   title: Architecture
+   caption: Architecture
+ - url: ./assets/img/galery/Nature/nature_makro.jpg
+   title: Architecture
+   caption: Architecture
+ - url: ./assets/img/galery/Nature/nature_tropfen.jpg
+   title: Architecture
+   caption: Architecture

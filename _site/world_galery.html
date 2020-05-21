@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <title>fotophil.ch</title>
+
+  <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+  <body onload="myFunction()" onresize="myFunction()">
+    <!-- NAV -->
+<div class="nav-container">
+  <div class="nav-title">
+   <a href="./index.html">fotophil.ch</a>
+  </div>
+  <div class="nav-menu nav-toggle" onclick="openMenuModal()">
+   <i class="fas fa-bars"></i>
+  </div>
+ <nav class="nav-items nav-right">
+     
+   <div class="nav-menu"> <a href="./about.html" class="a-nav">About</a></div>
+  
+   <div class="nav-menu"> <a href="./galery.html" class="a-nav">Galery</a></div>
+  
+   <div class="nav-menu"> <a href="./inspiration.html" class="a-nav">Inspiration</a></div>
+  
+   <div class="nav-menu"> <a href="./impressum.html" class="a-nav">Impressum</a></div>
+  
+ </nav> 
+</div>
+
+<!-- Modal Window Nav for small screens -->
+<div id="modalMenuSmall" class="modalMenuSmall">
+ <div class="closeModal" onclick="closeMenuModal()">x</div>
+ <div class="noGalery">
+  <div class="nav-smmenu"><a href="./about.html">About</a></div>
+  <div class="nav-smmenu"><a href="./impressum.html">Impressum</a></div>
+  <div class="nav-smmenu"><a href="./inspiration.html">Inspiration</a></div>
+  <div class="nav-smmenu menuGaleryTitle"><a href="./galery.html">Galery</a><div class="openSub" onClick="openGalerySub()">+</div></div>
+ </div>
+ <div class="menuGalery">
+  <div class="subMenuGalery">
+   <div class="subMenuGaleryTitle"><a href="./architecture_galery.html">Architecture</a><div class="openSubSub" onClick="openGalerySubSub(0)">+</div></div>
+   <div class="subsubMenuGalery">
+    <div class="subsubMenuGaleryTitle"><a href="#">Museum of Modern Art Aarhus (ARoS) Danemark</a></div>
+    <div class="subsubMenuGaleryTitle"><a href="#">Basel Architecture</a></div>
+    <div class="subsubMenuGaleryTitle"><a href="#">Chicago Architecture</a></div>
+    <div class="subsubMenuGaleryTitle"><a href="#">International Forum Tokyo</a></div>
+    <div class="subsubMenuGaleryTitle"><a href="#">Temples Japan</a></div>
+    <div class="subsubMenuGaleryTitle"><a href="#">Train Station Kyoto</a></div>
+    <div class="subsubMenuGaleryTitle"><a href="#">New York Architecture</a></div>
+    <div class="subsubMenuGaleryTitle"><a href="#">Libary of Law Zurich</a></div>
+    <div class="subsubMenuGaleryTitle"><a href="#">Train Station Stadelhofen Zurich</a></div>
+    <div class="subsubMenuGaleryTitle"><a href="#">Sulzer Hall 52 Winterthur</a></div>
+    <div class="subsubMenuGaleryTitle"><a href="#">Tokyo Architecture</a></div>
+    <div class="subsubMenuGaleryTitle"><a href="#">Zurich Architecture</a></div>
+   </div>
+  </div>
+  <div class="subMenuGalery">
+   <div class="subMenuGaleryTitle"><a href="./cityscape_galery.html">Cityscape</a><div class="openSubSub" onClick="openGalerySubSub(1)">+</div></div>
+   <div class="subsubMenuGalery">
+    <div class="subsubMenuGaleryTitle"><a href="#">Carneval</a></div>
+    <div class="subsubMenuGaleryTitle"><a href="./city_cityscape_galery.html">Cities</a><div class="openSubSubSub" onClick="openGalerySubSubSub(0)">+</div></div>
+     <div class="subsubsubMenuGalery">
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Basel / Switzerland</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Berlin / Germany</a><div class="openSubSubSubSub"></div></div> 
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Bern / Switzerland</a><div class="openSubSubSubSub"></div></div> 
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Boston / USA</a><div class="openSubSubSubSub"></div></div>   
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Bristol / UK</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Chicago / USA</a><div class="openSubSubSubSub"></div></div>  
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Florence / Italy</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Lisabon / Portugal</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Lucerne / Switzerland</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Memphis / USA</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Milano / Italy</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Montepulciano / Italy</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Mumbai / India</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">New Orleans / USA</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">New York / USA</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Porto / Portugal</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">San Gimignano / Italy</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Siena / Italy</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Strassbourg / France</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Tokyo / Japan</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Venice / Italy</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Washington DC / USA</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Zurich / Switzerland</a><div class="openSubSubSubSub"></div></div>
+     </div>    
+    <div class="subsubMenuGaleryTitle"><a href="#">Fish Market</a></div>
+    <div class="subsubMenuGaleryTitle"><a href="#">Traffic</a></div>
+   </div>
+  </div>
+  <div class="subMenuGalery">
+   <div class="subMenuGaleryTitle"><a href="./landscape_galery.html">Landscape</a><div class="openSubSub" onClick="openGalerySubSub(2)">+</div></div>
+   <div class="subsubMenuGalery">
+    <div class="subsubMenuGaleryTitle"><a href="./europe_galery.html">Europe</a><div class="openSubSubSub" onClick="openGalerySubSubSub(1)">+</div></div>
+     <div class="subsubsubMenuGalery">
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Danemark</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Irland</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Italy</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Norway</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Portugal</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Slovakia</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Czech Republic</a><div class="openSubSubSubSub"></div></div>
+     </div>
+    <div class="subsubMenuGaleryTitle"><a href="./switzerland_galery.html">Switzerland</a><div class="openSubSubSub" onClick="openGalerySubSubSub(2)">+</div></div>
+     <div class="subsubsubMenuGalery">
+      <div class="subsubsubMenuGaleryTitle"><a href="./bern_galery.html">Bern</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="./centralSwitzerland.html">Central Switzerland</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="./foothills_galery.html">Foothills of the Alps</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="./grison_galery.html">Grison</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="./jura_galery.html">Jura</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="./romandie_galery.html">Romandie</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="./swissPlateau_galery.html">Swiss Plateau</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="./ticino_galery.html">Ticino</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="./valais_galery.html">Valais</a><div class="openSubSubSubSub"></div></div>
+     </div>
+    <div class="subsubMenuGaleryTitle"><a href="./world_galery.html">World</a><div class="openSubSubSub" onClick="openGalerySubSubSub(3)">+</div></div>
+     <div class="subsubsubMenuGalery">
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Canada</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Japan</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Morocco</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">USA</a><div class="openSubSubSubSub"></div></div>
+     </div>
+   </div> 
+  </div>
+  <div class="subMenuGalery">
+   <div class="subMenuGaleryTitle"><a href="./nature_galery.html">Nature</a><div class="openSubSub" onClick="openGalerySubSub(3)">+</div></div>
+    <div class="subsubMenuGalery">
+     <div class="subsubMenuGaleryTitle"><a href="./4season_nature_galery.html">4 Seasons</a></div>
+     <div class="subsubMenuGaleryTitle"><a href="./animals_nature_galery.html">Animals</a><div class="openSubSubSub" onClick="openGalerySubSubSub(4)">+</div></div>
+     <div class="subsubsubMenuGalery">
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Ibex</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Birds</a><div class="openSubSubSubSub"></div></div> 
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Camel</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Chameleon</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Crocodile</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Fox</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Monkey</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Others</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Sheep</a><div class="openSubSubSubSub"></div></div>
+      <div class="subsubsubMenuGaleryTitle"><a href="#">Squirrel</a><div class="openSubSubSubSub"></div></div>
+     </div>      
+     <div class="subsubMenuGaleryTitle"><a href="#">Flowers</a></div>
+     <div class="subsubMenuGaleryTitle"><a href="#">Macro Photogrpahy</a></div>
+     <div class="subsubMenuGaleryTitle"><a href="#">Drop Photography</a></div>
+    </div>
+  </div>
+  <div class="subMenuGalery">
+   <div class="subMenuGaleryTitle"><a href="./travel_galery.html">Travel</a><div class="openSubSub" onClick="openGalerySubSub(4)">+</div></div>
+   <div class="subsubMenuGalery">
+    <div class="subsubMenuGaleryTitle"><a href="#">Canada</a></div>
+    <div class="subsubMenuGaleryTitle"><a href="#">Czech Republic</a></div>
+    <div class="subsubMenuGaleryTitle"><a href="#">Danemark</a></div>
+    <div class="subsubMenuGaleryTitle"><a href="#">India</a></div>
+    <div class="subsubMenuGaleryTitle"><a href="#">Ireland</a></div>
+    <div class="subsubMenuGaleryTitle"><a href="#">Italy</a></div>
+    <div class="subsubMenuGaleryTitle"><a href="#">Japan</a></div>
+    <div class="subsubMenuGaleryTitle"><a href="#">Morocco</a></div>
+    <div class="subsubMenuGaleryTitle"><a href="#">Norway</a></div>
+    <div class="subsubMenuGaleryTitle"><a href="#">Portugal</a></div>
+    <div class="subsubMenuGaleryTitle"><a href="#">Slovakia</a></div>
+    <div class="subsubMenuGaleryTitle"><a href="#">Spain</a></div>
+    <div class="subsubMenuGaleryTitle"><a href="#">USA</a></div>
+   </div>   
+  </div>
+ </div>
+</div>
+
+   <div class="main_container_galery">
+    <div class="sub_navi"><a href="./galery.html">Galery</a><span class="icon">></span><a href="./landscape_galery.html">Landscape</a><span class="icon">></span><a href="./world_galery.html">World</a></div>
+
+ <div class="chapter">
+  <a href="">
+   <div class="caption">Canada</div>
+   <img class="pic" src="./assets/img/galery/Landscape/World/canada.jpg" alt="Canada">
+  </a>
+ </div>
+
+ <div class="chapter">
+  <a href="">
+   <div class="caption">Japan</div>
+   <img class="pic" src="./assets/img/galery/Landscape/World/japan.jpg" alt="Japan">
+  </a>
+ </div>
+
+ <div class="chapter">
+  <a href="">
+   <div class="caption">Morocco</div>
+   <img class="pic" src="./assets/img/galery/Landscape/World/marokko.jpg" alt="Morocco">
+  </a>
+ </div>
+
+ <div class="chapter">
+  <a href="">
+   <div class="caption">USA</div>
+   <img class="pic" src="./assets/img/galery/Landscape/World/usa.jpg" alt="USA">
+  </a>
+ </div>
+
+
+</div>
+
+
+   </div>
+    <footer class="footer">
+  <div class="container-footer text-center text-info">
+    <div class="row">
+      <div class="col">
+        
+          <div class="social-links">
+  <a target="_blank" href="https://github.com/someGithubUser">
+    <i class="fab fa-github fa-2x"></i>
+  </a>
+  <a href="mailto:philip.omlin@gmail.com">
+    <i class="fa fa-envelope fa-2x" ></i>
+  </a>
+  <a target="_blank" href="https://twitter.com/someTwitterUser">
+    <i class="fab fa-twitter fa-2x"></i>
+  </a>
+</div>
+
+        
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        All content copyright Philip Omlin  &copy; 2020.
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        All rights reserved.
+      </div>
+    </div>
+  </div>
+</footer>
+	
+<!-- JS -->
+<script src="./assets/js/myScript.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </body>
+</html>

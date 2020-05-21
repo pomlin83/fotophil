@@ -1,16 +1,20 @@
-# Generation Date: 21.Apr-2020-21:55
+# Generation Date: 21.Mai-2020-16:35
 # Author: Philip Omlin
-# Image source:  ./assets/img/galery/cityscape
+# Image source:  ./assets/img/galery/Cityscape/
 images:
- - url: ./assets/img/galery/cityscape_carneval.jpg
+ - url: ./assets/img/galery/Cityscape/cityscape_carneval.jpg
    title: Carneval
    caption: Carneval
- - url: ./assets/img/galery/cityscape_cities.jpg
+   link: #
+ - url: ./assets/img/galery/Cityscape/cityscape_cities.jpg
    title: Cities
    caption: Cities
- - url: ./assets/img/galery/cityscape_Tsukiji Market.jpg
-   title: Fish Market
-   caption: Fish Market
- - url: ./assets/img/galery/cityscape_verkehr.jpg
+   link: ./city_cityscape_galery.html
+ - url: ./assets/img/galery/Cityscape/cityscape_Tsukiji Market.jpg
+   title: Tsukiji Fish Market
+   caption: Tsukiji Fish Market
+   link: #
+ - url: ./assets/img/galery/Cityscape/cityscape_verkehr.jpg
    title: Traffic
    caption: Traffic
+   link: #

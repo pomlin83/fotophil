@@ -1,0 +1,10 @@
+# Generation Date: 21.Mai-2020-17:56
+# Author: Philip Omlin
+# Image source:  ./assets/img/galery/Landscape/Switzerland/Ticino/
+images:
+ - url: ./assets/img/galery/Landscape/Switzerland/Ticino/cristalina.jpg
+   title: Cristalina
+   caption: Cristalina
+ - url: ./assets/img/galery/Landscape/Switzerland/Ticino/verzasca.jpg
+   title: Verzasca
+   caption: Verzasca

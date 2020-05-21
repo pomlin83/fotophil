@@ -6640,13 +6640,54 @@ img.hover-shadow {
   margin-left: auto;
   margin-right: auto;
   width: 60%;
-  border: 3px solid #73AD21; }
+  margin-top: 16px; }
+
+.main_container a {
+  color: black;
+  font-weight: bold; }
+
+.main_container a:hover {
+  color: grey; }
+
+.container-top img, .container-bottom img {
+  width: 100%; }
+
+.col-sm-12, .col-md-12, .col-lg-6, .col-xl-6, .cont {
+  padding: 0px 8px 0px 0px; }
+
+.row div:last-child {
+  padding: 0px 0px 0px 8px; }
 
 @media only screen and (max-width: 768px) {
   .main_container {
     width: auto;
-    margin: 16px 16px 16px 16px;
-    border: 3px solid #73AD21; } }
+    margin: 16px 16px 16px 16px; }
+
+  .col-sm-12, .col-md-12, .col-lg-6, .col-xl-6, .cont {
+    padding: 0px 0px 0px 0px; }
+
+  .row div:last-child {
+    padding: 0px 0px 0px 0px; } }
+@media only screen and (max-width: 768px) {
+  .main_container {
+    width: auto;
+    margin: 16px 16px 16px 16px; }
+
+  .col-sm-12, .col-md-12, .col-lg-6, .col-xl-6, .cont {
+    padding: 0px 0px 0px 0px; }
+
+  .row div:last-child {
+    padding: 0px 0px 0px 0px; } }
+@media only screen and (max-width: 992px) {
+  .main_container {
+    width: auto;
+    margin: 16px 16px 16px 16px; }
+
+  .col-sm-12, .col-md-12, .col-lg-6, .col-xl-6, .cont {
+    padding: 0px 0px 0px 0px; }
+
+  .row div:last-child {
+    padding: 0px 0px 0px 0px; } }
 .main_container_galery {
   margin-left: auto;
   margin-right: auto;
@@ -6742,11 +6783,20 @@ img.hover-shadow {
   text-decoration: none;
   color: white; }
 
+.a-nav {
+  color: orange; }
+
 .nav-menu a:hover {
   display: flex;
   text-decoration: none;
-  color: black;
-  background-color: white; }
+  color: white;
+  padding: 8px;
+  border: 1px solid white; }
+
+.active-nav {
+  color: white;
+  border: 1px solid white;
+  padding: 8px; }
 
 .nav-container {
   background-color: black;
@@ -6813,7 +6863,7 @@ img.hover-shadow {
     display: flex; } }
 @media only screen and (max-width: 1200px) {
   .nav-menu a {
-    margin: 8px 16px 0px 0px; }
+    margin: 0px 16px 0px 0px; }
 
   .nav-title {
     font-size: 36px; }
@@ -6822,7 +6872,7 @@ img.hover-shadow {
     font-size: 28px; } }
 .modalMenuSmall {
   display: none;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: black;
   color: white;
   z-index: 1;
   left: 0;

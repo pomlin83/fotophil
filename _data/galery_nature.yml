@@ -1,19 +1,24 @@
-# Generation Date: 21.Apr-2020-21:41
+# Generation Date: 21.Mai-2020-19:01
 # Author: Philip Omlin
-# Image source:  ./assets/img/galery/nature
+# Image source:  ./assets/img/galery/Nature/
 images:
- - url: ./assets/img/galery/nature_4season.jpg
-   title: 4 Seasons
-   caption: 4 Seasons
- - url: ./assets/img/galery/nature_animals.jpg
+ - url: ./assets/img/galery/Nature/nature_4season.jpg
+   title: 4Seasons
+   caption: The 4 Seasons
+   link: ./4season_nature_galery.html
+ - url: ./assets/img/galery/Nature/nature_animals.jpg
    title: Animals
    caption: Animals
- - url: ./assets/img/galery/nature_flower.jpg
+   link: ./animals_nature_galery.html
+ - url: ./assets/img/galery/Nature/nature_flower.jpg
    title: Flowers
    caption: Flowers
- - url: ./assets/img/galery/nature_makro.jpg
+   link: #
+ - url: ./assets/img/galery/Nature/nature_makro.jpg
    title: Macro Photography
    caption: Macro Photography
- - url: ./assets/img/galery/nature_tropfen.jpg
+   link: #
+ - url: ./assets/img/galery/Nature/nature_tropfen.jpg
    title: Drop Photography
    caption: Drop Photography
+   link: #

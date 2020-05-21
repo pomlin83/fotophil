@@ -12,11 +12,22 @@
  color: white;
 } 
 
+.a-nav {
+ color:orange;
+}
+
 .nav-menu a:hover {
  display: flex;
  text-decoration: none;
- color: black;
- background-color:white;
+ color: white;
+ padding:8px;
+ border: 1px solid white;
+}
+
+.active-nav {
+ color: white;
+ border: 1px solid white;
+ padding: 8px;
 }
 
 
@@ -83,8 +94,6 @@
    background-color:grey;
    margin-right:16px;
  }
-
-
  .nav-toggle {
    align-self: flex-end;
    display: initial;
@@ -99,7 +108,7 @@
 
 @media only screen and (max-width: 1200px) {
  .nav-menu a {
-   margin:8px 16px 0px 0px
+   margin:0px 16px 0px 0px
  }
  .nav-title {
    font-size: 36px;
@@ -111,7 +120,7 @@
 
 .modalMenuSmall {
    display: none;
-   background-color: rgba(0,0,0,0.8);
+   background-color: black;
    color: white;
    z-index: 1;
    left: 0;

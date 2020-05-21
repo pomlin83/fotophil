@@ -1,37 +1,56 @@
-# Generation Date: 21.Apr-2020-21:45
+# Generation Date: 21.Mai-2020-19:23
 # Author: Philip Omlin
-# Image source:  ./assets/img/galery/travel
+# Image source:  ./assets/img/galery/Travel/
 images:
- - url: ./assets/img/galery/travel_danemark.JPG
-   title: Danemark
-   caption: Danemark
- - url: ./assets/img/galery/travel_india.jpg
-   title: India
-   caption: India
- - url: ./assets/img/galery/travel_irland.jpg
-   title: Irland
-   caption: Irland
- - url: ./assets/img/galery/travel_italy.jpg
-   title: Italy
-   caption: Italy
- - url: ./assets/img/galery/travel_japan.jpg
-   title: Japan
-   caption: Japan
- - url: ./assets/img/galery/travel_kanada.jpg
+ - url: ./assets/img/galery/Travel/travel_canada.jpg
    title: Canada
    caption: Canada
- - url: ./assets/img/galery/travel_marokko.jpg
+   link:
+ - url: ./assets/img/galery/Travel/travel_czech.jpg
+   title: Czech Republik
+   caption: Czech Republik
+   link:
+ - url: ./assets/img/galery/Travel/travel_danemark.jpg
+   title: Danemark
+   caption: Danemark
+   link:
+ - url: ./assets/img/galery/Travel/travel_india.jpg
+   title: India
+   caption: India
+   link:
+ - url: ./assets/img/galery/Travel/travel_irland.jpg
+   title: Irland
+   caption: Irland
+   link: #
+ - url: ./assets/img/galery/Travel/travel_italy.jpg
+   title: Italy
+   caption: Italy
+   link: #
+ - url: ./assets/img/galery/Travel/travel_japan.jpg
+   title: Japan
+   caption: Japan
+   link: #
+ - url: ./assets/img/galery/Travel/travel_marokko.jpg
    title: Morocco
    caption: Morocco
- - url: ./assets/img/galery/travel_norwegen.jpg
+   link: #
+ - url: ./assets/img/galery/Travel/travel_norwegen.jpg
    title: Norway
    caption: Norway
- - url: ./assets/img/galery/travel_portugal.jpg
+   link: #
+ - url: ./assets/img/galery/Travel/travel_portugal.jpg
    title: Portugal
    caption: Portugal
- - url: ./assets/img/galery/travel_spain.jpg
+   link: #
+ - url: ./assets/img/galery/Travel/travel_slovakia.jpg
+   title: Slovakia
+   caption: Slovakia
+   link: #
+ - url: ./assets/img/galery/Travel/travel_spain,jpg
    title: Spain
    caption: Spain
- - url: ./assets/img/galery/travel_USA.jpg
+   link: #
+ - url: ./assets/img/galery/Travel/travel_USA.jpg
    title: USA
    caption: USA
+   link: ./usa_travel_galery.html

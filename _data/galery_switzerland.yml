@@ -1,108 +1,40 @@
-# Generation Date: 21.Apr-2020-22:22
+# Generation Date: 21.Mai-2020-17:10
 # Author: Philip Omlin
-# Image source:  ./assets/img/galery/switzerland
+# Image source:  ./assets/img/galery/Landscape/Switzerland/
 images:
- - url: ./assets/img/galery/switzerland_alpstein.jpg
-   title: Architecture
-   caption: Architecture
-   link: alpstein_galery.html
- - url: ./assets/img/galery/switzerland_berneroberland.jpg
-   title: Architecture
-   caption: Architecture
-   link: #
- - url: ./assets/img/galery/switzerland_bodensee.JPG
-   title: Architecture
-   caption: Architecture
-   link: #  
- - url: ./assets/img/galery/switzerland_coldemoss.jpg
-   title: Architecture
-   caption: Architecture
-   link: #
- - url: ./assets/img/galery/switzerland_creuxduvent.jpg
-   title: Architecture
-   caption: Architecture
-   link: #
- - url: ./assets/img/galery/switzerland_cristalina.jpg
-   title: Architecture
-   caption: Architecture
-   link: #
- - url: ./assets/img/galery/switzerland_faulhorn.jpg
-   title: Architecture
-   caption: Architecture
-   link: #
- - url: ./assets/img/galery/switzerland_galtigrad.jpg
-   title: Architecture
-   caption: Architecture
-   link: #
- - url: ./assets/img/galery/switzerland_gumen.jpg
-   title: Architecture
-   caption: Architecture
-   link: #
- - url: ./assets/img/galery/switzerland_hornli.jpg
-   title: Architecture
-   caption: Architecture
-   link: #
- - url: ./assets/img/galery/switzerland_legerenhutte.jpg
-   title: Architecture
-   caption: Architecture
-   link: #
- - url: ./assets/img/galery/switzerland_medelshutte.jpg
-   title: Architecture
-   caption: Architecture
-   link: #
- - url: ./assets/img/galery/switzerland_melchseefrutt.jpg
-   title: Architecture
-   caption: Architecture
-   link: #
- - url: ./assets/img/galery/switzerland_nationalpark.jpg
-   title: Architecture
-   caption: Architecture
-   link: #
- - url: ./assets/img/galery/switzerland_oberengadin.jpg
-   title: Architecture
-   caption: Architecture
-   link: #
- - url: ./assets/img/galery/switzerland_oberwallis.jpg
-   title: Architecture
-   caption: Architecture
-   link: #
- - url: ./assets/img/galery/switzerland_pilatus.jpg
-   title: Architecture
-   caption: Architecture
-   link: #
- - url: ./assets/img/galery/switzerland_pizol.jpg
-   title: Architecture
-   caption: Architecture
-   link: #
- - url: ./assets/img/galery/switzerland_rigi.jpg
-   title: Architecture
-   caption: Architecture
-   link: #
- - url: ./assets/img/galery/switzerland_rothenturm.jpg
-   title: Architecture
-   caption: Architecture
-   link: #
- - url: ./assets/img/galery/switzerland_rotondo.jpg
-   title: Architecture
-   caption: Architecture
-   link: #
- - url: ./assets/img/galery/switzerland_stockhorn.jpg
-   title: Architecture
-   caption: Architecture
-   link: #
- - url: ./assets/img/galery/switzerland_toggenburg.jpg
-   title: Architecture
-   caption: Architecture
-   link: #
- - url: ./assets/img/galery/switzerland_trifft.jpg
-   title: Architecture
-   caption: Architecture
-   link: #
- - url: ./assets/img/galery/switzerland_turen.jpg
-   title: Architecture
-   caption: Architecture
-   link: #
- - url: ./assets/img/galery/switzerland_vierwaldstattersee.jpg
-   title: Architecture
-   caption: Architecture
-   link: #
+ - url: ./assets/img/galery/Landscape/Switzerland/bern.jpg
+   title: Bern
+   caption: Bern
+   link: ./bern_galery.html
+ - url: ./assets/img/galery/Landscape/Switzerland/centralSwitzerland.jpg
+   title: Central Switzerland
+   caption: Central Switzerland
+   link: ./centralSwitzerland_galery.html
+ - url: ./assets/img/galery/Landscape/Switzerland/foothilfOfTheAlps.jpg
+   title: Foothills of the Alps
+   caption: Foothill of the Alps 
+   link: ./foothills_galery.html
+ - url: ./assets/img/galery/Landscape/Switzerland/grison.jpg
+   title: Grison
+   caption: Grison
+   link: ./grison_galery.html
+ - url: ./assets/img/galery/Landscape/Switzerland/jura.jpg
+   title: Jura
+   caption: Jura
+   link: ./jura_galery.html
+ - url: ./assets/img/galery/Landscape/Switzerland/romandie.jpg
+   title: Romandie
+   caption: Romandie
+   link: ./romandie_galery.html
+ - url: ./assets/img/galery/Landscape/Switzerland/swissPlateau.jpg
+   title: Swiss Plateau
+   caption: Swiss Plateau
+   link: ./swissPlateau_galery.html
+ - url: ./assets/img/galery/Landscape/Switzerland/ticino.jpg
+   title: Ticino
+   caption: Ticino
+   link: ./ticino_galery.html
+ - url: ./assets/img/galery/Landscape/Switzerland/valais.jpg
+   title: Valais
+   caption: Valais
+   link: ./valais_galery.html

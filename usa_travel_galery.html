@@ -1,0 +1,18 @@
+---
+layout: galery_element
+---
+<div class="sub_navi"><a href="./galery.html">Galery</a><span class="icon">></span><a href="./architecture_galery.html">Travel</a><span class="icon">></span><a href="./usa_travel_galery.html">USA</a></div>
+<div>
+ <img src=./assets/img/galery/Travel/usa/usa2014.png>
+</div>
+{% for img in site.data.galery_travel_usa.images %}
+ <div class="chapter">
+  <a href="#">
+   <div class="caption">{{ img.caption }}</div>
+   <img class="pic" src="{{ img.url }}" alt="{{ img.title }}">
+  </a>
+ </div>
+{% endfor %}
+
+</div>
+
