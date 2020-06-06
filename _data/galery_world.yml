@@ -5,12 +5,17 @@ images:
  - url: ./assets/img/galery/Landscape/World/canada.jpg
    title: Canada
    caption: Canada
+   link: ./world_galery.html
  - url: ./assets/img/galery/Landscape/World/japan.jpg
    title: Japan
    caption: Japan
+   link: ./world_galery.html
  - url: ./assets/img/galery/Landscape/World/marokko.jpg
    title: Morocco
    caption: Morocco
+   link: ./world_galery.html
  - url: ./assets/img/galery/Landscape/World/usa.jpg
    title: USA
    caption: USA
+   link: ./world_galery.html
+

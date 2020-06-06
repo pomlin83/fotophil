@@ -1,0 +1,15 @@
+---
+layout: galery_element
+---
+<div class="sub_navi"><a href="./galery.html">Galery</a><span class="icon">></span><a href="./landscape_galery.html">Landscape</a><span class="icon">></span><a href="./switzerland_galery.html">Switzerland</a><span class="icon">></span><a href="./switzerland_galery.html">Bern</a></div>
+{% for img in site.data.galery_landscape_bern.images %}
+ <div class="chapter">
+  <a href="{{ img.link }}">
+   <div class="caption">{{ img.caption }}</div>
+   <img class="pic" src="{{ img.url }}" alt="{{ img.title }}">
+  </a>
+ </div>
+{% endfor %}
+
+</div>
+

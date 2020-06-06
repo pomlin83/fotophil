@@ -5,51 +5,51 @@ images:
  - url: ./assets/img/galery/Travel/travel_canada.jpg
    title: Canada
    caption: Canada
-   link:
+   link: ./travel_galery.html
  - url: ./assets/img/galery/Travel/travel_czech.jpg
    title: Czech Republik
    caption: Czech Republik
-   link:
+   link: ./travel_galery.html
  - url: ./assets/img/galery/Travel/travel_danemark.jpg
    title: Danemark
    caption: Danemark
-   link:
+   link: ./travel_galery.html
  - url: ./assets/img/galery/Travel/travel_india.jpg
    title: India
    caption: India
-   link:
+   link: ./travel_galery.html
  - url: ./assets/img/galery/Travel/travel_irland.jpg
    title: Irland
    caption: Irland
-   link: #
+   link: ./travel_galery.html
  - url: ./assets/img/galery/Travel/travel_italy.jpg
    title: Italy
    caption: Italy
-   link: #
+   link: ./travel_galery.html
  - url: ./assets/img/galery/Travel/travel_japan.jpg
    title: Japan
    caption: Japan
-   link: #
+   link: ./travel_galery.html
  - url: ./assets/img/galery/Travel/travel_marokko.jpg
    title: Morocco
    caption: Morocco
-   link: #
+   link: ./travel_galery.html
  - url: ./assets/img/galery/Travel/travel_norwegen.jpg
    title: Norway
    caption: Norway
-   link: #
+   link: ./travel_galery.html
  - url: ./assets/img/galery/Travel/travel_portugal.jpg
    title: Portugal
    caption: Portugal
-   link: #
+   link: ./travel_galery.html
  - url: ./assets/img/galery/Travel/travel_slovakia.jpg
    title: Slovakia
    caption: Slovakia
-   link: #
+   link: ./travel_galery.html
  - url: ./assets/img/galery/Travel/travel_spain,jpg
    title: Spain
    caption: Spain
-   link: #
+   link: ./travel_galery.html
  - url: ./assets/img/galery/Travel/travel_USA.jpg
    title: USA
    caption: USA

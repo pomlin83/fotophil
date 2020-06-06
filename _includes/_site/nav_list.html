@@ -1,14 +1,137 @@
 <!-- NAV -->
 <div class="nav-container">
-  <div class="nav-title nav-menu">
-   {{ site.title }}
+  <div class="nav-title">
+   <a href="./index.html">{{ site.title }}</a>
   </div>
-  <div class="nav-menu nav-toggle">
+  <div class="nav-menu nav-toggle" onclick="openMenuModal()">
    <i class="fas fa-bars"></i>
   </div>
  <nav class="nav-items nav-right">
      {% for item in site.data.navigation.menu %}
-   <div class="nav-menu"> <a href="{{ item.url }}">{{ item.name }}</a></div>
+     {% if item.name == 'Galery' %}
+      <div class="nav-menu"><a href="{{ item.url }}" class="a-nav">{{ item.name }}</a><div class="opener" onClick="openMenuGaleryModal()">+</div></div>
+     {% else %}
+      <div class="nav-menu"> <a href="{{ item.url }}" class="a-nav">{{ item.name }}</a></div>
+     {% endif %}
   {% endfor %}
  </nav> 
 </div>
+
+<!-- Modal Window Nav for small screens -->
+<div id="modalMenuSmall" class="modalMenuSmall">
+ <div class="closeModal" onclick="closeMenuModal()">x</div>
+ <div class="noGalery">
+  <div class="nav-smmenu"><a href="./about.html">About</a></div>
+  <div class="nav-smmenu"><a href="./impressum.html">Impressum</a></div>
+  <div class="nav-smmenu"><a href="./inspiration.html">Inspiration</a></div>
+  <div class="nav-smmenu menuGaleryTitle"><a href="./galery.html">Galery</a><div class="openSub" onClick="openGalerySub()">+</div></div>
+ </div>
+ <div class="menuGalery">
+  <div class="subMenuGalery">
+   <div class="subMenuGaleryTitle"><a href="./architecture_galery.html">Architecture</a><div class="openSubSub" onClick="openGalerySubSub(0)">+</div></div>
+   <div class="subsubMenuGalery">
+   {% for item in site.data.galery_architecture.images %}
+    <div class="subsubMenuGaleryTitle"><a href="{{ item.link }}">{{ item.caption }}</a></div>
+   {% endfor %}
+   </div>
+  </div>
+  <div class="subMenuGalery">
+   <div class="subMenuGaleryTitle"><a href="./cityscape_galery.html">Cityscape</a><div class="openSubSub" onClick="openGalerySubSub(1)">+</div></div>
+   <div class="subsubMenuGalery">
+    <div class="subsubMenuGaleryTitle"><a href="./cityscape_galery.html">Carneval</a></div>
+    <div class="subsubMenuGaleryTitle"><a href="./city_cityscape_galery.html">Cities</a><div class="openSubSubSub" onClick="openGalerySubSubSub(0)">+</div></div>
+     <div class="subsubsubMenuGalery">
+     {% for item in site.data.galery_city.images %}
+      <div class="subsubsubMenuGaleryTitle"><a href="{{ item.link }}">{{ item.caption }}</a><div class="openSubSubSubSub"></div></div>
+     {% endfor %}
+     </div>    
+    <div class="subsubMenuGaleryTitle"><a href="./cityscape_galery.html">Fish Market</a></div>
+    <div class="subsubMenuGaleryTitle"><a href="./cityscape_gelery.html">Traffic</a></div>
+   </div>
+  </div>
+  <div class="subMenuGalery">
+   <div class="subMenuGaleryTitle"><a href="./landscape_galery.html">Landscape</a><div class="openSubSub" onClick="openGalerySubSub(2)">+</div></div>
+   <div class="subsubMenuGalery">
+    <div class="subsubMenuGaleryTitle"><a href="./europe_galery.html">Europe</a><div class="openSubSubSub" onClick="openGalerySubSubSub(1)">+</div></div>
+     <div class="subsubsubMenuGalery">
+     {% for item in site.data.galery_europe.images %}
+      <div class="subsubsubMenuGaleryTitle"><a href="{{ item.link }}">{{ item.caption }}</a><div class="openSubSubSubSub"></div></div>
+     {% endfor %}
+     </div>
+    <div class="subsubMenuGaleryTitle"><a href="./switzerland_galery.html">Switzerland</a><div class="openSubSubSub" onClick="openGalerySubSubSub(2)">+</div></div>
+     <div class="subsubsubMenuGalery">
+     {% for item in site.data.galery_switzerland.images %}
+      <div class="subsubsubMenuGaleryTitle"><a href="{{ item.link }}">{{ item.caption }}</a><div class="openSubSubSubSub"></div></div>
+     {% endfor %}
+     </div>
+    <div class="subsubMenuGaleryTitle"><a href="./world_galery.html">World</a><div class="openSubSubSub" onClick="openGalerySubSubSub(3)">+</div></div>
+     <div class="subsubsubMenuGalery">
+     {% for item in site.data.galery_world.images %}
+      <div class="subsubsubMenuGaleryTitle"><a href="{{ item.link }}">{{ item.caption }}</a><div class="openSubSubSubSub"></div></div>
+     {% endfor %}
+     </div>
+   </div> 
+  </div>
+  <div class="subMenuGalery">
+   <div class="subMenuGaleryTitle"><a href="./nature_galery.html">Nature</a><div class="openSubSub" onClick="openGalerySubSub(3)">+</div></div>
+    <div class="subsubMenuGalery">
+     <div class="subsubMenuGaleryTitle"><a href="./4season_nature_galery.html">4 Seasons</a><div class="openSubSubSub" onClick="openGalerySubSubSub(4)">+</div></div>
+      <div class="subsubsubMenuGalery">
+      {% for item in site.data.galery_nature_4season.images %}
+       <div class="subsubsubMenuGaleryTitle"><a href="{{ item.link }}">{{ item.caption }}</a><div class="openSubSubSubSub"></div></div>
+      {% endfor %}
+      </div>      
+     <div class="subsubMenuGaleryTitle"><a href="./animals_nature_galery.html">Animals</a><div class="openSubSubSub" onClick="openGalerySubSubSub(5)">+</div></div>
+      <div class="subsubsubMenuGalery">
+      {% for item in site.data.galery_nature_animals.images %}
+       <div class="subsubsubMenuGaleryTitle"><a href="{{ item.link }}">{{ item.caption }}</a><div class="openSubSubSubSub"></div></div>
+      {% endfor %}
+      </div>      
+     <div class="subsubMenuGaleryTitle"><a href="#">Flowers</a></div>
+     <div class="subsubMenuGaleryTitle"><a href="#">Macro Photogrpahy</a></div>
+     <div class="subsubMenuGaleryTitle"><a href="#">Drop Photography</a></div>
+    </div>
+  </div>
+  <div class="subMenuGalery">
+   <div class="subMenuGaleryTitle"><a href="./travel_galery.html">Travel</a><div class="openSubSub" onClick="openGalerySubSub(4)">+</div></div>
+   <div class="subsubMenuGalery">
+    {% for item in site.data.galery_travel.images %}
+    <div class="subsubMenuGaleryTitle"><a href="{{ item.link }}">{{ item.caption }}</a></div>
+    {% endfor %}
+   </div>   
+  </div>
+ </div>
+</div>
+
+<!-- Modal Window Nav for Galery Menu for normal screens -->
+<div class="modalMenuGalery">
+ <div class="closeModal" onClick="closeMenuGaleryModal()">x</div>
+  <div class="navNormalGalery">
+   {% for item in site.data.galery_test.images %}
+   {% assign outer_forloop = forloop %}
+    <div class="navNormalTitle"><a href="{{ item.link }}">{{ item.caption }}</a><div class="mainPlus">+{{ outer_forloop.index }}</div></div>
+     <div class="navNormalGalerySub">
+      {% for entry in item.subitems %}
+      {% case entry.caption %}
+       {% when 'Cities' %}{% assign i = 1 %}
+       {% when 'Europe' %}{% assign i = 2 %}
+       {% when 'Switzerland' %}{% assign i = 3 %}
+       {% when 'World' %}{% assign i = 4 %}
+       {% when '4season' %}{% assign i = 5 %}
+       {% when 'Animals' %}{% assign i = 6 %}
+       {% else %}{% assign i = 7 %}
+      {% endcase %}
+       <div class="navNormalTitleSub"><a href="{{ entry.link }}">{{ entry.caption }}</a>{% if entry.subsubitems[0] %}<div class="mainPlusSub">+{{ i }}</div>{% endif %}</div>
+       {% if entry.subsubitems[0] %}
+        <div class="navNormalGalerySubSub">
+         {% for token in entry.subsubitems %}
+         <div class="navNormalTitleSubSub"><a href="{{ token.link }}">{{ token.caption }}</a></div>
+         {% endfor %}
+        </div>
+       {% endif %}
+      {% endfor %}
+     </div>
+   {% endfor %}
+  </div>
+</div>
+

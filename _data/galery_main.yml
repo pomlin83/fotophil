@@ -1,0 +1,24 @@
+# Generation Date: 02.Jun-2020-23:23
+# Author: Philip Omlin
+# Image source:  ./assets/img/galery/
+images:
+ - url: ./assets/img/galery/architecture_main.jpg
+   title: Architecture
+   caption: Architecture
+   link: 
+ - url: ./assets/img/galery/cityscape_main.jpg
+   title: Cityscape
+   caption: Cityscape
+   link: 
+ - url: ./assets/img/galery/landscape_main.jpg
+   title: Landscape
+   caption: Landscape
+   link: 
+ - url: ./assets/img/galery/nature_main.jpg
+   title: Nature
+   caption: Nature
+   link: 
+ - url: ./assets/img/galery/travel_main.jpg
+   title: Travel
+   caption: Travel
+   link: 

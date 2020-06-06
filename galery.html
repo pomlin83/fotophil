@@ -1,5 +1,18 @@
 ---
-layout: galery
+layout: galery_element
 ---
-<h1>Galery</h1>
-
+{% include nav_list.html title='Galery' %}
+<div class="main_container_galery">
+ <div class="container galery" onresize="adjustCaption()" onload="adjustCaption()">
+  <div class="chapter row">
+  {% for img in site.data.galery_test.images %}
+     <div class="col-sm-12 col-md-12 col-lg-6 col-xl-4 elem">
+     <a href="{{ img.link }}">
+      <div class="caption">{{ img.caption }}</div>
+      <img class="pic" src="{{ img.url }}" alt="{{ img.title }}">
+     </a>
+     </div>
+  {% endfor %}
+  </div>
+ </div>
+</div>

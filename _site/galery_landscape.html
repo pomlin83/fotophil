@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <title>fotophil.ch</title>
+
+  <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+  <body onload="myFunction()" onresize="myFunction()">
+    <!-- NAV -->
+<div class="main_nav">
+ <div class="nav-container">
+  <div class="nav-title">
+   <a href="./index.html">fotophil.ch</a>
+  </div>
+  <div class="nav-menu nav-toggle" onclick="openMenuModal()">
+   <i class="fas fa-bars"></i>
+  </div>
+  <nav class="nav-items nav-right">
+     
+     
+      <div class="nav-menu"> <a href="./about.html" class="a-nav">About</a></div>
+     
+   
+     
+      <div class="nav-menu"><a href="./galery.html" class="a-nav">Galery</a><div class="opener" onClick="openMenuGaleryModal()">+</div></div>
+     
+   
+     
+      <div class="nav-menu"> <a href="./inspiration.html" class="a-nav">Inspiration</a></div>
+     
+   
+     
+      <div class="nav-menu"> <a href="./impressum.html" class="a-nav">Impressum</a></div>
+     
+   
+  </nav>
+  </div>
+ <div class="page_title">Landscape</div> 
+</div>
+
+<!-- Modal Window Nav for small screens -->
+<div id="modalMenuSmall" class="modalMenuSmall">
+ <div class="closeModal" onclick="closeMenuModal()">x</div>
+ <div class="noGalery">
+  <div class="nav-smmenu"><a href="./about.html">About</a></div>
+  <div class="nav-smmenu"><a href="./impressum.html">Impressum</a></div>
+  <div class="nav-smmenu"><a href="./inspiration.html">Inspiration</a></div>
+  <div class="nav-smmenu menuGaleryTitle"><a href="./galery.html">Galery</a><div class="openSub" onClick="openGalerySub()">+</div></div>
+ </div>
+ <div class="menuGalery">
+  <div class="subMenuGalery">
+   <div class="subMenuGaleryTitle"><a href="./architecture_galery.html">Architecture</a><div class="openSubSub" onClick="openGalerySubSub(0)">+</div></div>
+   <div class="subsubMenuGalery">
+   
+    <div class="subsubMenuGaleryTitle"><a href="">BaselArchitecture</a></div>
+   
+    <div class="subsubMenuGaleryTitle"><a href="">ChicagoArchitecture</a></div>
+   
+    <div class="subsubMenuGaleryTitle"><a href="">InternationalForumTokyo</a></div>
+   
+    <div class="subsubMenuGaleryTitle"><a href="">LibaryofLawZurich</a></div>
+   
+    <div class="subsubMenuGaleryTitle"><a href="">MuseumofModernArtAarhus</a></div>
+   
+    <div class="subsubMenuGaleryTitle"><a href="">NewyorkArchitecture</a></div>
+   
+    <div class="subsubMenuGaleryTitle"><a href="">SulzerHall52Winterthur</a></div>
+   
+    <div class="subsubMenuGaleryTitle"><a href="">TemplesJapan</a></div>
+   
+    <div class="subsubMenuGaleryTitle"><a href="">TokyoArchitecture</a></div>
+   
+    <div class="subsubMenuGaleryTitle"><a href="">TrainStationKyoto</a></div>
+   
+    <div class="subsubMenuGaleryTitle"><a href="">TrainstationStadelhofen</a></div>
+   
+   </div>
+  </div>
+  <div class="subMenuGalery">
+   <div class="subMenuGaleryTitle"><a href="./cityscape_galery.html">Cityscape</a><div class="openSubSub" onClick="openGalerySubSub(1)">+</div></div>
+   <div class="subsubMenuGalery">
+    <div class="subsubMenuGaleryTitle"><a href="./cityscape_galery.html">Carneval</a></div>
+    <div class="subsubMenuGaleryTitle"><a href="./city_cityscape_galery.html">Cities</a><div class="openSubSubSub" onClick="openGalerySubSubSub(0)">+</div></div>
+     <div class="subsubsubMenuGalery">
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./city_cityscape_galery.html">Basel / Switzerland</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./city_cityscape_galery.html">Berlin / Germany</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./city_cityscape_galery.html">Bern / Switzerland</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./city_cityscape_galery.html">Boston / USA</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./city_cityscape_galery.html">Bristol / UK</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./city_cityscape_galery.html">Chicago / USA</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./city_cityscape_galery.html">Florence / Italy</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./city_cityscape_galery.html">Lisabon / Portugal</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./city_cityscape_galery.html">Lucerne / Switzerland</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./city_cityscape_galery.html">Memphis / USA</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./city_cityscape_galery.html">Milano / Italy</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./city_cityscape_galery.html">Montepulciano / Italy</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./city_cityscape_galery.html">Mumbai / India</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./city_cityscape_galery.html">New Orleans / USA</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./city_cityscape_galery.html">New York / USA</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./city_cityscape_galery.html">Porto / Portugal</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./city_cityscape_galery.html">San Gimignano / Italy</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./city_cityscape_galery.html">Siena / Italy</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./city_cityscape_galery.html">Strassbourg / France</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./city_cityscape_galery.html">Tokyo / Japan</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./city_cityscape_galery.html">Venice / Italy</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./city_cityscape_galery.html">Washington DC / USA</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./city_cityscape_galery.html">Zurich / Switzerland</a><div class="openSubSubSubSub"></div></div>
+     
+     </div>    
+    <div class="subsubMenuGaleryTitle"><a href="./cityscape_galery.html">Fish Market</a></div>
+    <div class="subsubMenuGaleryTitle"><a href="./cityscape_gelery.html">Traffic</a></div>
+   </div>
+  </div>
+  <div class="subMenuGalery">
+   <div class="subMenuGaleryTitle"><a href="./landscape_galery.html">Landscape</a><div class="openSubSub" onClick="openGalerySubSub(2)">+</div></div>
+   <div class="subsubMenuGalery">
+    <div class="subsubMenuGaleryTitle"><a href="./europe_galery.html">Europe</a><div class="openSubSubSub" onClick="openGalerySubSubSub(1)">+</div></div>
+     <div class="subsubsubMenuGalery">
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./europe_galery.html">Danemark</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./europe_galery.html">Irland</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./europe_galery.html">Italy</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./europe_galery.html">Norway</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./europe_galery.html">Portugal</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./europe_galery.html">Slovakia</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./europe_galery.html">Czech Republic</a><div class="openSubSubSubSub"></div></div>
+     
+     </div>
+    <div class="subsubMenuGaleryTitle"><a href="./switzerland_galery.html">Switzerland</a><div class="openSubSubSub" onClick="openGalerySubSubSub(2)">+</div></div>
+     <div class="subsubsubMenuGalery">
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./bern_galery.html">Bern</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./centralSwitzerland_galery.html">Central Switzerland</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./foothills_galery.html">Foothill of the Alps</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./grison_galery.html">Grison</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./jura_galery.html">Jura</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./romandie_galery.html">Romandie</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./swissPlateau_galery.html">Swiss Plateau</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./ticino_galery.html">Ticino</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./valais_galery.html">Valais</a><div class="openSubSubSubSub"></div></div>
+     
+     </div>
+    <div class="subsubMenuGaleryTitle"><a href="./world_galery.html">World</a><div class="openSubSubSub" onClick="openGalerySubSubSub(3)">+</div></div>
+     <div class="subsubsubMenuGalery">
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./world_galery.html">Canada</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./world_galery.html">Japan</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./world_galery.html">Morocco</a><div class="openSubSubSubSub"></div></div>
+     
+      <div class="subsubsubMenuGaleryTitle"><a href="./world_galery.html">USA</a><div class="openSubSubSubSub"></div></div>
+     
+     </div>
+   </div> 
+  </div>
+  <div class="subMenuGalery">
+   <div class="subMenuGaleryTitle"><a href="./nature_galery.html">Nature</a><div class="openSubSub" onClick="openGalerySubSub(3)">+</div></div>
+    <div class="subsubMenuGalery">
+     <div class="subsubMenuGaleryTitle"><a href="./4season_nature_galery.html">4 Seasons</a><div class="openSubSubSub" onClick="openGalerySubSubSub(4)">+</div></div>
+      <div class="subsubsubMenuGalery">
+      
+       <div class="subsubsubMenuGaleryTitle"><a href="./4season_nature_galery.html">Autumn</a><div class="openSubSubSubSub"></div></div>
+      
+       <div class="subsubsubMenuGaleryTitle"><a href="./4season_nature_galery.html">Sommer</a><div class="openSubSubSubSub"></div></div>
+      
+       <div class="subsubsubMenuGaleryTitle"><a href="./4season_nature_galery.html">Spring</a><div class="openSubSubSubSub"></div></div>
+      
+       <div class="subsubsubMenuGaleryTitle"><a href="./4season_nature_galery.html">Winter</a><div class="openSubSubSubSub"></div></div>
+      
+      </div>      
+     <div class="subsubMenuGaleryTitle"><a href="./animals_nature_galery.html">Animals</a><div class="openSubSubSub" onClick="openGalerySubSubSub(5)">+</div></div>
+      <div class="subsubsubMenuGalery">
+      
+       <div class="subsubsubMenuGaleryTitle"><a href="./animals_nature_galery.html">Ibex</a><div class="openSubSubSubSub"></div></div>
+      
+       <div class="subsubsubMenuGaleryTitle"><a href="./animals_nature_galery.html">Birds</a><div class="openSubSubSubSub"></div></div>
+      
+       <div class="subsubsubMenuGaleryTitle"><a href="./animals_nature_galery.html">Camel</a><div class="openSubSubSubSub"></div></div>
+      
+       <div class="subsubsubMenuGaleryTitle"><a href="./animals_nature_galery.html">Chameleon</a><div class="openSubSubSubSub"></div></div>
+      
+       <div class="subsubsubMenuGaleryTitle"><a href="./animals_nature_galery.html">Crocodile</a><div class="openSubSubSubSub"></div></div>
+      
+       <div class="subsubsubMenuGaleryTitle"><a href="./animals_nature_galery.html">Fox</a><div class="openSubSubSubSub"></div></div>
+      
+       <div class="subsubsubMenuGaleryTitle"><a href="./animals_nature_galery.html">Monkey</a><div class="openSubSubSubSub"></div></div>
+      
+       <div class="subsubsubMenuGaleryTitle"><a href="./animals_nature_galery.html">Others</a><div class="openSubSubSubSub"></div></div>
+      
+       <div class="subsubsubMenuGaleryTitle"><a href="./animals_nature_galery.html">Sheep</a><div class="openSubSubSubSub"></div></div>
+      
+       <div class="subsubsubMenuGaleryTitle"><a href="./animals_nature_galery.html">Squirrel</a><div class="openSubSubSubSub"></div></div>
+      
+      </div>      
+     <div class="subsubMenuGaleryTitle"><a href="#">Flowers</a></div>
+     <div class="subsubMenuGaleryTitle"><a href="#">Macro Photogrpahy</a></div>
+     <div class="subsubMenuGaleryTitle"><a href="#">Drop Photography</a></div>
+    </div>
+  </div>
+  <div class="subMenuGalery">
+   <div class="subMenuGaleryTitle"><a href="./travel_galery.html">Travel</a><div class="openSubSub" onClick="openGalerySubSub(4)">+</div></div>
+   <div class="subsubMenuGalery">
+    
+    <div class="subsubMenuGaleryTitle"><a href="./travel_galery.html">Canada</a></div>
+    
+    <div class="subsubMenuGaleryTitle"><a href="./travel_galery.html">Czech Republik</a></div>
+    
+    <div class="subsubMenuGaleryTitle"><a href="./travel_galery.html">Danemark</a></div>
+    
+    <div class="subsubMenuGaleryTitle"><a href="./travel_galery.html">India</a></div>
+    
+    <div class="subsubMenuGaleryTitle"><a href="./travel_galery.html">Irland</a></div>
+    
+    <div class="subsubMenuGaleryTitle"><a href="./travel_galery.html">Italy</a></div>
+    
+    <div class="subsubMenuGaleryTitle"><a href="./travel_galery.html">Japan</a></div>
+    
+    <div class="subsubMenuGaleryTitle"><a href="./travel_galery.html">Morocco</a></div>
+    
+    <div class="subsubMenuGaleryTitle"><a href="./travel_galery.html">Norway</a></div>
+    
+    <div class="subsubMenuGaleryTitle"><a href="./travel_galery.html">Portugal</a></div>
+    
+    <div class="subsubMenuGaleryTitle"><a href="./travel_galery.html">Slovakia</a></div>
+    
+    <div class="subsubMenuGaleryTitle"><a href="./travel_galery.html">Spain</a></div>
+    
+    <div class="subsubMenuGaleryTitle"><a href="./usa_travel_galery.html">USA</a></div>
+    
+   </div>   
+  </div>
+ </div>
+</div>
+
+<!-- Modal Window Nav for Galery Menu for normal screens -->
+<div class="modalMenuGalery">
+ <div class="closeModal" onClick="closeMenuGaleryModal()">x</div>
+  <div class="navNormalGalery">
+   
+   
+    <div class="navNormalTitle"><a href="./galery_architecture.html">Architecture</a><div class="mainPlus">+1</div></div>
+     <div class="navNormalGalerySub">
+        
+       <div class="navNormalTitleSub"><a href="./galery_architecture_baselArchitecture.html">BaselArchitecture</a></div>
+       
+        
+       <div class="navNormalTitleSub"><a href="./galery_architecture_chicagoArchitecture.html">ChicagoArchitecture</a></div>
+       
+        
+       <div class="navNormalTitleSub"><a href="./galery_architecture_internationalForumTokyo.html">InternationalForumTokyo</a></div>
+       
+        
+       <div class="navNormalTitleSub"><a href="./galery_architecture_libaryofLawZurich.html">LibaryofLawZurich</a></div>
+       
+        
+       <div class="navNormalTitleSub"><a href="./galery_architecture_museumofModernArtAarhus.html">MuseumofModernArtAarhus</a></div>
+       
+        
+       <div class="navNormalTitleSub"><a href="./galery_architecture_newyorkArchitecture.html">NewyorkArchitecture</a></div>
+       
+        
+       <div class="navNormalTitleSub"><a href="./galery_architecture_sulzerHall52Winterthur.html">SulzerHall52Winterthur</a></div>
+       
+        
+       <div class="navNormalTitleSub"><a href="./galery_architecture_templesJapan.html">TemplesJapan</a></div>
+       
+        
+       <div class="navNormalTitleSub"><a href="./galery_architecture_tokyoArchitecture.html">TokyoArchitecture</a></div>
+       
+        
+       <div class="navNormalTitleSub"><a href="./galery_architecture_trainStationKyoto.html">TrainStationKyoto</a></div>
+       
+        
+       <div class="navNormalTitleSub"><a href="./galery_architecture_trainstationStadelhofen.html">TrainstationStadelhofen</a></div>
+       
+      
+     </div>
+   
+   
+    <div class="navNormalTitle"><a href="./galery_cityscape.html">Cityscape</a><div class="mainPlus">+2</div></div>
+     <div class="navNormalGalerySub">
+        
+       <div class="navNormalTitleSub"><a href="./galery_cityscape_carneval.html">Carneval</a></div>
+       
+        
+       <div class="navNormalTitleSub"><a href="./galery_cityscape_cities.html">Cities</a><div class="mainPlusSub">+1</div></div>
+       
+        <div class="navNormalGalerySubSub">
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_cityscape_cities_basel.html">Basel</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_cityscape_cities_Berlin.html">Berlin</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_cityscape_cities_Bern.html">Bern</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_cityscape_cities_Boston.html">Boston</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_cityscape_cities_Bristol.html">Bristol</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_cityscape_cities_chicago.html">Chicago</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_cityscape_cities_Florenz.html">Florenz</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_cityscape_cities_lisabon.html">Lisabon</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_cityscape_cities_Luzern.html">Luzern</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_cityscape_cities_Memphis.html">Memphis</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_cityscape_cities_Montepulciano.html">Montepulciano</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_cityscape_cities_Mumbai.html">Mumbai</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_cityscape_cities_NewYork.html">NewYork</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_cityscape_cities_Porto.html">Porto</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_cityscape_cities_SanGimignano.html">SanGimignano</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_cityscape_cities_Siena.html">Siena</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_cityscape_cities_Strassburg.html">Strassburg</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_cityscape_cities_tokio.html">Tokio</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_cityscape_cities_Venedig.html">Venedig</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_cityscape_cities_WashingtonDC.html">WashingtonDC</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_cityscape_cities_zurich.html">Zurich</a></div>
+         
+        </div>
+       
+        
+       <div class="navNormalTitleSub"><a href="./galery_cityscape_Market.html">Market</a></div>
+       
+        
+       <div class="navNormalTitleSub"><a href="./galery_cityscape_traffic.html">Traffic</a></div>
+       
+      
+     </div>
+   
+   
+    <div class="navNormalTitle"><a href="./galery_landscape.html">Landscape</a><div class="mainPlus">+3</div></div>
+     <div class="navNormalGalerySub">
+        
+       <div class="navNormalTitleSub"><a href="./galery_landscape_europe.html">Europe</a><div class="mainPlusSub">+2</div></div>
+       
+        <div class="navNormalGalerySubSub">
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_landscape_europe_czechRepublic.html">CzechRepublic</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_landscape_europe_danemark.html">Danemark</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_landscape_europe_irland.html">Irland</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_landscape_europe_italien.html">Italien</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_landscape_europe_norwegen.html">Norwegen</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_landscape_europe_portugal.html">Portugal</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_landscape_europe_slowakei.html">Slowakei</a></div>
+         
+        </div>
+       
+        
+       <div class="navNormalTitleSub"><a href="./galery_landscape_switzerland.html">Switzerland</a><div class="mainPlusSub">+3</div></div>
+       
+        <div class="navNormalGalerySubSub">
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_landscape_switzerland_bern.html">Bern</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_landscape_switzerland_centralSwitzerland.html">CentralSwitzerland</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_landscape_switzerland_foothillsOfTheAlps.html">FoothillsOfTheAlps</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_landscape_switzerland_grison.html">Grison</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_landscape_switzerland_jura.html">Jura</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_landscape_switzerland_romandie.html">Romandie</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_landscape_switzerland_swissPlateau.html">SwissPlateau</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_landscape_switzerland_ticino.html">Ticino</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_landscape_switzerland_valais.html">Valais</a></div>
+         
+        </div>
+       
+        
+       <div class="navNormalTitleSub"><a href="./galery_landscape_world.html">World</a><div class="mainPlusSub">+4</div></div>
+       
+        <div class="navNormalGalerySubSub">
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_landscape_world_canada.html">Canada</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_landscape_world_japan.html">Japan</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_landscape_world_marokko.html">Marokko</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_landscape_world_usa.html">Usa</a></div>
+         
+        </div>
+       
+      
+     </div>
+   
+   
+    <div class="navNormalTitle"><a href="./galery_nature.html">Nature</a><div class="mainPlus">+4</div></div>
+     <div class="navNormalGalerySub">
+        
+       <div class="navNormalTitleSub"><a href="./galery_nature_4season.html">4season</a><div class="mainPlusSub">+5</div></div>
+       
+        <div class="navNormalGalerySubSub">
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_nature_4season_autumn.html">Autumn</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_nature_4season_sommer.html">Sommer</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_nature_4season_spring.html">Spring</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_nature_4season_winter.html">Winter</a></div>
+         
+        </div>
+       
+        
+       <div class="navNormalTitleSub"><a href="./galery_nature_animals.html">Animals</a><div class="mainPlusSub">+6</div></div>
+       
+        <div class="navNormalGalerySubSub">
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_nature_animals_apix.html">Apix</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_nature_animals_bird.html">Bird</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_nature_animals_camel.html">Camel</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_nature_animals_chamelon.html">Chamelon</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_nature_animals_crocodile.html">Crocodile</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_nature_animals_fox.html">Fox</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_nature_animals_monkey.html">Monkey</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_nature_animals_others.html">Others</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_nature_animals_sheep.html">Sheep</a></div>
+         
+         <div class="navNormalTitleSubSub"><a href="./galery_nature_animals_squirell.html">Squirell</a></div>
+         
+        </div>
+       
+        
+       <div class="navNormalTitleSub"><a href="./galery_nature_flower.html">Flower</a></div>
+       
+        
+       <div class="navNormalTitleSub"><a href="./galery_nature_makro.html">Makro</a></div>
+       
+        
+       <div class="navNormalTitleSub"><a href="./galery_nature_tropfen.html">Tropfen</a></div>
+       
+      
+     </div>
+   
+   
+    <div class="navNormalTitle"><a href="./galery_travel.html">Travel</a><div class="mainPlus">+5</div></div>
+     <div class="navNormalGalerySub">
+        
+       <div class="navNormalTitleSub"><a href="./galery_travel_canada.html">Canada</a></div>
+       
+        
+       <div class="navNormalTitleSub"><a href="./galery_travel_czech.html">Czech</a></div>
+       
+        
+       <div class="navNormalTitleSub"><a href="./galery_travel_danemark.html">Danemark</a></div>
+       
+        
+       <div class="navNormalTitleSub"><a href="./galery_travel_india.html">India</a></div>
+       
+        
+       <div class="navNormalTitleSub"><a href="./galery_travel_irland.html">Irland</a></div>
+       
+        
+       <div class="navNormalTitleSub"><a href="./galery_travel_italy.html">Italy</a></div>
+       
+        
+       <div class="navNormalTitleSub"><a href="./galery_travel_japan.html">Japan</a></div>
+       
+        
+       <div class="navNormalTitleSub"><a href="./galery_travel_marokko.html">Marokko</a></div>
+       
+        
+       <div class="navNormalTitleSub"><a href="./galery_travel_norwegen.html">Norwegen</a></div>
+       
+        
+       <div class="navNormalTitleSub"><a href="./galery_travel_portugal.html">Portugal</a></div>
+       
+        
+       <div class="navNormalTitleSub"><a href="./galery_travel_slovakia.html">Slovakia</a></div>
+       
+        
+       <div class="navNormalTitleSub"><a href="./galery_travel_USA.html">USA</a></div>
+       
+      
+     </div>
+   
+  </div>
+</div>
+
+
+<div class="main_container_galery">
+ <div class="container galery" onresize="adjustCaption()" onload="adjustCaption()">
+  <div class="chapter row">
+  
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+  
+   
+    
+   
+    
+   
+    
+   
+    
+   
+  
+   
+    
+     <div class="col-sm-12 col-md-12 col-lg-6 col-xl-4 elem">
+     <a href="./galery_landscape_europe.html">
+      <div class="caption">Europe</div>
+      <img class="pic" src="./assets/img/galery/Landscape/landscape_europe.jpg" alt="Europe">
+     </a>
+     </div>
+    
+   
+    
+     <div class="col-sm-12 col-md-12 col-lg-6 col-xl-4 elem">
+     <a href="./galery_landscape_switzerland.html">
+      <div class="caption">Switzerland</div>
+      <img class="pic" src="./assets/img/galery/Landscape/landscape_switzerland.jpg" alt="Switzerland">
+     </a>
+     </div>
+    
+   
+    
+     <div class="col-sm-12 col-md-12 col-lg-6 col-xl-4 elem">
+     <a href="./galery_landscape_world.html">
+      <div class="caption">World</div>
+      <img class="pic" src="./assets/img/galery/Landscape/landscape_world.jpg" alt="World">
+     </a>
+     </div>
+    
+   
+  
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+  
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+    
+   
+  
+  </div>
+ </div>
+</div>
+
+    <footer class="footer">
+  <div class="container-footer">
+    <div class="row social">
+      <div class="col social">
+        
+          <div class="social-links">
+  <a href="mailto:philip.omlin@gmail.com">
+    <i class="fa fa-envelope fa-2x" ></i>
+  </a>
+  <a target="_blank" href="https://de-de.facebook.com/philip.omlin">
+    <i class="fab fa-facebook fa-2x"></i>
+  </a>
+  <a target="_blank" href="https://www.instagram.com/philipomlin/">
+    <i class="fab fa-instagram fa-2x"></i>
+  </a>
+  <a target="_blank" href="https://www.flickr.com/photos/128739019@N02/">
+    <i class="fab fa-flickr fa-2x"></i>
+  </a>
+  <a target="_blank" href="https://github.com/pomlin83">
+    <i class="fab fa-github fa-2x"></i>
+  </a>
+</div>
+
+        
+      </div>
+    </div>
+    <div class="copyright">
+      <div class="copyright">
+        All content copyright Philip Omlin  &copy; 2020.
+      </div>
+    </div>
+    <div class="social">
+      <div class="reserved">
+        All rights reserved.
+      </div>
+    </div>
+  </div>
+</footer>
+	
+<!-- JS -->
+<script src="./assets/js/myScript.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </body>
+</html>

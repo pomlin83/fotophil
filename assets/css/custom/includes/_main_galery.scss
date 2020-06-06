@@ -5,16 +5,38 @@
   margin-top: 16px;
 }
 
+.title {
+  padding-left: 8px;
+}
+
+.container, .galery{
+  margin: 16px 0px 16px 0px;
+  max-width: inherit;
+}
+
+.row div:last-child, .chapter div:last-child {
+  padding: 0px 8px 0px 8px;
+}
+
+.row div:last-child, .chapter div:nth-child(3n) {
+  padding: 0px 8px 0px 8px;
+}
+
+.col-sm-12, .col-md-12, .col-lg-6, .col-xl-6, .cont, .elem {
+  padding: 0px 8px 0px 8px;
+  margin-bottom: 16px;
+}
+
 .sub_navi {
     margin-bottom: 16px;
     background-color: white;
     color: black;
-    font-size: 36px;
+    font-size: 20px;
     margin-left:0.5%;
     margin-bottom: 2px;
 }
 
-@media only screen and (max-width:1200px) {
+@media only screen and (max-width:1500px) {
  .sub_navi {
    font-size: 20px;
    margin-bottom: 2px;
@@ -23,11 +45,10 @@
 
 @media only screen and (max-width:768px) {
  .sub_navi {  
-   font-size: 14px;  
+   font-size: 20px;  
    margin-bottom: 2px;
  }
 } 
-
 
 .icon {
     margin: 0px 0.2em 0px 0.2em;
@@ -38,7 +59,7 @@
     text-decoration: none;
 }
 .title {
-    font-size: 36px;
+    font-size: 20px;
 }
 .sub_navi a:hover {
     color: grey;
@@ -46,22 +67,21 @@
 
 .caption {
     position: absolute;
-    font-size: 36px;
+    font-size: 20px;
     padding: 16px 16px 16px 16px;
     line-height: 1;
     background-color: rgba(0,0,0,0.5);
     color: white;
-    width: 60%;
+    width: 100px;
     margin-right: 0px;
     vertical-align: middle;
 }
 
 .main_container_galery img {
   width: 100%;
-  margin-bottom: 5%;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1800px) {
  .main_container_galery {
   margin-left: auto;
   margin-right: auto;
@@ -69,7 +89,7 @@
  }
  .caption {
   width: 80%;
-  font-size: 28px;
+  font-size: 20px;
  }
 }
 

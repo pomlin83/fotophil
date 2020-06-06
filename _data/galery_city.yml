@@ -5,69 +5,93 @@ images:
  - url: ./assets/img/galery/Cityscape/Cities/basel.jpg
    title: Basel
    caption: Basel / Switzerland
+   link: ./city_cityscape_galery.html
  - url: ./assets/img/galery/Cityscape/Cities/Berlin.jpg
    title: Berlin
    caption: Berlin / Germany
+   link: ./city_cityscape_galery.html
  - url: ./assets/img/galery/Cityscape/Cities/Bern.jpg
    title: Bern
    caption: Bern / Switzerland
+   link: ./city_cityscape_galery.html
  - url: ./assets/img/galery/Cityscape/Cities/Boston.jpg
    title: Boston
    caption: Boston / USA
+   link: ./city_cityscape_galery.html
  - url: ./assets/img/galery/Cityscape/Cities/Bristol.jpg
    title: Bristol
    caption: Bristol / UK
+   link: ./city_cityscape_galery.html
  - url: ./assets/img/galery/Cityscape/Cities/chicago.jpg
    title: Chicago
    caption: Chicago / USA
+   link: ./city_cityscape_galery.html
  - url: ./assets/img/galery/Cityscape/Cities/Florenz.jpg
    title: Florence
    caption: Florence / Italy
+   link: ./city_cityscape_galery.html
  - url: ./assets/img/galery/Cityscape/Cities/lisabon.jpg
    title: Lisabon
    caption: Lisabon / Portugal
+   link: ./city_cityscape_galery.html
  - url: ./assets/img/galery/Cityscape/Cities/Luzern.jpg
    title: Lucerne
    caption: Lucerne / Switzerland
+   link: ./city_cityscape_galery.html
  - url: ./assets/img/galery/Cityscape/Cities/Memphis.jpg
    title: Memphis
    caption: Memphis / USA
+   link: ./city_cityscape_galery.html
  - url: ./assets/img/galery/Cityscape/Cities/Milano.JPG
    title: Milano
    caption: Milano / Italy
+   link: ./city_cityscape_galery.html
  - url: ./assets/img/galery/Cityscape/Cities/Montepulciano.jpg
    title: Montepulciano
    caption: Montepulciano / Italy
+   link: ./city_cityscape_galery.html
  - url: ./assets/img/galery/Cityscape/Cities/Mumbai.jpg
    title: Mumbai
    caption: Mumbai / India
+   link: ./city_cityscape_galery.html
  - url: ./assets/img/galery/Cityscape/Cities/NewOrleans.JPG
    title: New Orleans
    caption: New Orleans / USA
+   link: ./city_cityscape_galery.html
  - url: ./assets/img/galery/Cityscape/Cities/NewYork.jpg
    title: New York
    caption: New York / USA
+   link: ./city_cityscape_galery.html
  - url: ./assets/img/galery/Cityscape/Cities/Porto.jpg
    title: Porto
    caption: Porto / Portugal
+   link: ./city_cityscape_galery.html
  - url: ./assets/img/galery/Cityscape/Cities/SanGimignano.jpg
    title: San Gimignano
    caption: San Gimignano / Italy
+   link: ./city_cityscape_galery.html
  - url: ./assets/img/galery/Cityscape/Cities/Siena.jpg
    title: Siena
    caption: Siena / Italy
+   link: ./city_cityscape_galery.html
  - url: ./assets/img/galery/Cityscape/Cities/Strassburg.jpg
    title: Strassbourg
    caption: Strassbourg / France
+   link: ./city_cityscape_galery.html
  - url: ./assets/img/galery/Cityscape/Cities/tokio.jpg
    title: Tokyo
    caption: Tokyo / Japan
+   link: ./city_cityscape_galery.html
  - url: ./assets/img/galery/Cityscape/Cities/Venedig.jpg
    title: Venice
    caption: Venice / Italy
+   link: ./city_cityscape_galery.html
  - url: ./assets/img/galery/Cityscape/Cities/WashingtonDC.jpg
    title: Washington
    caption: Washington DC / USA
+   link: ./city_cityscape_galery.html
  - url: ./assets/img/galery/Cityscape/Cities/zurich.jpg
    title: Zurich
    caption: Zurich / Switzerland
+   link: ./city_cityscape_galery.html
+

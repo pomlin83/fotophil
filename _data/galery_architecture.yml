@@ -1,43 +1,37 @@
-# Generation Date: 21.Mai-2020-16:28
+# Generation Date: 02.Jun-2020-22:51
 # Author: Philip Omlin
 # Image source:  ./assets/img/galery/Architecture/
 images:
- - url: ./assets/img/galery/Architecture/architecture_aarhus.JPG
-   title: Aarhus 
-   caption: Museum of Modern Art Aarhus (ARoS)
- - url: ./assets/img/galery/Architecture/architecture_basel.jpg
-   title: Basel
-   caption: Basel Architecture
- - url: ./assets/img/galery/Architecture/architecture_chicago.jpg
-   title: Chicago
-   caption: Chicago Architecture
- - url: ./assets/img/galery/Architecture/architecture_forum.jpg
-   title: forum
-   caption: International Forum Tokyo
- - url: ./assets/img/galery/Architecture/architecture_japanTemples.jpg
-   title: Temples
-   caption: Temples Japan
- - url: ./assets/img/galery/Architecture/architecture_kyotostation.jpg
-   title: Kyoto
-   caption: Train Station Kyoto
- - url: ./assets/img/galery/Architecture/architecture_newyork.jpg
-   title: New York
-   caption: New York Architecture
- - url: ./assets/img/galery/Architecture/architecture_rechtsbiblio.jpg
-   title: Libary of Law
-   caption: Libary of Law Zurich
- - url: ./assets/img/galery/Architecture/architecture_Siena_Cathedrale.jpg
-   title: Siena
-   caption: Cathedrale of Siena
- - url: ./assets/img/galery/Architecture/architecture_stadelhofen.jpg
-   title: Train Station
-   caption: Train Station Stadelhofen Zurich
- - url: ./assets/img/galery/Architecture/architecture_sulzer.jpg
-   title: Sulzer
-   caption: Sulzer Hall 52 Winterthur
- - url: ./assets/img/galery/Architecture/architecture_tokio.jpg
-   title: Tokyo
-   caption: Tokyo Architecture
- - url: ./assets/img/galery/Architecture/architecture_zurich.jgp
-   title: Zurich
-   caption: Zurich Architecture
+ - url: ./assets/img/galery/Architecture/architecture_baselArchitecture.jpg
+   title: BaselArchitecture
+   caption: BaselArchitecture
+ - url: ./assets/img/galery/Architecture/architecture_chicagoArchitecture.jpg
+   title: ChicagoArchitecture
+   caption: ChicagoArchitecture
+ - url: ./assets/img/galery/Architecture/architecture_internationalForumTokyo.jpg
+   title: InternationalForumTokyo
+   caption: InternationalForumTokyo
+ - url: ./assets/img/galery/Architecture/architecture_libaryofLawZurich.jpg
+   title: LibaryofLawZurich
+   caption: LibaryofLawZurich
+ - url: ./assets/img/galery/Architecture/architecture_MuseumofModernArtAarhus.jpg
+   title: MuseumofModernArtAarhus
+   caption: MuseumofModernArtAarhus
+ - url: ./assets/img/galery/Architecture/architecture_newyorkArchitecture.jpg
+   title: NewyorkArchitecture
+   caption: NewyorkArchitecture
+ - url: ./assets/img/galery/Architecture/architecture_sulzerHall52Winterthur.jpg
+   title: SulzerHall52Winterthur
+   caption: SulzerHall52Winterthur
+ - url: ./assets/img/galery/Architecture/architecture_templesJapan.jpg
+   title: TemplesJapan
+   caption: TemplesJapan
+ - url: ./assets/img/galery/Architecture/architecture_tokyoArchitecture.jpg
+   title: TokyoArchitecture
+   caption: TokyoArchitecture
+ - url: ./assets/img/galery/Architecture/architecture_TrainStationKyoto.jpg
+   title: TrainStationKyoto
+   caption: TrainStationKyoto
+ - url: ./assets/img/galery/Architecture/architecture_trainstationStadelhofen.jpg
+   title: TrainstationStadelhofen
+   caption: TrainstationStadelhofen

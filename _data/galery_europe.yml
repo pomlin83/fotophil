@@ -5,21 +5,28 @@ images:
  - url: ./assets/img/galery/Landscape/Europe/danemark.jpg
    title: Danemark
    caption: Danemark
+   link: ./europe_galery.html
  - url: ./assets/img/galery/Landscape/Europe/irland.jpg
    title: Irland
    caption: Irland
+   link: ./europe_galery.html
  - url: ./assets/img/galery/Landscape/Europe/italien.jpg
    title: Italy
    caption: Italy
+   link: ./europe_galery.html
  - url: ./assets/img/galery/Landscape/Europe/norwegen.jpg
    title: Norway
    caption: Norway
+   link: ./europe_galery.html
  - url: ./assets/img/galery/Landscape/Europe/portugal.jpg
    title: Portugal
    caption: Portugal
+   link: ./europe_galery.html
  - url: ./assets/img/galery/Landscape/Europe/slowakei.jpg
    title: Slovakia
    caption: Slovakia
+   link: ./europe_galery.html
  - url: ./assets/img/galery/Landscape/Europe/tschechien.jpg
    title: Czech Republic
    caption: Czech Republic
+   link: ./europe_galery.html

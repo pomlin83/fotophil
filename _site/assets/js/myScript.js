@@ -13,27 +13,14 @@ function myFunction() {
   for(var i=0;i<x.length;i++){
     x[i].style.backgroundSize="auto 100%";
   }
+ }
+ var capWidth = document.getElementsByClassName("pic")[0].width;
+ var capDiv = document.getElementsByClassName("caption");
+ for (i=0; i<capDiv.length; i++) {
+    capDiv[i].style.width = capWidth + "px";
  }	
 }
  
-
-function makeActive() {
- var url = document.URL.split("/")[3];
- var navLinks = navLinks = document.getElementsByClassName("nav-items nav-right")[0].getElementsByClassName("a-nav");
- var i = 0;
- var currentPage = url;
- for(i;i<navLinks.length;i++){
-  var lb = navLinks[i].href.split("/")[3];
-  if(lb == currentPage) {
-   navLinks[i].className = "active-nav$";
-  }
- }
-}
-
-window.onload = makeActive();
-
-
-
 function sizeLightbox() {
  var ActImgHeight = window.innerHeight;
  var ActImgWidth = window.innerWidth;
@@ -66,21 +53,13 @@ function openMenuModal() {
   document.getElementsByClassName("subsubsubMenuGalery")[2].style.display = "none";
   document.getElementsByClassName("subsubsubMenuGalery")[3].style.display = "none";
   document.getElementsByClassName("subsubsubMenuGalery")[4].style.display = "none";
+  document.getElementsByClassName("subsubsubMenuGalery")[5].style.display = "none";
+
 
 }
 // Close Small Screen Modal
 function closeMenuModal() {
   document.getElementById("modalMenuSmall").style.display = "none";
-}
-
-// Open the Modal
-function openModal() {
-  document.getElementById("myModal").style.display = "block";
-}
-
-// Close the Modal
-function closeModal() {
-  document.getElementById("myModal").style.display = "none";
 }
 
 var slideIndex = 1;
@@ -134,3 +113,20 @@ function openGalerySubSub(n) {
   
 }  
 
+// Open Galery Screen Modal
+function openMenuGaleryModal() {
+  document.getElementsByClassName("modalMenuGalery")[0].style.display = "block";
+}
+
+// Close Small Screen Modal
+function closeMenuGaleryModal() {
+  document.getElementsByClassName("modalMenuGalery")[0].style.display = "none";
+}
+
+function adjustCaption() {
+  var capWidth = document.getElementsByClassName("pic")[0].width;
+  var capDiv = document.getElementsByClassName("caption");
+  for (i=0; i<capDiv.length; i++) {
+    capDiv[i].style.width = capWidth + "px";
+  }
+}

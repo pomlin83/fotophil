@@ -5,12 +5,17 @@ images:
  - url: ./assets/img/galery/Nature/4Season/autumn.jpg
    title: Autumn
    caption: Autumn
+   link: ./4season_nature_galery.html
  - url: ./assets/img/galery/Nature/4Season/sommer.jpg
    title: Sommer
    caption: Sommer
+   link: ./4season_nature_galery.html
  - url: ./assets/img/galery/Nature/4Season/spring.jpg
    title: Spring
    caption: Spring
+   link: ./4season_nature_galery.html
  - url: ./assets/img/galery/Nature/4Season/winter.jpg
    title: Winter
    caption: Winter
+   link: ./4season_nature_galery.html
+

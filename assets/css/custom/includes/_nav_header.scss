@@ -1,10 +1,28 @@
-.nav-menu a {
+.main_nav {
+ background-color: black;
+}
+
+.page_title {
+ padding: 0px 0px 16px 0px;
+ text-align: center;
+ font-size: 36px;
+ color: white;
+}
+
+.nav-menu  {
  display: flex;
  text-decoration: none;
  color: white;
- margin-right: 8px;
- padding: 8px;
  vertical-align:middle;
+ margin-right: 16px;
+}
+
+.opener {
+ padding-left: 8px;
+}
+
+.opener:hover {
+ cursor: pointer;
 }
 
 .nav-title a {
@@ -12,29 +30,19 @@
  color: white;
 } 
 
-.a-nav {
- color:orange;
+.nav-menu a {
+ color: white;
 }
 
 .nav-menu a:hover {
  display: flex;
  text-decoration: none;
- color: white;
- padding:8px;
- border: 1px solid white;
+ color: grey;
 }
-
-.active-nav {
- color: white;
- border: 1px solid white;
- padding: 8px;
-}
-
 
 .nav-container {
- background-color: black;
  display: flex;
- padding: 16px 0px 16px 16px;
+ padding: 0px 0px 0px 16px;
  color: white;
  line-height: 1.0; 
 }
@@ -45,12 +53,13 @@
 
 .nav-items {
  display: flex;
- font-size:36px;
+ font-size: 20px;
+ padding: 16px 0px 16px 0px; 
 }
 
 .nav-title {
- padding-right: 8px;
- font-size:48px;
+ padding: 16px 0px 16px 0px;
+ font-size:20px;
 }
 
 .nav-right {
@@ -59,12 +68,11 @@
 
 .nav-toggle {
  display: none;
- font-size:28px;
- margin: 10px 0px 0px 0px;
- padding-right: 16px;
+ font-size:20px;
+ padding: 16px 0px 16px 0px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1300px) {
  .nav-bar,
  .nav-items, 
  .nav-container {
@@ -80,13 +88,10 @@
  .nav-items {
    background-color: white;
    color:black;
-   padding:8px 8px 0px 8px;
-   margin: 16px 16px 0px 0px;
  }
 
  .nav-menu a {
    color: black;
-   margin: 0px 8px 8px 0px;
  }
  
  .nav-menu a:hover {
@@ -99,22 +104,9 @@
    display: initial;
    position: absolute;
    cursor: pointer;
-   margin: 8px 0px 0px 0px;
  }
  .nav-show {
    display:flex;
- }
-}
-
-@media only screen and (max-width: 1200px) {
- .nav-menu a {
-   margin:0px 16px 0px 0px
- }
- .nav-title {
-   font-size: 36px;
- }
- .nav-items {
-   font-size: 28px;
  }
 }
 
@@ -122,7 +114,7 @@
    display: none;
    background-color: black;
    color: white;
-   z-index: 1;
+   z-index: 16;
    left: 0;
    top: 0;
    width: 100%;
@@ -233,4 +225,72 @@
    padding-left: 16px;
    padding-right: 16px;
 }
+
+.modalMenuGalery {
+   display: none;
+   background-color: rgba(0,0,0,1);
+   border-top: 1px solid white;
+   color: white;
+   z-index: 16;
+   left: 0;
+   top: 0;
+   width: 400px;
+   height: 100%;
+   position: fixed;
+   overflow: auto;
+   text-align: left;
+   font-size: 28px;
+}
+
+.navNormalGalery a {
+   text-decoration: none;
+   color: white;
+}
+
+.navNormalGalery a:hover {
+   color: grey;
+}
+
+.navNormalGalery {
+   margin-left: 16px;
+   font-size: 32px;
+}
+
+.navNormalTitle {
+   display: flex;
+   justify-content:space-between;
+}
+
+.navNormalGalerySub {
+   margin-left: 16px;
+   font-size: 24px;
+}
+
+.navNormalTitleSub {
+   display: flex;
+   justify-content:space-between;
+}
+
+.navNormalGalerySubSub {
+   margin-left: 16px;
+   font-size: 18px;
+}
+
+.navNormalTitleSubSub {
+   display: flex;
+   justify-content:space-between;
+}
+
+.mainPlus {
+   margin-right: 16px;
+   cursor: pointer; 
+}
+
+.mainPlusSub {
+   margin-right: 20px;
+   cursor: pointer;
+}
+
+
+
 

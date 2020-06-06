@@ -1,0 +1,22 @@
+---
+layout: galery_element
+---
+{% include nav_list.html title='Travel' %}
+<div class="main_container_galery">
+ <div class="container galery" onresize="adjustCaption()" onload="adjustCaption()">
+  <div class="chapter row">
+  {% for img in site.data.galery_test.images %}
+   {% for entry in img.subitems %}
+    {% if entry.index_pic == 5 %}
+     <div class="col-sm-12 col-md-12 col-lg-6 col-xl-4 elem">
+     <a href="{{ entry.link }}">
+      <div class="caption">{{ entry.caption }}</div>
+      <img class="pic" src="{{ entry.url }}" alt="{{ entry.title }}">
+     </a>
+     </div>
+    {% endif %}
+   {% endfor %}
+  {% endfor %}
+  </div>
+ </div>
+</div>

@@ -5,30 +5,41 @@ images:
  - url: ./assets/img/galery/Nature/Animals/apix.jpg
    title: Ibex
    caption: Ibex
+   link: ./animals_nature_galery.html
  - url: ./assets/img/galery/Nature/Animals/bird.jpg
    title: Birds
    caption: Birds
+   link: ./animals_nature_galery.html
  - url: ./assets/img/galery/Nature/Animals/camel.jpg
    title: Camel
    caption: Camel
+   link: ./animals_nature_galery.html
  - url: ./assets/img/galery/Nature/Animals/chamelon.jpg
    title: Chameleon
    caption: Chameleon
+   link: ./animals_nature_galery.html
  - url: ./assets/img/galery/Nature/Animals/crocodile.jpg
    title: Crocodile
    caption: Crocodile
+   link: ./animals_nature_galery.html
  - url: ./assets/img/galery/Nature/Animals/fox.jpg
    title: Fox
    caption: Fox
+   link: ./animals_nature_galery.html
  - url: ./assets/img/galery/Nature/Animals/monkey.jpg
    title: Monkey
    caption: Monkey
+   link: ./animals_nature_galery.html
  - url: ./assets/img/galery/Nature/Animals/others.jpg
    title: Others
    caption: Others
+   link: ./animals_nature_galery.html
  - url: ./assets/img/galery/Nature/Animals/sheep.jpg
    title: Sheep
    caption: Sheep
+   link: ./animals_nature_galery.html
  - url: ./assets/img/galery/Nature/Animals/squirell.jpg
    title: Squirrel
    caption: Squirrel
+   link: ./animals_nature_galery.html
+
