@@ -2,13 +2,13 @@ menu:
   - name: About
     url: ./about.html
     caption: About
+  - name: Contact
+    url: ./contact.html
+    caption: Contact
   - name: Galery
     url: ./galery.html
     caption: Galery
   - name: Inspiration
     url: ./inspiration.html
-    caption: Archive
-  - name: Impressum
-    url: ./impressum.html
-    caption: Impressum
+    caption: Inspiration
 

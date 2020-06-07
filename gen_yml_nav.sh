@@ -9,6 +9,7 @@ echo "images:" >> _data/galery_$2.yml
 n=1
 j=1
 k=1
+h=0
 for img in $src*.jpg; do
  echo " - url:" $img >> _data/galery_$2.yml
  temp=`echo $img | cut -d . -f 2 | cut -d / -f 5 | cut -d _ -f 1`
@@ -18,11 +19,13 @@ for img in $src*.jpg; do
  echo "   index: $n" >> _data/galery_$2.yml
  echo "   subitems:" >> _data/galery_$2.yml
  sub=`echo $src${temp^[a-z]}`
+ l=1
  for D in $sub/*.jpg; do
   echo "   - url: $D" >> _data/galery_$2.yml
   temp2=`echo $D | cut -d . -f 2 | cut -d / -f 6 | cut -d _ -f 2`
   echo "     title: ${temp2^[a-z]}" >> _data/galery_$2.yml
   echo "     caption: ${temp2^[a-z]}"  >> _data/galery_$2.yml
+  echo "     index: $l" >> _data/galery_$2.yml
   echo "     index_nav: $k" >> _data/galery_$2.yml
   echo "     index_pic: $n" >> _data/galery_$2.yml
   tmp2="${temp}_${temp2}"
@@ -35,6 +38,7 @@ for img in $src*.jpg; do
     if [ "$i" = "0" ]; then
      echo "     subsubitems:" >> _data/galery_$2.yml
      k=$((k+1))
+     h=$((h+1))
     fi
     echo "     - url: $E" >> _data/galery_$2.yml
     temp3=`echo $E | cut -d . -f 2 | cut -d / -f 7 | cut -d _ -f 2`
@@ -42,7 +46,8 @@ for img in $src*.jpg; do
     echo "       caption: ${temp3^[a-z]}"  >> _data/galery_$2.yml
     tmp3="${tmp2}_${temp3}"
     echo "       link: ./galery_$tmp3.html" >> _data/galery_$2.yml
-    echo "       index: $k" >> _data/galery_$2.yml
+    echo "       index_nav: $k" >> _data/galery_$2.yml
+    echo "       index_pic: $h" >> _data/galery_$2.yml
     i=$((i+1))
     subsubsub=`echo $src${temp^[a-z]}/${temp2^[a-z]}/${temp3^[a-z]}`
     m=0
@@ -62,6 +67,7 @@ for img in $src*.jpg; do
    fi
   done
   j=$((j+1))
+  l=$((l+1))
  done
  n=$((n+1))
 done

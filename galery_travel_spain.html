@@ -1,0 +1,31 @@
+---
+layout: galery_element
+---
+{% include nav_list.html title='Spain' %}
+<div class="main_container_galery">
+ <div class="container galery" onresize="adjustCaption()" onload="adjustCaption()">
+  <div class="chapter row">
+  {% for item in site.data.galery_test.images %}
+   {% if item.index == 5 %}
+    {% for entry in item.subitems %}
+     {% if entry.index == 12 %}
+      {% if entry.subsubitems[0] %}
+       {% for token in entry.subsubitems %}
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-4 elem">
+         <a href="{{ token.link }}">
+          <div class="caption">{{ token.caption }}</div>
+          <img class="pic" src="{{ token.url }}" alt="{{ token.title }}">
+         </a>
+        </div>
+       {% endfor %}
+      {% else %}
+        <h2>Lightbox</h2>
+      {% endif %}
+     {% endif %}
+    {% endfor %}
+   {% endif %}
+  {% endfor %}
+  </div>
+ </div>
+</div>
+
