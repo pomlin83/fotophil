@@ -1,15 +1,40 @@
 ---
 layout: galery_element
 ---
-<div class="sub_navi"><a href="./galery.html">Galery</a><span class="icon">></span><a href="./landscape_galery.html">Landscape</a><span class="icon">></span><a href="./switzerland_galery.html">Switzerland</a><span class="icon">></span><a href="./switzerland_galery.html">Jura</a></div>
-{% for img in site.data.galery_landscape_jura.images %}
- <div class="chapter">
-  <a href="{{ img.link }}">
-   <div class="caption">{{ img.caption }}</div>
-   <img class="pic" src="{{ img.url }}" alt="{{ img.title }}">
-  </a>
+{% include nav_list.html title='Jura' %}
+<div class="main_container_galery">
+ <div class="container galery" onresize="adjustCaption()" onload="adjustCaption()">
+  <div class="chapter row">
+  {% for item in site.data.galery_test.images %}
+   {% if item.index == 2 %}
+    {% for entry in item.subitems %}
+     {% if entry.index_pic == 1 %}
+      {% if entry.subsubitems[0] %}
+       {% for token in entry.subsubitems %}
+        {% if token.subsubsubitems[0] %}
+         {% if token.index_pic == 4 %}
+          {% for trash in token.subsubsubitems %}
+           <div class="col-sm-12 col-md-12 col-lg-6 col-xl-4 elem">
+            <a href="{{ trash.link }}">
+             <div class="caption">{{ trash.caption }}</div>
+             <img class="pic" src="{{ trash.url }}" alt="{{ trash.title }}">
+            </a>
+           </div>
+          {% endfor %}
+         {% endif %}
+        {% else %}
+         <h2>Lightbox</h2>
+        {% endif %}
+       {% endfor %}
+      {% endif %}
+     {% endif %}
+    {% endfor %}
+   {% endif %}
+  {% endfor %}
+  </div>
  </div>
-{% endfor %}
-
 </div>
+
+
+
 

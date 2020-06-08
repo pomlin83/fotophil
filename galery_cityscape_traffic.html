@@ -6,9 +6,9 @@ layout: galery_element
  <div class="container galery" onresize="adjustCaption()" onload="adjustCaption()">
   <div class="chapter row">
   {% for item in site.data.galery_test.images %}
-   {% if item.index == 2 %}
+   {% if item.index == 1 %}
     {% for entry in item.subitems %}
-     {% if entry.index == 4 %}
+     {% if entry.index_pic == 3 %}
       {% if entry.subsubitems[0] %}
        {% for token in entry.subsubitems %}
         <div class="col-sm-12 col-md-12 col-lg-6 col-xl-4 elem">

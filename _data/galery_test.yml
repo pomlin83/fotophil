@@ -1,4 +1,4 @@
-# Generation Date: 07.Jun-2020-16:48
+# Generation Date: 08.Jun-2020-23:22
 # Author: Philip Omlin
 # Image source:  ./assets/img/galery/
 images:
@@ -6,323 +6,276 @@ images:
    title: Architecture
    caption: Architecture
    link: ./galery_architecture.html
-   index: 1
+   index: 0
    subitems:
    - url: ./assets/img/galery/Architecture/architecture_baselArchitecture.jpg
      title: BaselArchitecture
      caption: BaselArchitecture
-     index: 1
-     index_nav: 1
-     index_pic: 1
+     index_nav: 0
+     index_pic: 0
      link: ./galery_architecture_baselArchitecture.html
    - url: ./assets/img/galery/Architecture/architecture_chicagoArchitecture.jpg
      title: ChicagoArchitecture
      caption: ChicagoArchitecture
-     index: 2
-     index_nav: 1
+     index_nav: 0
      index_pic: 1
      link: ./galery_architecture_chicagoArchitecture.html
    - url: ./assets/img/galery/Architecture/architecture_internationalForumTokyo.jpg
      title: InternationalForumTokyo
      caption: InternationalForumTokyo
-     index: 3
-     index_nav: 1
-     index_pic: 1
+     index_nav: 0
+     index_pic: 2
      link: ./galery_architecture_internationalForumTokyo.html
    - url: ./assets/img/galery/Architecture/architecture_libaryofLawZurich.jpg
      title: LibaryofLawZurich
      caption: LibaryofLawZurich
-     index: 4
-     index_nav: 1
-     index_pic: 1
+     index_nav: 0
+     index_pic: 3
      link: ./galery_architecture_libaryofLawZurich.html
    - url: ./assets/img/galery/Architecture/architecture_museumofModernArtAarhus.jpg
      title: MuseumofModernArtAarhus
      caption: MuseumofModernArtAarhus
-     index: 5
-     index_nav: 1
-     index_pic: 1
+     index_nav: 0
+     index_pic: 4
      link: ./galery_architecture_museumofModernArtAarhus.html
    - url: ./assets/img/galery/Architecture/architecture_newyorkArchitecture.jpg
      title: NewyorkArchitecture
      caption: NewyorkArchitecture
-     index: 6
-     index_nav: 1
-     index_pic: 1
+     index_nav: 0
+     index_pic: 5
      link: ./galery_architecture_newyorkArchitecture.html
    - url: ./assets/img/galery/Architecture/architecture_sulzerHall52Winterthur.jpg
      title: SulzerHall52Winterthur
      caption: SulzerHall52Winterthur
-     index: 7
-     index_nav: 1
-     index_pic: 1
+     index_nav: 0
+     index_pic: 6
      link: ./galery_architecture_sulzerHall52Winterthur.html
    - url: ./assets/img/galery/Architecture/architecture_templesJapan.jpg
      title: TemplesJapan
      caption: TemplesJapan
-     index: 8
-     index_nav: 1
-     index_pic: 1
+     index_nav: 0
+     index_pic: 7
      link: ./galery_architecture_templesJapan.html
    - url: ./assets/img/galery/Architecture/architecture_tokyoArchitecture.jpg
      title: TokyoArchitecture
      caption: TokyoArchitecture
-     index: 9
-     index_nav: 1
-     index_pic: 1
+     index_nav: 0
+     index_pic: 8
      link: ./galery_architecture_tokyoArchitecture.html
    - url: ./assets/img/galery/Architecture/architecture_trainStationKyoto.jpg
      title: TrainStationKyoto
      caption: TrainStationKyoto
-     index: 10
-     index_nav: 1
-     index_pic: 1
+     index_nav: 0
+     index_pic: 9
      link: ./galery_architecture_trainStationKyoto.html
    - url: ./assets/img/galery/Architecture/architecture_trainstationStadelhofen.jpg
      title: TrainstationStadelhofen
      caption: TrainstationStadelhofen
-     index: 11
-     index_nav: 1
-     index_pic: 1
+     index_nav: 0
+     index_pic: 10
      link: ./galery_architecture_trainstationStadelhofen.html
    - url: ./assets/img/galery/Architecture/architecture_zurichArchitecture.jpg
      title: ZurichArchitecture
      caption: ZurichArchitecture
-     index: 12
-     index_nav: 1
-     index_pic: 1
+     index_nav: 0
+     index_pic: 11
      link: ./galery_architecture_zurichArchitecture.html
  - url: ./assets/img/galery/cityscape_main.jpg
    title: Cityscape
    caption: Cityscape
    link: ./galery_cityscape.html
-   index: 2
+   index: 1
    subitems:
    - url: ./assets/img/galery/Cityscape/cityscape_carneval.jpg
      title: Carneval
      caption: Carneval
-     index: 1
-     index_nav: 1
-     index_pic: 2
+     index_nav: 0
+     index_pic: 0
      link: ./galery_cityscape_carneval.html
    - url: ./assets/img/galery/Cityscape/cityscape_cities.jpg
      title: Cities
      caption: Cities
-     index: 2
-     index_nav: 1
-     index_pic: 2
+     index_nav: 0
+     index_pic: 1
      link: ./galery_cityscape_cities.html
      subsubitems:
      - url: ./assets/img/galery/Cityscape/Cities/basel.jpg
        title: Basel
        caption: Basel
        link: ./galery_cityscape_cities_basel.html
-       index_nav: 2
-       index_pic: 1
+       index_pic: 0
      - url: ./assets/img/galery/Cityscape/Cities/Berlin.jpg
        title: Berlin
        caption: Berlin
        link: ./galery_cityscape_cities_Berlin.html
-       index_nav: 2
        index_pic: 1
      - url: ./assets/img/galery/Cityscape/Cities/Bern.jpg
        title: Bern
        caption: Bern
        link: ./galery_cityscape_cities_Bern.html
-       index_nav: 2
-       index_pic: 1
+       index_pic: 2
      - url: ./assets/img/galery/Cityscape/Cities/Boston.jpg
        title: Boston
        caption: Boston
        link: ./galery_cityscape_cities_Boston.html
-       index_nav: 2
-       index_pic: 1
+       index_pic: 3
      - url: ./assets/img/galery/Cityscape/Cities/Bristol.jpg
        title: Bristol
        caption: Bristol
        link: ./galery_cityscape_cities_Bristol.html
-       index_nav: 2
-       index_pic: 1
+       index_pic: 4
      - url: ./assets/img/galery/Cityscape/Cities/chicago.jpg
        title: Chicago
        caption: Chicago
        link: ./galery_cityscape_cities_chicago.html
-       index_nav: 2
-       index_pic: 1
+       index_pic: 5
      - url: ./assets/img/galery/Cityscape/Cities/Florenz.jpg
        title: Florenz
        caption: Florenz
        link: ./galery_cityscape_cities_Florenz.html
-       index_nav: 2
-       index_pic: 1
+       index_pic: 6
      - url: ./assets/img/galery/Cityscape/Cities/lisabon.jpg
        title: Lisabon
        caption: Lisabon
        link: ./galery_cityscape_cities_lisabon.html
-       index_nav: 2
-       index_pic: 1
+       index_pic: 7
      - url: ./assets/img/galery/Cityscape/Cities/Luzern.jpg
        title: Luzern
        caption: Luzern
        link: ./galery_cityscape_cities_Luzern.html
-       index_nav: 2
-       index_pic: 1
+       index_pic: 8
      - url: ./assets/img/galery/Cityscape/Cities/Memphis.jpg
        title: Memphis
        caption: Memphis
        link: ./galery_cityscape_cities_Memphis.html
-       index_nav: 2
-       index_pic: 1
+       index_pic: 9
      - url: ./assets/img/galery/Cityscape/Cities/Montepulciano.jpg
        title: Montepulciano
        caption: Montepulciano
        link: ./galery_cityscape_cities_Montepulciano.html
-       index_nav: 2
-       index_pic: 1
+       index_pic: 10
      - url: ./assets/img/galery/Cityscape/Cities/Mumbai.jpg
        title: Mumbai
        caption: Mumbai
        link: ./galery_cityscape_cities_Mumbai.html
-       index_nav: 2
-       index_pic: 1
+       index_pic: 11
      - url: ./assets/img/galery/Cityscape/Cities/NewYork.jpg
        title: NewYork
        caption: NewYork
        link: ./galery_cityscape_cities_NewYork.html
-       index_nav: 2
-       index_pic: 1
+       index_pic: 12
      - url: ./assets/img/galery/Cityscape/Cities/Porto.jpg
        title: Porto
        caption: Porto
        link: ./galery_cityscape_cities_Porto.html
-       index_nav: 2
-       index_pic: 1
+       index_pic: 13
      - url: ./assets/img/galery/Cityscape/Cities/SanGimignano.jpg
        title: SanGimignano
        caption: SanGimignano
        link: ./galery_cityscape_cities_SanGimignano.html
-       index_nav: 2
-       index_pic: 1
+       index_pic: 14
      - url: ./assets/img/galery/Cityscape/Cities/Siena.jpg
        title: Siena
        caption: Siena
        link: ./galery_cityscape_cities_Siena.html
-       index_nav: 2
-       index_pic: 1
+       index_pic: 15
      - url: ./assets/img/galery/Cityscape/Cities/Strassburg.jpg
        title: Strassburg
        caption: Strassburg
        link: ./galery_cityscape_cities_Strassburg.html
-       index_nav: 2
-       index_pic: 1
+       index_pic: 16
      - url: ./assets/img/galery/Cityscape/Cities/tokio.jpg
        title: Tokio
        caption: Tokio
        link: ./galery_cityscape_cities_tokio.html
-       index_nav: 2
-       index_pic: 1
+       index_pic: 17
      - url: ./assets/img/galery/Cityscape/Cities/Venedig.jpg
        title: Venedig
        caption: Venedig
        link: ./galery_cityscape_cities_Venedig.html
-       index_nav: 2
-       index_pic: 1
+       index_pic: 18
      - url: ./assets/img/galery/Cityscape/Cities/WashingtonDC.jpg
        title: WashingtonDC
        caption: WashingtonDC
        link: ./galery_cityscape_cities_WashingtonDC.html
-       index_nav: 2
-       index_pic: 1
+       index_pic: 19
      - url: ./assets/img/galery/Cityscape/Cities/zurich.jpg
        title: Zurich
        caption: Zurich
        link: ./galery_cityscape_cities_zurich.html
-       index_nav: 2
-       index_pic: 1
+       index_pic: 20
    - url: ./assets/img/galery/Cityscape/cityscape_Market.jpg
      title: Market
      caption: Market
-     index: 3
-     index_nav: 2
+     index_nav: 1
      index_pic: 2
      link: ./galery_cityscape_Market.html
    - url: ./assets/img/galery/Cityscape/cityscape_traffic.jpg
      title: Traffic
      caption: Traffic
-     index: 4
-     index_nav: 2
-     index_pic: 2
+     index_nav: 1
+     index_pic: 3
      link: ./galery_cityscape_traffic.html
  - url: ./assets/img/galery/landscape_main.jpg
    title: Landscape
    caption: Landscape
    link: ./galery_landscape.html
-   index: 3
+   index: 2
    subitems:
    - url: ./assets/img/galery/Landscape/landscape_europe.jpg
      title: Europe
      caption: Europe
-     index: 1
-     index_nav: 2
-     index_pic: 3
+     index_nav: 1
+     index_pic: 0
      link: ./galery_landscape_europe.html
      subsubitems:
      - url: ./assets/img/galery/Landscape/Europe/czechRepublic.jpg
        title: CzechRepublic
        caption: CzechRepublic
        link: ./galery_landscape_europe_czechRepublic.html
-       index_nav: 3
-       index_pic: 2
+       index_pic: 0
      - url: ./assets/img/galery/Landscape/Europe/danemark.jpg
        title: Danemark
        caption: Danemark
        link: ./galery_landscape_europe_danemark.html
-       index_nav: 3
-       index_pic: 2
+       index_pic: 1
      - url: ./assets/img/galery/Landscape/Europe/irland.jpg
        title: Irland
        caption: Irland
        link: ./galery_landscape_europe_irland.html
-       index_nav: 3
        index_pic: 2
      - url: ./assets/img/galery/Landscape/Europe/italien.jpg
        title: Italien
        caption: Italien
        link: ./galery_landscape_europe_italien.html
-       index_nav: 3
-       index_pic: 2
+       index_pic: 3
      - url: ./assets/img/galery/Landscape/Europe/norwegen.jpg
        title: Norwegen
        caption: Norwegen
        link: ./galery_landscape_europe_norwegen.html
-       index_nav: 3
-       index_pic: 2
+       index_pic: 4
      - url: ./assets/img/galery/Landscape/Europe/portugal.jpg
        title: Portugal
        caption: Portugal
        link: ./galery_landscape_europe_portugal.html
-       index_nav: 3
-       index_pic: 2
+       index_pic: 5
      - url: ./assets/img/galery/Landscape/Europe/slowakei.jpg
        title: Slowakei
        caption: Slowakei
        link: ./galery_landscape_europe_slowakei.html
-       index_nav: 3
-       index_pic: 2
+       index_pic: 6
    - url: ./assets/img/galery/Landscape/landscape_switzerland.jpg
      title: Switzerland
      caption: Switzerland
-     index: 2
-     index_nav: 3
-     index_pic: 3
+     index_nav: 2
+     index_pic: 1
      link: ./galery_landscape_switzerland.html
      subsubitems:
      - url: ./assets/img/galery/Landscape/Switzerland/bern.jpg
        title: Bern
        caption: Bern
        link: ./galery_landscape_switzerland_bern.html
-       index_nav: 4
-       index_pic: 3
+       index_pic: 0
        subsubsubitems:
        - url: ./assets/img/galery/Landscape/Switzerland/Bern/aareschluch.jpg
          title: Aareschluch
@@ -349,8 +302,7 @@ images:
        title: CentralSwitzerland
        caption: CentralSwitzerland
        link: ./galery_landscape_switzerland_centralSwitzerland.html
-       index_nav: 4
-       index_pic: 3
+       index_pic: 1
        subsubsubitems:
        - url: ./assets/img/galery/Landscape/Switzerland/CentralSwitzerland/brisen.jpg
          title: Brisen
@@ -404,8 +356,7 @@ images:
        title: FoothillsOfTheAlps
        caption: FoothillsOfTheAlps
        link: ./galery_landscape_switzerland_foothillsOfTheAlps.html
-       index_nav: 4
-       index_pic: 3
+       index_pic: 2
        subsubsubitems:
        - url: ./assets/img/galery/Landscape/Switzerland/FoothillsOfTheAlps/alpstein.jpg
          title: Alpstein
@@ -429,7 +380,6 @@ images:
        title: Grison
        caption: Grison
        link: ./galery_landscape_switzerland_grison.html
-       index_nav: 4
        index_pic: 3
        subsubsubitems:
        - url: ./assets/img/galery/Landscape/Switzerland/Grison/graina.jpg
@@ -448,8 +398,7 @@ images:
        title: Jura
        caption: Jura
        link: ./galery_landscape_switzerland_jura.html
-       index_nav: 4
-       index_pic: 3
+       index_pic: 4
        subsubsubitems:
        - url: ./assets/img/galery/Landscape/Switzerland/Jura/creuxDuVent.jpg
          title: CreuxDuVent
@@ -461,8 +410,7 @@ images:
        title: Romandie
        caption: Romandie
        link: ./galery_landscape_switzerland_romandie.html
-       index_nav: 4
-       index_pic: 3
+       index_pic: 5
        subsubsubitems:
        - url: ./assets/img/galery/Landscape/Switzerland/Romandie/colDeMoss.jpg
          title: ColDeMoss
@@ -471,8 +419,7 @@ images:
        title: SwissPlateau
        caption: SwissPlateau
        link: ./galery_landscape_switzerland_swissPlateau.html
-       index_nav: 4
-       index_pic: 3
+       index_pic: 6
        subsubsubitems:
        - url: ./assets/img/galery/Landscape/Switzerland/SwissPlateau/greifensee.jpg
          title: Greifensee
@@ -499,8 +446,7 @@ images:
        title: Ticino
        caption: Ticino
        link: ./galery_landscape_switzerland_ticino.html
-       index_nav: 4
-       index_pic: 3
+       index_pic: 7
        subsubsubitems:
        - url: ./assets/img/galery/Landscape/Switzerland/Ticino/cristalina.jpg
          title: Cristalina
@@ -512,8 +458,7 @@ images:
        title: Valais
        caption: Valais
        link: ./galery_landscape_switzerland_valais.html
-       index_nav: 4
-       index_pic: 3
+       index_pic: 8
        subsubsubitems:
        - url: ./assets/img/galery/Landscape/Switzerland/Valais/aletschgletscher.jpg
          title: Aletschgletscher
@@ -533,256 +478,219 @@ images:
    - url: ./assets/img/galery/Landscape/landscape_world.jpg
      title: World
      caption: World
-     index: 3
-     index_nav: 4
-     index_pic: 3
+     index_nav: 3
+     index_pic: 2
      link: ./galery_landscape_world.html
      subsubitems:
      - url: ./assets/img/galery/Landscape/World/canada.jpg
        title: Canada
        caption: Canada
        link: ./galery_landscape_world_canada.html
-       index_nav: 5
-       index_pic: 4
+       index_pic: 0
      - url: ./assets/img/galery/Landscape/World/japan.jpg
        title: Japan
        caption: Japan
        link: ./galery_landscape_world_japan.html
-       index_nav: 5
-       index_pic: 4
+       index_pic: 1
      - url: ./assets/img/galery/Landscape/World/marokko.jpg
        title: Marokko
        caption: Marokko
        link: ./galery_landscape_world_marokko.html
-       index_nav: 5
-       index_pic: 4
+       index_pic: 2
      - url: ./assets/img/galery/Landscape/World/usa.jpg
        title: Usa
        caption: Usa
        link: ./galery_landscape_world_usa.html
-       index_nav: 5
-       index_pic: 4
+       index_pic: 3
  - url: ./assets/img/galery/nature_main.jpg
    title: Nature
    caption: Nature
    link: ./galery_nature.html
-   index: 4
+   index: 3
    subitems:
    - url: ./assets/img/galery/Nature/nature_4season.jpg
      title: 4season
      caption: 4season
-     index: 1
-     index_nav: 5
-     index_pic: 4
+     index_nav: 4
+     index_pic: 0
      link: ./galery_nature_4season.html
      subsubitems:
      - url: ./assets/img/galery/Nature/4season/autumn.jpg
        title: Autumn
        caption: Autumn
        link: ./galery_nature_4season_autumn.html
-       index_nav: 6
-       index_pic: 5
+       index_pic: 0
      - url: ./assets/img/galery/Nature/4season/sommer.jpg
        title: Sommer
        caption: Sommer
        link: ./galery_nature_4season_sommer.html
-       index_nav: 6
-       index_pic: 5
+       index_pic: 1
      - url: ./assets/img/galery/Nature/4season/spring.jpg
        title: Spring
        caption: Spring
        link: ./galery_nature_4season_spring.html
-       index_nav: 6
-       index_pic: 5
+       index_pic: 2
      - url: ./assets/img/galery/Nature/4season/winter.jpg
        title: Winter
        caption: Winter
        link: ./galery_nature_4season_winter.html
-       index_nav: 6
-       index_pic: 5
+       index_pic: 3
    - url: ./assets/img/galery/Nature/nature_animals.jpg
      title: Animals
      caption: Animals
-     index: 2
-     index_nav: 6
-     index_pic: 4
+     index_nav: 5
+     index_pic: 1
      link: ./galery_nature_animals.html
      subsubitems:
      - url: ./assets/img/galery/Nature/Animals/apix.jpg
        title: Apix
        caption: Apix
        link: ./galery_nature_animals_apix.html
-       index_nav: 7
-       index_pic: 6
+       index_pic: 0
      - url: ./assets/img/galery/Nature/Animals/bird.jpg
        title: Bird
        caption: Bird
        link: ./galery_nature_animals_bird.html
-       index_nav: 7
-       index_pic: 6
+       index_pic: 1
      - url: ./assets/img/galery/Nature/Animals/camel.jpg
        title: Camel
        caption: Camel
        link: ./galery_nature_animals_camel.html
-       index_nav: 7
-       index_pic: 6
+       index_pic: 2
      - url: ./assets/img/galery/Nature/Animals/chamelon.jpg
        title: Chamelon
        caption: Chamelon
        link: ./galery_nature_animals_chamelon.html
-       index_nav: 7
-       index_pic: 6
+       index_pic: 3
      - url: ./assets/img/galery/Nature/Animals/crocodile.jpg
        title: Crocodile
        caption: Crocodile
        link: ./galery_nature_animals_crocodile.html
-       index_nav: 7
-       index_pic: 6
+       index_pic: 4
      - url: ./assets/img/galery/Nature/Animals/fox.jpg
        title: Fox
        caption: Fox
        link: ./galery_nature_animals_fox.html
-       index_nav: 7
-       index_pic: 6
+       index_pic: 5
      - url: ./assets/img/galery/Nature/Animals/monkey.jpg
        title: Monkey
        caption: Monkey
        link: ./galery_nature_animals_monkey.html
-       index_nav: 7
        index_pic: 6
      - url: ./assets/img/galery/Nature/Animals/others.jpg
        title: Others
        caption: Others
        link: ./galery_nature_animals_others.html
-       index_nav: 7
-       index_pic: 6
+       index_pic: 7
      - url: ./assets/img/galery/Nature/Animals/sheep.jpg
        title: Sheep
        caption: Sheep
        link: ./galery_nature_animals_sheep.html
-       index_nav: 7
-       index_pic: 6
+       index_pic: 8
      - url: ./assets/img/galery/Nature/Animals/squirell.jpg
        title: Squirell
        caption: Squirell
        link: ./galery_nature_animals_squirell.html
-       index_nav: 7
-       index_pic: 6
+       index_pic: 9
    - url: ./assets/img/galery/Nature/nature_flower.jpg
      title: Flower
      caption: Flower
-     index: 3
-     index_nav: 7
-     index_pic: 4
+     index_nav: 6
+     index_pic: 2
      link: ./galery_nature_flower.html
    - url: ./assets/img/galery/Nature/nature_makro.jpg
      title: Makro
      caption: Makro
-     index: 4
-     index_nav: 7
-     index_pic: 4
+     index_nav: 6
+     index_pic: 3
      link: ./galery_nature_makro.html
    - url: ./assets/img/galery/Nature/nature_tropfen.jpg
      title: Tropfen
      caption: Tropfen
-     index: 5
-     index_nav: 7
+     index_nav: 6
      index_pic: 4
      link: ./galery_nature_tropfen.html
  - url: ./assets/img/galery/travel_main.jpg
    title: Travel
    caption: Travel
    link: ./galery_travel.html
-   index: 5
+   index: 4
    subitems:
    - url: ./assets/img/galery/Travel/travel_canada.jpg
      title: Canada
      caption: Canada
-     index: 1
-     index_nav: 7
-     index_pic: 5
+     index_nav: 6
+     index_pic: 0
      link: ./galery_travel_canada.html
    - url: ./assets/img/galery/Travel/travel_czech.jpg
      title: Czech
      caption: Czech
-     index: 2
-     index_nav: 7
-     index_pic: 5
+     index_nav: 6
+     index_pic: 1
      link: ./galery_travel_czech.html
    - url: ./assets/img/galery/Travel/travel_danemark.jpg
      title: Danemark
      caption: Danemark
-     index: 3
-     index_nav: 7
-     index_pic: 5
+     index_nav: 6
+     index_pic: 2
      link: ./galery_travel_danemark.html
    - url: ./assets/img/galery/Travel/travel_india.jpg
      title: India
      caption: India
-     index: 4
-     index_nav: 7
-     index_pic: 5
+     index_nav: 6
+     index_pic: 3
      link: ./galery_travel_india.html
    - url: ./assets/img/galery/Travel/travel_irland.jpg
      title: Irland
      caption: Irland
-     index: 5
-     index_nav: 7
-     index_pic: 5
+     index_nav: 6
+     index_pic: 4
      link: ./galery_travel_irland.html
    - url: ./assets/img/galery/Travel/travel_italy.jpg
      title: Italy
      caption: Italy
-     index: 6
-     index_nav: 7
+     index_nav: 6
      index_pic: 5
      link: ./galery_travel_italy.html
    - url: ./assets/img/galery/Travel/travel_japan.jpg
      title: Japan
      caption: Japan
-     index: 7
-     index_nav: 7
-     index_pic: 5
+     index_nav: 6
+     index_pic: 6
      link: ./galery_travel_japan.html
    - url: ./assets/img/galery/Travel/travel_morocco.jpg
      title: Morocco
      caption: Morocco
-     index: 8
-     index_nav: 7
-     index_pic: 5
+     index_nav: 6
+     index_pic: 7
      link: ./galery_travel_morocco.html
    - url: ./assets/img/galery/Travel/travel_norway.jpg
      title: Norway
      caption: Norway
-     index: 9
-     index_nav: 7
-     index_pic: 5
+     index_nav: 6
+     index_pic: 8
      link: ./galery_travel_norway.html
    - url: ./assets/img/galery/Travel/travel_portugal.jpg
      title: Portugal
      caption: Portugal
-     index: 10
-     index_nav: 7
-     index_pic: 5
+     index_nav: 6
+     index_pic: 9
      link: ./galery_travel_portugal.html
    - url: ./assets/img/galery/Travel/travel_slovakia.jpg
      title: Slovakia
      caption: Slovakia
-     index: 11
-     index_nav: 7
-     index_pic: 5
+     index_nav: 6
+     index_pic: 10
      link: ./galery_travel_slovakia.html
    - url: ./assets/img/galery/Travel/travel_spain.jpg
      title: Spain
      caption: Spain
-     index: 12
-     index_nav: 7
-     index_pic: 5
+     index_nav: 6
+     index_pic: 11
      link: ./galery_travel_spain.html
    - url: ./assets/img/galery/Travel/travel_USA.jpg
      title: USA
      caption: USA
-     index: 13
-     index_nav: 7
-     index_pic: 5
+     index_nav: 6
+     index_pic: 12
      link: ./galery_travel_USA.html

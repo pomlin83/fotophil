@@ -3,12 +3,38 @@ layout: galery_element
 ---
 {% include nav_list.html title='Switzerland' %}
 <div class="main_container_galery">
+ <p>Switzerland consists of 5 different regions with their unique geological and scenic characteristics:<p>
+ <ul>
+  <li>The Alps</li>
+  <li>The Foothills of the Alps</li>
+  <li>The Jura</li>
+  <li>The Swiss Plateau</li>
+  <li>The Southern Side of the Alps</li>
+ </ul>
+ <div>
+  <img src="./assets/img/galery/Landscape/Switzerland/switzerland.png">
+ </div>
+ <p>I have divided the Switzerland into 9 different regions:</p>
+ <ul>
+  <li>Bern</li>
+  <li>Central Switzerland</li>
+  <li>Foothills of the Alps</li>
+  <li>Grison</li>
+  <li>Jura</li>
+  <li>Romandie</li>
+  <li>Swiss Plateau</li>
+  <li>Ticino</li>
+  <li>Valais</li>
+ </ul>
+ <div>
+  <img src="/assets/img/galery/Landscape/Switzerland/switzerlandRegion.png">
+ </div>
  <div class="container galery" onresize="adjustCaption()" onload="adjustCaption()">
   <div class="chapter row">
   {% for item in site.data.galery_test.images %}
-   {% if item.index == 3 %}
+   {% if item.index == 2 %}
     {% for entry in item.subitems %}
-     {% if entry.index == 2 %}
+     {% if entry.index_pic == 1 %}
       {% if entry.subsubitems[0] %}
        {% for token in entry.subsubitems %}
         <div class="col-sm-12 col-md-12 col-lg-6 col-xl-4 elem">

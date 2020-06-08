@@ -7,7 +7,7 @@ layout: galery_element
   <div class="chapter row">
   {% for img in site.data.galery_test.images %}
    {% for entry in img.subitems %}
-    {% if entry.index_pic == 3 %}
+    {% if img.index == 2 %}
      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-4 elem">
      <a href="{{ entry.link }}">
       <div class="caption">{{ entry.caption }}</div>
